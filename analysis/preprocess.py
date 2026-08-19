@@ -58,6 +58,10 @@ MOTS_VIDES_FR = {
     "sans", "se", "sera", "ses", "seulement", "si", "soit", "son", "sont", "sous", "sur",
     "t", "ta", "te", "tes", "toi", "ton", "tous", "tout", "toute", "toutes", "tu", "un",
     "une", "vos", "votre", "vous", "y", "cest", "c", "ça", "déjà", "aujourd", "hui",
+    "suis", "es", "sommes", "êtes", "étiez", "étions", "serai", "serait", "seront",
+    "ai", "as", "avez", "avons", "aura", "aurait", "rien", "trop", "depuis", "très",
+    "vraiment", "toujours", "beaucoup", "moins", "an", "ans", "va", "vais", "vont",
+    "dire", "faut", "faudrait", "quelqu", "autres", "an",
 }
 
 MOTS_VIDES_AR = {
@@ -69,6 +73,14 @@ MOTS_VIDES_AR = {
 }
 
 MOTS_VIDES = MOTS_VIDES_FR | MOTS_VIDES_AR
+
+# Élisions françaises : « l'école » est découpé en « l » + « école » afin que le
+# terme porteur de sens soit correctement isolé, et que les marques de négation
+# (« n' ») restent détectables par les classifieurs.
+ELISIONS = {
+    "l", "d", "j", "n", "m", "t", "s", "c", "qu",
+    "lorsqu", "puisqu", "jusqu", "quoiqu", "quelqu",
+}
 
 
 def extraire_hashtags(texte: str) -> list[str]:
@@ -126,17 +138,30 @@ def nettoyer_texte(texte: str, conserver_hashtags: bool = True) -> str:
     return MOTIF_ESPACES.sub(" ", resultat).strip()
 
 
+def _decouper_elision(jeton: str) -> list[str]:
+    """Sépare le préfixe élidé du terme qu'il introduit."""
+    parties = re.split(r"['’]", jeton, maxsplit=1)
+    if len(parties) == 2 and parties[0] in ELISIONS and parties[1]:
+        return [parties[0], parties[1]]
+    return [jeton]
+
+
 def jetons(texte_nettoye: str, retirer_mots_vides: bool = True, longueur_min: int = 2) -> list[str]:
-    """Découpe en jetons analytiques."""
-    trouves = MOTIF_JETON.findall(texte_nettoye)
+    """Découpe en jetons analytiques.
+
+    ``retirer_mots_vides`` est activé pour l'analyse lexicale et désactivé pour
+    les classifieurs, qui ont besoin des marques de négation et des adverbes
+    d'intensité.
+    """
     resultat = []
-    for jeton in trouves:
-        jeton = jeton.strip("-'’")
-        if len(jeton) < longueur_min:
-            continue
-        if retirer_mots_vides and jeton in MOTS_VIDES:
-            continue
-        resultat.append(jeton)
+    for brut in MOTIF_JETON.findall(texte_nettoye):
+        for jeton in _decouper_elision(brut):
+            jeton = jeton.strip("-'’")
+            if len(jeton) < longueur_min:
+                continue
+            if retirer_mots_vides and jeton in MOTS_VIDES:
+                continue
+            resultat.append(jeton)
     return resultat
 
 
@@ -150,6 +175,14 @@ def pretraiter(cadre: pd.DataFrame) -> pd.DataFrame:
     cadre["urls"] = cadre["raw_text"].map(extraire_urls)
     cadre["emojis"] = cadre["raw_text"].map(extraire_emojis)
     cadre["langue"] = cadre["raw_text"].map(detecter_langue)
-    cadre["jetons"] = cadre["clean_text"].map(lambda texte: jetons(texte))
+    # Jetons complets : utilisés par les classifieurs. Les jetons d'un seul
+    # caractère sont conservés car « n' » porte la négation (« n'est pas »).
+    cadre["jetons"] = cadre["clean_text"].map(
+        lambda texte: jetons(texte, retirer_mots_vides=False, longueur_min=1)
+    )
+    # Jetons lexicaux : mots vides retirés, utilisés pour l'analyse lexicale.
+    cadre["jetons_lexicaux"] = cadre["clean_text"].map(
+        lambda texte: jetons(texte, retirer_mots_vides=True)
+    )
     cadre["a_du_texte"] = cadre["clean_text"].str.len() > 0
     return cadre

@@ -87,7 +87,7 @@ def profil_lexical(sous_ensemble: pd.DataFrame, taille: int = TAILLE_TOP) -> dic
             "hashtags": [],
             "message": "Aucun contenu textuel disponible pour cette sélection.",
         }
-    jetons_par_document = avec_texte["jetons"].tolist()
+    jetons_par_document = avec_texte["jetons_lexicaux"].tolist()
     return {
         "messages_avec_texte": int(len(avec_texte)),
         "mots": _compter_mots(jetons_par_document, taille),

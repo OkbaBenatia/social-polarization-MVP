@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-08-19T21:31:30+00:00",
+  "genere_le": "2026-08-19T21:42:57+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
@@ -40,13 +40,13 @@
   "global": [
     {
       "categorie": "Non haineux",
-      "nombre": 460,
-      "part": 0.9002
+      "nombre": 453,
+      "part": 0.8865
     },
     {
       "categorie": "Toxique / offensant",
-      "nombre": 31,
-      "part": 0.0607
+      "nombre": 38,
+      "part": 0.0744
     },
     {
       "categorie": "Potentiellement haineux",
@@ -59,10 +59,10 @@
       "cle": "Communauté 1",
       "libelle": "Communauté 1",
       "messages": 123,
-      "Non haineux": 113,
-      "part_Non haineux": 0.9187,
-      "Toxique / offensant": 9,
-      "part_Toxique / offensant": 0.0732,
+      "Non haineux": 112,
+      "part_Non haineux": 0.9106,
+      "Toxique / offensant": 10,
+      "part_Toxique / offensant": 0.0813,
       "Potentiellement haineux": 1,
       "part_Potentiellement haineux": 0.0081
     },
@@ -70,10 +70,10 @@
       "cle": "Communauté 2",
       "libelle": "Communauté 2",
       "messages": 123,
-      "Non haineux": 111,
-      "part_Non haineux": 0.9024,
-      "Toxique / offensant": 6,
-      "part_Toxique / offensant": 0.0488,
+      "Non haineux": 108,
+      "part_Non haineux": 0.878,
+      "Toxique / offensant": 9,
+      "part_Toxique / offensant": 0.0732,
       "Potentiellement haineux": 6,
       "part_Potentiellement haineux": 0.0488
     },
@@ -92,10 +92,10 @@
       "cle": "Communauté 4",
       "libelle": "Communauté 4",
       "messages": 136,
-      "Non haineux": 116,
-      "part_Non haineux": 0.8529,
-      "Toxique / offensant": 8,
-      "part_Toxique / offensant": 0.0588,
+      "Non haineux": 113,
+      "part_Non haineux": 0.8309,
+      "Toxique / offensant": 11,
+      "part_Toxique / offensant": 0.0809,
       "Potentiellement haineux": 12,
       "part_Potentiellement haineux": 0.0882
     }
@@ -105,10 +105,10 @@
       "cle": "facebook",
       "libelle": "Facebook",
       "messages": 389,
-      "Non haineux": 348,
-      "part_Non haineux": 0.8946,
-      "Toxique / offensant": 24,
-      "part_Toxique / offensant": 0.0617,
+      "Non haineux": 345,
+      "part_Non haineux": 0.8869,
+      "Toxique / offensant": 27,
+      "part_Toxique / offensant": 0.0694,
       "Potentiellement haineux": 17,
       "part_Potentiellement haineux": 0.0437
     },
@@ -116,10 +116,10 @@
       "cle": "instagram",
       "libelle": "Instagram",
       "messages": 49,
-      "Non haineux": 46,
-      "part_Non haineux": 0.9388,
-      "Toxique / offensant": 3,
-      "part_Toxique / offensant": 0.0612,
+      "Non haineux": 44,
+      "part_Non haineux": 0.898,
+      "Toxique / offensant": 5,
+      "part_Toxique / offensant": 0.102,
       "Potentiellement haineux": 0,
       "part_Potentiellement haineux": 0.0
     },
@@ -127,10 +127,10 @@
       "cle": "x",
       "libelle": "X",
       "messages": 73,
-      "Non haineux": 66,
-      "part_Non haineux": 0.9041,
-      "Toxique / offensant": 4,
-      "part_Toxique / offensant": 0.0548,
+      "Non haineux": 64,
+      "part_Non haineux": 0.8767,
+      "Toxique / offensant": 6,
+      "part_Toxique / offensant": 0.0822,
       "Potentiellement haineux": 3,
       "part_Potentiellement haineux": 0.0411
     }
@@ -162,10 +162,10 @@
       "cle": "facebook_003",
       "libelle": "facebook_003",
       "messages": 118,
-      "Non haineux": 102,
-      "part_Non haineux": 0.8644,
-      "Toxique / offensant": 8,
-      "part_Toxique / offensant": 0.0678,
+      "Non haineux": 100,
+      "part_Non haineux": 0.8475,
+      "Toxique / offensant": 10,
+      "part_Toxique / offensant": 0.0847,
       "Potentiellement haineux": 8,
       "part_Potentiellement haineux": 0.0678
     },
@@ -184,10 +184,10 @@
       "cle": "facebook_005",
       "libelle": "facebook_005",
       "messages": 53,
-      "Non haineux": 51,
-      "part_Non haineux": 0.9623,
-      "Toxique / offensant": 1,
-      "part_Toxique / offensant": 0.0189,
+      "Non haineux": 50,
+      "part_Non haineux": 0.9434,
+      "Toxique / offensant": 2,
+      "part_Toxique / offensant": 0.0377,
       "Potentiellement haineux": 1,
       "part_Potentiellement haineux": 0.0189
     },
@@ -195,10 +195,10 @@
       "cle": "instagram_001",
       "libelle": "instagram_001",
       "messages": 49,
-      "Non haineux": 46,
-      "part_Non haineux": 0.9388,
-      "Toxique / offensant": 3,
-      "part_Toxique / offensant": 0.0612,
+      "Non haineux": 44,
+      "part_Non haineux": 0.898,
+      "Toxique / offensant": 5,
+      "part_Toxique / offensant": 0.102,
       "Potentiellement haineux": 0,
       "part_Potentiellement haineux": 0.0
     },
@@ -206,35 +206,24 @@
       "cle": "x_001",
       "libelle": "x_001",
       "messages": 73,
-      "Non haineux": 66,
-      "part_Non haineux": 0.9041,
-      "Toxique / offensant": 4,
-      "part_Toxique / offensant": 0.0548,
+      "Non haineux": 64,
+      "part_Non haineux": 0.8767,
+      "Toxique / offensant": 6,
+      "part_Toxique / offensant": 0.0822,
       "Potentiellement haineux": 3,
       "part_Potentiellement haineux": 0.0411
     }
   ],
-  "confiance_moyenne": 0.621,
+  "confiance_moyenne": 0.613,
   "confiance_disponible": true,
   "extraits": [
     {
       "label": "Potentiellement haineux",
-      "confiance": 0.81,
+      "confiance": 0.9,
       "communaute": "Communauté 4",
       "plateforme": "facebook",
       "signaux": [
-        "groupe:étrangers",
-        "exclusion:dehors",
-        "exclusion:partir"
-      ],
-      "extrait": "Les étrangers doivent partir, dehors, on ne veut pas d'eux."
-    },
-    {
-      "label": "Potentiellement haineux",
-      "confiance": 0.81,
-      "communaute": "Communauté 4",
-      "plateforme": "facebook",
-      "signaux": [
+        "groupe:eux",
         "groupe:étrangers",
         "exclusion:dehors",
         "exclusion:partir"
@@ -243,15 +232,54 @@
     },
     {
       "label": "Potentiellement haineux",
-      "confiance": 0.81,
+      "confiance": 0.9,
       "communaute": "Communauté 4",
       "plateforme": "facebook",
       "signaux": [
+        "groupe:eux",
         "groupe:étrangers",
         "exclusion:dehors",
         "exclusion:partir"
       ],
       "extrait": "Les étrangers doivent partir, dehors, on ne veut pas d'eux."
+    },
+    {
+      "label": "Potentiellement haineux",
+      "confiance": 0.9,
+      "communaute": "Communauté 4",
+      "plateforme": "facebook",
+      "signaux": [
+        "groupe:eux",
+        "groupe:étrangers",
+        "exclusion:dehors",
+        "exclusion:partir"
+      ],
+      "extrait": "Les étrangers doivent partir, dehors, on ne veut pas d'eux."
+    },
+    {
+      "label": "Potentiellement haineux",
+      "confiance": 0.9,
+      "communaute": "Communauté 4",
+      "plateforme": "x",
+      "signaux": [
+        "groupe:eux",
+        "groupe:étrangers",
+        "exclusion:dehors",
+        "exclusion:partir"
+      ],
+      "extrait": "Les étrangers doivent partir, dehors, on ne veut pas d'eux."
+    },
+    {
+      "label": "Potentiellement haineux",
+      "confiance": 0.81,
+      "communaute": "Communauté 4",
+      "plateforme": "facebook",
+      "signaux": [
+        "groupe:immigrés",
+        "exclusion:envahisseurs",
+        "exclusion:expulser"
+      ],
+      "extrait": "Il faut expulser les immigrés, ce sont des envahisseurs."
     },
     {
       "label": "Potentiellement haineux",
@@ -267,30 +295,6 @@
     },
     {
       "label": "Potentiellement haineux",
-      "confiance": 0.81,
-      "communaute": "Communauté 4",
-      "plateforme": "facebook",
-      "signaux": [
-        "groupe:immigrés",
-        "exclusion:envahisseurs",
-        "exclusion:expulser"
-      ],
-      "extrait": "Il faut expulser les immigrés, ce sont des envahisseurs."
-    },
-    {
-      "label": "Potentiellement haineux",
-      "confiance": 0.81,
-      "communaute": "Communauté 4",
-      "plateforme": "x",
-      "signaux": [
-        "groupe:étrangers",
-        "exclusion:dehors",
-        "exclusion:partir"
-      ],
-      "extrait": "Les étrangers doivent partir, dehors, on ne veut pas d'eux."
-    },
-    {
-      "label": "Potentiellement haineux",
       "confiance": 0.69,
       "communaute": "Communauté 4",
       "plateforme": "facebook",
@@ -303,13 +307,13 @@
     {
       "label": "Potentiellement haineux",
       "confiance": 0.69,
-      "communaute": "Communauté 1",
+      "communaute": "Communauté 2",
       "plateforme": "facebook",
       "signaux": [
-        "groupe:الاجانب",
-        "exclusion:اطردوهم"
+        "groupe:gens",
+        "exclusion:dégagent"
       ],
-      "extrait": "اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا."
+      "extrait": "@u076 Ces gens n'ont rien à faire ici, qu'ils dégagent tous."
     }
   ],
   "extraits_publies": true,

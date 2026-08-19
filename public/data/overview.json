@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-08-19T21:31:30+00:00",
+  "genere_le": "2026-08-19T21:42:57+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
@@ -22,7 +22,7 @@
     "modularite": 0.4337,
     "polarisation": "Polarisation modérée",
     "contenus_potentiellement_haineux": 20,
-    "contenus_toxiques": 31,
+    "contenus_toxiques": 38,
     "messages_avec_texte": 511
   },
   "repartition_plateformes": [
@@ -51,18 +51,18 @@
   "sentiment_global": [
     {
       "categorie": "Positif",
-      "nombre": 147,
-      "part": 0.2877
+      "nombre": 131,
+      "part": 0.2564
     },
     {
       "categorie": "Neutre",
-      "nombre": 185,
-      "part": 0.362
+      "nombre": 186,
+      "part": 0.364
     },
     {
       "categorie": "Négatif",
-      "nombre": 179,
-      "part": 0.3503
+      "nombre": 194,
+      "part": 0.3796
     }
   ],
   "emotions_globales": [
@@ -73,25 +73,25 @@
     },
     {
       "categorie": "Soutien / approbation",
-      "nombre": 107,
-      "part": 0.2094
+      "nombre": 136,
+      "part": 0.2661
     },
     {
       "categorie": "Autre / neutre",
-      "nombre": 297,
-      "part": 0.5812
+      "nombre": 268,
+      "part": 0.5245
     }
   ],
   "haine_globale": [
     {
       "categorie": "Non haineux",
-      "nombre": 460,
-      "part": 0.9002
+      "nombre": 453,
+      "part": 0.8865
     },
     {
       "categorie": "Toxique / offensant",
-      "nombre": 31,
-      "part": 0.0607
+      "nombre": 38,
+      "part": 0.0744
     },
     {
       "categorie": "Potentiellement haineux",
@@ -136,28 +136,28 @@
     {
       "date": "2026-01-06",
       "interactions": 116,
-      "negatif": 37,
+      "negatif": 43,
       "colere": 16,
       "potentiellement_haineux": 1
     },
     {
       "date": "2026-01-07",
       "interactions": 202,
-      "negatif": 79,
+      "negatif": 83,
       "colere": 58,
       "potentiellement_haineux": 13
     },
     {
       "date": "2026-01-08",
       "interactions": 126,
-      "negatif": 38,
+      "negatif": 40,
       "colere": 22,
       "potentiellement_haineux": 5
     },
     {
       "date": "2026-01-09",
       "interactions": 68,
-      "negatif": 21,
+      "negatif": 24,
       "colere": 11,
       "potentiellement_haineux": 1
     },

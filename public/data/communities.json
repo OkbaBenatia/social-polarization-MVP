@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-08-19T21:31:30+00:00",
+  "genere_le": "2026-08-19T21:42:57+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
@@ -44,6 +44,14 @@
       "liens_externes": 73,
       "top_mots": [
         {
+          "terme": "école",
+          "occurrences": 29
+        },
+        {
+          "terme": "arabisation",
+          "occurrences": 22
+        },
+        {
           "terme": "langue",
           "occurrences": 19
         },
@@ -64,24 +72,16 @@
           "occurrences": 17
         },
         {
-          "terme": "l'école",
-          "occurrences": 17
-        },
-        {
-          "terme": "c'est",
-          "occurrences": 13
-        },
-        {
-          "terme": "l'arabisation",
-          "occurrences": 13
-        },
-        {
           "terme": "programmes",
           "occurrences": 13
         },
         {
-          "terme": "d'enseignement",
+          "terme": "enseignement",
           "occurrences": 13
+        },
+        {
+          "terme": "bilinguisme",
+          "occurrences": 11
         }
       ],
       "top_hashtags": [
@@ -109,60 +109,60 @@
       "termes_caracteristiques": [
         {
           "terme": "école",
-          "score": 0.0546
+          "score": 0.0579
         },
         {
           "terme": "arabisation",
-          "score": 0.0476
+          "score": 0.05
         },
         {
           "terme": "langue",
-          "score": 0.0444
+          "score": 0.0471
         },
         {
           "terme": "universitaire",
-          "score": 0.0418
+          "score": 0.0438
         },
         {
           "terme": "réforme",
-          "score": 0.0418
-        },
-        {
-          "terme": "français",
-          "score": 0.0386
+          "score": 0.0438
         },
         {
           "terme": "place",
-          "score": 0.0386
+          "score": 0.0421
         },
         {
-          "terme": "enseignement",
-          "score": 0.034
+          "terme": "français",
+          "score": 0.0421
         },
         {
           "terme": "programmes",
-          "score": 0.0336
+          "score": 0.0354
         },
         {
-          "terme": "depuis",
-          "score": 0.0323
+          "terme": "enseignement",
+          "score": 0.0352
+        },
+        {
+          "terme": "bilinguisme",
+          "score": 0.0321
         }
       ],
       "sentiment": [
         {
           "categorie": "Positif",
+          "nombre": 39,
+          "part": 0.3171
+        },
+        {
+          "categorie": "Neutre",
           "nombre": 41,
           "part": 0.3333
         },
         {
-          "categorie": "Neutre",
-          "nombre": 42,
-          "part": 0.3415
-        },
-        {
           "categorie": "Négatif",
-          "nombre": 40,
-          "part": 0.3252
+          "nombre": 43,
+          "part": 0.3496
         }
       ],
       "emotions": [
@@ -173,25 +173,25 @@
         },
         {
           "categorie": "Soutien / approbation",
-          "nombre": 34,
-          "part": 0.2764
+          "nombre": 40,
+          "part": 0.3252
         },
         {
           "categorie": "Autre / neutre",
-          "nombre": 66,
-          "part": 0.5366
+          "nombre": 60,
+          "part": 0.4878
         }
       ],
       "haine": [
         {
           "categorie": "Non haineux",
-          "nombre": 113,
-          "part": 0.9187
+          "nombre": 112,
+          "part": 0.9106
         },
         {
           "categorie": "Toxique / offensant",
-          "nombre": 9,
-          "part": 0.0732
+          "nombre": 10,
+          "part": 0.0813
         },
         {
           "categorie": "Potentiellement haineux",
@@ -231,23 +231,11 @@
           "occurrences": 26
         },
         {
-          "terme": "suis",
-          "occurrences": 16
-        },
-        {
-          "terme": "rien",
-          "occurrences": 16
-        },
-        {
           "terme": "conditions",
           "occurrences": 15
         },
         {
           "terme": "logement",
-          "occurrences": 15
-        },
-        {
-          "terme": "c'est",
           "occurrences": 15
         },
         {
@@ -259,12 +247,24 @@
           "occurrences": 14
         },
         {
-          "terme": "d'accord",
+          "terme": "accord",
           "occurrences": 14
         },
         {
-          "terme": "l'emploi",
+          "terme": "immigration",
+          "occurrences": 14
+        },
+        {
+          "terme": "emploi",
           "occurrences": 10
+        },
+        {
+          "terme": "formation",
+          "occurrences": 10
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 9
         }
       ],
       "top_hashtags": [
@@ -296,60 +296,60 @@
       "termes_caracteristiques": [
         {
           "terme": "travail",
-          "score": 0.0528
-        },
-        {
-          "terme": "suis",
-          "score": 0.0457
-        },
-        {
-          "terme": "rien",
-          "score": 0.0409
+          "score": 0.0549
         },
         {
           "terme": "accord",
-          "score": 0.0405
-        },
-        {
-          "terme": "est",
-          "score": 0.0365
-        },
-        {
-          "terme": "conditions",
-          "score": 0.0364
+          "score": 0.045
         },
         {
           "terme": "logement",
-          "score": 0.0364
+          "score": 0.0395
         },
         {
-          "terme": "immigration",
-          "score": 0.0358
+          "terme": "conditions",
+          "score": 0.0395
         },
         {
           "terme": "politique",
-          "score": 0.0349
+          "score": 0.0381
         },
         {
           "terme": "migratoire",
-          "score": 0.0349
+          "score": 0.0381
+        },
+        {
+          "terme": "immigration",
+          "score": 0.0377
+        },
+        {
+          "terme": "formation",
+          "score": 0.0309
+        },
+        {
+          "terme": "emploi",
+          "score": 0.0309
+        },
+        {
+          "terme": "tient",
+          "score": 0.0294
         }
       ],
       "sentiment": [
         {
           "categorie": "Positif",
-          "nombre": 33,
-          "part": 0.2683
+          "nombre": 27,
+          "part": 0.2195
         },
         {
           "categorie": "Neutre",
-          "nombre": 48,
-          "part": 0.3902
+          "nombre": 46,
+          "part": 0.374
         },
         {
           "categorie": "Négatif",
-          "nombre": 42,
-          "part": 0.3415
+          "nombre": 50,
+          "part": 0.4065
         }
       ],
       "emotions": [
@@ -360,25 +360,25 @@
         },
         {
           "categorie": "Soutien / approbation",
-          "nombre": 20,
-          "part": 0.1626
+          "nombre": 34,
+          "part": 0.2764
         },
         {
           "categorie": "Autre / neutre",
-          "nombre": 82,
-          "part": 0.6667
+          "nombre": 68,
+          "part": 0.5528
         }
       ],
       "haine": [
         {
           "categorie": "Non haineux",
-          "nombre": 111,
-          "part": 0.9024
+          "nombre": 108,
+          "part": 0.878
         },
         {
           "categorie": "Toxique / offensant",
-          "nombre": 6,
-          "part": 0.0488
+          "nombre": 9,
+          "part": 0.0732
         },
         {
           "categorie": "Potentiellement haineux",
@@ -434,10 +434,6 @@
           "occurrences": 18
         },
         {
-          "terme": "c'est",
-          "occurrences": 16
-        },
-        {
           "terme": "foi",
           "occurrences": 13
         },
@@ -451,6 +447,10 @@
         },
         {
           "terme": "traditions",
+          "occurrences": 11
+        },
+        {
+          "terme": "familiales",
           "occurrences": 11
         }
       ],
@@ -478,61 +478,61 @@
       ],
       "termes_caracteristiques": [
         {
+          "terme": "rapport",
+          "score": 0.046
+        },
+        {
           "terme": "liberté",
-          "score": 0.044
+          "score": 0.0456
         },
         {
           "terme": "croyance",
-          "score": 0.044
-        },
-        {
-          "terme": "rapport",
-          "score": 0.0433
+          "score": 0.0456
         },
         {
           "terme": "société",
-          "score": 0.0422
+          "score": 0.0453
         },
         {
           "terme": "valeurs",
-          "score": 0.0391
-        },
-        {
-          "terme": "est",
-          "score": 0.0371
+          "score": 0.0404
         },
         {
           "terme": "foi",
-          "score": 0.0304
+          "score": 0.0321
         },
         {
           "terme": "دين",
-          "score": 0.0296
+          "score": 0.0304
         },
         {
           "terme": "religion",
-          "score": 0.0281
+          "score": 0.0301
         },
         {
-          "terme": "trop",
-          "score": 0.0276
+          "terme": "exactement",
+          "score": 0.03
+        },
+        {
+          "terme": "traditions",
+          "score": 0.0296
         }
       ],
       "sentiment": [
         {
           "categorie": "Positif",
-          "nombre": 44,
-          "part": 0.3411
+          "nombre": 39,
+          "part": 0.3023
         },
         {
           "categorie": "Neutre",
-          "nombre": 47,
-          "part": 0.3643
+          "nombre": 50,
+          "part": 0.3876
         },
         {
           "categorie": "Négatif",
-          "nombre": 38,
-          "part": 0.2946
+          "nombre": 40,
+          "part": 0.3101
         }
       ],
       "emotions": [
@@ -543,13 +543,13 @@
         },
         {
           "categorie": "Soutien / approbation",
-          "nombre": 32,
-          "part": 0.2481
+          "nombre": 37,
+          "part": 0.2868
         },
         {
           "categorie": "Autre / neutre",
-          "nombre": 76,
-          "part": 0.5891
+          "nombre": 71,
+          "part": 0.5504
         }
       ],
       "haine": [
@@ -605,19 +605,11 @@
           "occurrences": 20
         },
         {
-          "terme": "trop",
-          "occurrences": 16
-        },
-        {
-          "terme": "depuis",
-          "occurrences": 15
+          "terme": "identité",
+          "occurrences": 19
         },
         {
           "terme": "années",
-          "occurrences": 14
-        },
-        {
-          "terme": "c'est",
           "occurrences": 14
         },
         {
@@ -635,6 +627,14 @@
         {
           "terme": "sentiment",
           "occurrences": 12
+        },
+        {
+          "terme": "appartenance",
+          "occurrences": 12
+        },
+        {
+          "terme": "merci",
+          "occurrences": 10
         }
       ],
       "top_hashtags": [
@@ -662,60 +662,60 @@
       "termes_caracteristiques": [
         {
           "terme": "patrimoine",
-          "score": 0.0472
-        },
-        {
-          "terme": "trop",
-          "score": 0.042
+          "score": 0.0486
         },
         {
           "terme": "culturelle",
-          "score": 0.0419
-        },
-        {
-          "terme": "identité",
-          "score": 0.0405
-        },
-        {
-          "terme": "depuis",
-          "score": 0.0382
+          "score": 0.043
         },
         {
           "terme": "années",
-          "score": 0.0372
+          "score": 0.0425
         },
         {
-          "terme": "est",
-          "score": 0.0347
+          "terme": "identité",
+          "score": 0.0421
         },
         {
-          "terme": "collective",
-          "score": 0.0326
+          "terme": "coupe",
+          "score": 0.0416
+        },
+        {
+          "terme": "pleine",
+          "score": 0.0416
+        },
+        {
+          "terme": "merci",
+          "score": 0.0337
         },
         {
           "terme": "mémoire",
-          "score": 0.0326
+          "score": 0.0336
         },
         {
-          "terme": "commun",
-          "score": 0.03
+          "terme": "collective",
+          "score": 0.0336
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0322
         }
       ],
       "sentiment": [
         {
           "categorie": "Positif",
-          "nombre": 29,
-          "part": 0.2132
+          "nombre": 26,
+          "part": 0.1912
         },
         {
           "categorie": "Neutre",
-          "nombre": 48,
-          "part": 0.3529
+          "nombre": 49,
+          "part": 0.3603
         },
         {
           "categorie": "Négatif",
-          "nombre": 59,
-          "part": 0.4338
+          "nombre": 61,
+          "part": 0.4485
         }
       ],
       "emotions": [
@@ -726,25 +726,25 @@
         },
         {
           "categorie": "Soutien / approbation",
-          "nombre": 21,
-          "part": 0.1544
+          "nombre": 25,
+          "part": 0.1838
         },
         {
           "categorie": "Autre / neutre",
-          "nombre": 73,
-          "part": 0.5368
+          "nombre": 69,
+          "part": 0.5074
         }
       ],
       "haine": [
         {
           "categorie": "Non haineux",
-          "nombre": 116,
-          "part": 0.8529
+          "nombre": 113,
+          "part": 0.8309
         },
         {
           "categorie": "Toxique / offensant",
-          "nombre": 8,
-          "part": 0.0588
+          "nombre": 11,
+          "part": 0.0809
         },
         {
           "categorie": "Potentiellement haineux",
