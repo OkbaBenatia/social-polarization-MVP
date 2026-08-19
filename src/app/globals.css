@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --police-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Noto Naskh Arabic", sans-serif;
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ardoise-50 text-ardoise-900 antialiased;
+}
+
+.dark body {
+  @apply bg-ardoise-950 text-ardoise-100;
+}
+
+/* Barres de défilement discrètes */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-ardoise-300;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-ardoise-700;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Texte arabe : léger ajustement de hauteur de ligne. */
+[lang="ar"],
+.texte-mixte {
+  line-height: 1.9;
+}
