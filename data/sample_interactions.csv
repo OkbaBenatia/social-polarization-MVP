@@ -1,0 +1,522 @@
+platform,source_id,post_id,interaction_id,source_user,target_user,interaction_type,text,timestamp,parent_id,url
+facebook,facebook_001,p001,p001,u013,,post,"C'est un désastre, rien n'a avancé sur la place du français à l'école depuis dix ans.",2026-01-05T18:00:00,,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0022,u016,u013,mention,"Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-05T19:03:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0023,u025,u013,mention,@u013 Il faudrait des chiffres précis sur la place du français à l'école avant de conclure quoi que ce soit.,2026-01-05T20:20:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,p002,u034,,post,Décevant. On tourne en rond et le problème reste entier. https://exemple.org/article-762,2026-01-05T21:00:00,,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0034,u032,u034,comment,On peut discuter de les valeurs transmises à l'école sans transformer chaque échange en affrontement.,2026-01-05T21:42:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0029,u037,u034,comment,Il faudrait des chiffres précis sur le rapport entre foi et société avant de conclure quoi que ce soit.,2026-01-06T00:04:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0038,u075,u032,reply,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-06T01:30:00,i0034,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0007,u016,u013,comment,Question honnête : quelles données existent réellement sur la réforme universitaire ?,2026-01-06T01:58:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0006,u022,u013,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T02:47:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0003,u028,u013,comment,Quelqu'un a-t-il une source sérieuse concernant les traditions familiales ? #société,2026-01-06T03:10:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0004,u006,u013,comment,"Je ne suis pas d'accord, l'argument sur l'arabisation des programmes ne tient pas.",2026-01-06T03:36:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0008,u006,u013,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T03:43:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0028,u041,u034,comment,Décevant. On tourne en rond et le problème reste entier. https://exemple.org/article-367,2026-01-06T03:51:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0013,u017,u006,reply,Ça suffit ! On nous ment depuis des années sur l'arabisation des programmes !!! #école,2026-01-06T04:33:00,i0004,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0040,u080,u075,reply,"Bravo, enfin quelqu'un qui défend le patrimoine commun sans complexe.",2026-01-06T04:35:00,i0038,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0033,u046,u034,comment,"D'accord à 100 %, il faut défendre cette idée.",2026-01-06T05:01:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0002,u018,u013,comment,Quelqu'un a-t-il une source sérieuse concernant le bilinguisme ? #تعريب https://exemple.org/article-226,2026-01-06T05:02:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0001,u048,u013,comment,"Je ne suis pas d'accord, l'argument sur la liberté de croyance ne tient pas. #دين",2026-01-06T05:08:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0005,u079,u013,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-06T05:16:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0041,u075,u080,reply,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-06T06:12:00,i0040,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0015,u013,u016,reply,"Excellente analyse sur la place du français à l'école, merci pour la clarté du propos. #école",2026-01-06T06:16:00,i0007,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0019,u021,u017,reply,Question honnête : quelles données existent réellement sur la réforme universitaire ?,2026-01-06T06:19:00,i0013,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0042,u070,u080,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-06T06:22:00,i0040,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0009,u007,u018,reply,Merci d'aborder l'arabisation des programmes avec autant de calme et de respect.,2026-01-06T06:42:00,i0002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0010,u035,u028,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-06T06:59:00,i0003,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0018,u010,u006,reply,Question honnête : quelles données existent réellement sur la langue d'enseignement ?,2026-01-06T06:59:00,i0008,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0012,u075,u006,reply,@u006 هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-06T07:00:00,i0004,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,p003,u039,,post,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T07:00:00,,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p002,i0035,u033,u041,reply,"@u041 C'est une honte, j'en ai vraiment marre de ce mépris. 🤔",2026-01-06T07:15:00,i0028,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0096,u032,u039,mention,"@u039 C'est un désastre, rien n'a avancé sur la place de la religion dans l'espace public depuis dix ans.",2026-01-06T07:39:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0053,u040,u039,comment,"Le rapport publié l'an dernier abordait déjà le rapport entre foi et société, page 42.",2026-01-06T07:40:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p001,i0014,u012,u022,reply,Décevant. On tourne en rond et le problème reste entier. #école,2026-01-06T07:47:00,i0006,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0032,u070,u034,comment,On peut discuter de la mémoire collective sans transformer chaque échange en affrontement.,2026-01-06T07:56:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0016,u004,u016,reply,"Un contenu utile et bien construit, à partager largement. #arabisation https://exemple.org/article-191",2026-01-06T08:01:00,i0007,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0047,u034,u039,comment,Question honnête : quelles données existent réellement sur le rapport entre foi et société ?,2026-01-06T08:02:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0055,u041,u039,comment,"Quel imbécile, il ferait mieux de se taire. #tradition 🙏",2026-01-06T08:19:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p002,i0030,u001,u034,comment,Décevant. On tourne en rond et le problème reste entier. #université 😡,2026-01-06T08:32:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0020,u026,u004,reply,"Le rapport publié l'an dernier abordait déjà la place du français à l'école, page 42.",2026-01-06T08:50:00,i0016,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0054,u017,u039,comment,"Le débat sur la place du français à l'école revient chaque année, sans évaluation publique.",2026-01-06T09:39:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p002,i0031,u044,u034,comment,"Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-06T10:05:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0025,u003,u013,share,شكرا على هذا الطرح الممتاز حول l'arabisation des programmes. #école,2026-01-06T10:08:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0011,u037,u006,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل. #valeurs https://exemple.org/article-960,2026-01-06T10:20:00,i0004,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0067,u028,u040,reply,Quelqu'un a-t-il une source sérieuse concernant la liberté de croyance ? #tradition https://exemple.org/article-367,2026-01-06T10:27:00,i0053,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p001,i0026,u025,u013,share,نؤيد هذا الموقف تماما، بارك الله فيك. #université,2026-01-06T10:56:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p004,p004,u056,,post,On peut discuter de la politique migratoire sans transformer chaque échange en affrontement. https://exemple.org/article-972,2026-01-06T11:00:00,,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p002,i0037,u015,u001,reply,Quelqu'un a-t-il une source sérieuse concernant la réforme universitaire ? #تعريب,2026-01-06T11:02:00,i0030,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0036,u082,u041,reply,"Franchement, ce discours sur l'identité culturelle est un échec complet.",2026-01-06T11:28:00,i0028,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i0017,u002,u006,reply,"@u006 Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-06T11:32:00,i0008,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0056,u030,u039,comment,"C'est un désastre, rien n'a avancé sur les traditions familiales depuis dix ans.",2026-01-06T12:04:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0099,u043,u039,mention,"@u039 Je suis en colère, on se moque ouvertement de nous.",2026-01-06T12:09:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0057,u037,u039,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T12:33:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p001,i0021,u015,u021,reply,"Insupportable. Assez de ce cirque, réveillez-vous !",2026-01-06T12:35:00,i0019,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0043,u083,u034,share,@u034 Décevant. On tourne en rond et le problème reste entier. 🤔,2026-01-06T13:06:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p002,i0039,u076,u082,reply,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-06T13:07:00,i0036,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p004,i0101,u052,u056,comment,Question honnête : quelles données existent réellement sur les conditions de logement ?,2026-01-06T13:18:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0106,u060,u056,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T13:19:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0050,u005,u039,comment,"Un contenu utile et bien construit, à partager largement.",2026-01-06T13:22:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0059,u029,u039,comment,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-06T13:23:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0051,u031,u039,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-06T14:00:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0049,u046,u039,comment,"Bravo, enfin quelqu'un qui défend les valeurs transmises à l'école sans complexe.",2026-01-06T14:06:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0105,u058,u056,comment,"Je ne suis pas d'accord, l'argument sur la politique migratoire ne tient pas.",2026-01-06T14:33:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0070,u080,u017,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-06T14:41:00,i0054,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,p005,u068,,post,"Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-06T15:00:00,,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0069,u028,u017,reply,"Je suis en colère, on se moque ouvertement de nous. #valeurs",2026-01-06T15:16:00,i0054,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0081,u078,u080,reply,Décevant. On tourne en rond et le problème reste entier. 🙏,2026-01-06T15:23:00,i0070,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0068,u049,u040,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-06T15:32:00,i0053,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0052,u037,u039,comment,"Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-06T15:37:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p002,i0045,u045,u034,share,"Un contenu utile et bien construit, à partager largement. #tradition",2026-01-06T15:50:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p003,i0060,u042,u039,comment,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-06T15:56:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_001,p001,i0024,u012,u013,share,"Vous avez tout mon soutien, ne lâchez rien. #langue",2026-01-06T16:08:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_002,p004,i0104,u051,u056,comment,"D'accord à 100 %, il faut défendre cette idée.",2026-01-06T16:28:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0079,u057,u049,reply,"Menteur professionnel, personne ne te croit ici. https://exemple.org/article-565",2026-01-06T17:03:00,i0068,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0196,u081,u068,mention,"@u068 Franchement, ce discours sur la transmission culturelle est un échec complet.",2026-01-06T17:09:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0046,u041,u039,comment,"Ces gens n'ont rien à faire ici, qu'ils dégagent tous. https://exemple.org/article-836",2026-01-06T17:15:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0048,u043,u039,comment,نؤيد هذا الموقف تماما، بارك الله فيك. #valeurs,2026-01-06T17:26:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0065,u045,u037,reply,"@u037 Je soutiens totalement cette position sur la liberté de croyance, continuez. #دين",2026-01-06T18:09:00,i0052,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0063,u080,u031,reply,"Arrête de dire n'importe quoi, tu es complètement stupide.",2026-01-06T18:17:00,i0051,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0155,u027,u068,comment,"Je ne suis pas d'accord, l'argument sur la liberté de croyance ne tient pas.",2026-01-06T18:18:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0100,u064,u056,comment,"Je soutiens totalement cette position sur l'emploi et la formation, continuez. #travail",2026-01-06T18:19:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0195,u053,u068,share,"Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-06T18:23:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0157,u050,u068,comment,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-06T18:31:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0062,u070,u043,reply,"Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-06T18:32:00,i0048,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0078,u074,u045,reply,Ça suffit ! On nous ment depuis des années sur la mémoire collective !!! #هوية,2026-01-06T18:44:00,i0065,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0076,u082,u070,reply,"Je soutiens totalement cette position sur l'identité culturelle, continuez. #هوية",2026-01-06T18:52:00,i0062,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0117,u064,u060,reply,"Arrête de dire n'importe quoi, tu es complètement stupide. 🙏",2026-01-06T19:23:00,i0106,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0077,u027,u045,reply,Il faudrait des chiffres précis sur les valeurs transmises à l'école avant de conclure quoi que ce soit.,2026-01-06T19:44:00,i0065,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0145,u042,u068,comment,Encore une promesse non tenue au sujet de la liberté de croyance. #valeurs,2026-01-06T19:53:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,p006,u075,,post,"Franchement, ce discours sur l'identité culturelle est un échec complet.",2026-01-06T20:00:00,,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0108,u061,u056,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-06T20:08:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0159,u013,u042,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-06T20:11:00,i0145,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0074,u030,u029,reply,On peut discuter de les traditions familiales sans transformer chaque échange en affrontement.,2026-01-06T20:12:00,i0059,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0058,u081,u039,comment,Encore une promesse non tenue au sujet de la mémoire collective. #patrimoine,2026-01-06T20:16:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0116,u054,u060,reply,Il faudrait des chiffres précis sur la politique migratoire avant de conclure quoi que ce soit.,2026-01-06T20:18:00,i0106,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0203,u070,u075,comment,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-06T20:39:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0148,u007,u068,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-06T20:40:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0152,u066,u068,comment,Encore une promesse non tenue au sujet de l'emploi et la formation. #travail https://exemple.org/article-588,2026-01-06T20:51:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0109,u065,u056,comment,Il faudrait des chiffres précis sur l'emploi et la formation avant de conclure quoi que ce soit. https://exemple.org/article-845,2026-01-06T20:57:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0163,u007,u066,reply,"@u066 Franchement, ce discours sur la réforme universitaire est un échec complet.",2026-01-06T21:03:00,i0152,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0087,u083,u082,reply,"Trop c'est trop, la coupe est pleine !!!",2026-01-06T21:12:00,i0076,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0111,u055,u056,comment,كذاب، ما عندك حتى فكرة على l'immigration de travail.,2026-01-06T21:13:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0122,u060,u064,reply,"Le rapport publié l'an dernier abordait déjà la politique migratoire, page 42.",2026-01-06T21:30:00,i0117,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0097,u045,u039,mention,"@u039 Trop c'est trop, la coupe est pleine !!! #religion https://exemple.org/article-731",2026-01-06T21:37:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0080,u031,u028,reply,"@u028 Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-06T21:38:00,i0069,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0114,u052,u064,reply,"Je ne suis pas d'accord, l'argument sur la politique migratoire ne tient pas.",2026-01-06T21:45:00,i0100,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0200,u044,u075,comment,Encore une promesse non tenue au sujet de la liberté de croyance. #valeurs,2026-01-06T21:45:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0064,u040,u031,reply,"@u031 Quel imbécile, il ferait mieux de se taire. #tradition",2026-01-06T21:59:00,i0051,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0103,u061,u056,comment,"Le rapport publié l'an dernier abordait déjà les conditions de logement, page 42.",2026-01-06T22:00:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0156,u062,u068,comment,"Je ne suis pas d'accord, l'argument sur l'immigration de travail ne tient pas.",2026-01-06T22:00:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0149,u055,u068,comment,Ça suffit ! On nous ment depuis des années sur la politique migratoire !!! #immigration,2026-01-06T22:04:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0066,u040,u037,reply,شكرا على هذا الطرح الممتاز حول la liberté de croyance. #tradition,2026-01-06T22:20:00,i0052,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0167,u040,u062,reply,"Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-06T22:21:00,i0156,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0090,u007,u027,reply,"@u027 Je suis en colère, on se moque ouvertement de nous.",2026-01-06T22:25:00,i0077,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0072,u063,u081,reply,"@u081 Le débat sur l'accueil des nouveaux arrivants revient chaque année, sans évaluation publique.",2026-01-06T22:31:00,i0058,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0112,u061,u056,comment,Ça suffit ! On nous ment depuis des années sur l'immigration de travail !!! #هجرة,2026-01-06T22:31:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0110,u051,u056,comment,Quelqu'un a-t-il une source sérieuse concernant l'immigration de travail ? #هجرة,2026-01-06T22:38:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0119,u078,u055,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-06T22:44:00,i0111,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0181,u031,u040,reply,"@u040 Exactement ce que je pense depuis des années, merci de le dire.",2026-01-06T22:55:00,i0167,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0259,u069,u075,share,"Franchement, ce discours sur le patrimoine commun est un échec complet.",2026-01-06T23:08:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0113,u051,u064,reply,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-06T23:09:00,i0100,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0073,u012,u081,reply,Scandaleux ! Personne n'assume ses responsabilités sur la place du français à l'école !,2026-01-06T23:12:00,i0058,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0201,u082,u075,comment,"Arrête de dire n'importe quoi, tu es complètement stupide.",2026-01-06T23:38:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0193,u044,u068,share,,2026-01-07T00:09:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0219,u073,u070,reply,"Je soutiens totalement cette position sur l'identité culturelle, continuez. #culture",2026-01-07T00:09:00,i0203,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0086,u039,u030,reply,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #société,2026-01-07T00:35:00,i0074,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0146,u052,u068,comment,"C'est un désastre, rien n'a avancé sur la politique migratoire depuis dix ans. #travail",2026-01-07T00:36:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0061,u045,u041,reply,"@u041 Le débat sur la liberté de croyance revient chaque année, sans évaluation publique. https://exemple.org/article-255",2026-01-07T00:48:00,i0046,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0165,u033,u027,reply,On peut discuter de la liberté de croyance sans transformer chaque échange en affrontement.,2026-01-07T00:50:00,i0155,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0102,u055,u056,comment,"D'accord à 100 %, il faut défendre cette idée.",2026-01-07T00:59:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0214,u077,u044,reply,@u044 هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-07T01:00:00,i0200,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0089,u041,u082,reply,Décevant. On tourne en rond et le problème reste entier. #دين,2026-01-07T01:29:00,i0076,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0107,u053,u056,comment,Respect pour le courage de poser la question de l'immigration de travail publiquement.,2026-01-07T01:35:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0160,u013,u052,reply,"@u052 Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-07T01:37:00,i0146,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0202,u072,u075,comment,"Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-07T01:41:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0231,u039,u077,reply,@u077 هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-07T01:45:00,i0214,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0166,u021,u027,reply,"@u027 Nous sommes nombreux à partager cet avis, courage à vous. #arabisation",2026-01-07T01:47:00,i0155,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0153,u054,u068,comment,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-07T01:48:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0098,u038,u039,share,,2026-01-07T01:55:00,p003,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0169,u067,u062,reply,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #économie,2026-01-07T01:59:00,i0156,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,p007,u077,,post,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #patrimoine 🙏,2026-01-07T02:00:00,,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0147,u065,u068,comment,"Je suis en colère, on se moque ouvertement de nous.",2026-01-07T02:07:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0126,u079,u078,reply,"@u078 Je partage cette vidéo pour information, elle traite de l'identité culturelle.",2026-01-07T02:20:00,i0119,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0088,u079,u082,reply,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #patrimoine,2026-01-07T02:22:00,i0076,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0118,u075,u053,reply,"@u053 Exactement ce que je pense depuis des années, merci de le dire.",2026-01-07T02:22:00,i0107,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0249,u044,u039,reply,Il faudrait des chiffres précis sur le rapport entre foi et société avant de conclure quoi que ce soit.,2026-01-07T02:25:00,i0231,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0262,u081,u077,comment,"Les étrangers doivent partir, dehors, on ne veut pas d'eux.",2026-01-07T02:33:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p004,i0121,u081,u061,reply,"Le rapport publié l'an dernier abordait déjà la mémoire collective, page 42.",2026-01-07T02:42:00,i0112,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0161,u051,u065,reply,"Le rapport publié l'an dernier abordait déjà les conditions de logement, page 42.",2026-01-07T02:44:00,i0147,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0085,u011,u012,reply,@u012 Quelqu'un a-t-il une source sérieuse concernant la place du français à l'école ? #arabisation,2026-01-07T02:56:00,i0073,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0164,u063,u054,reply,"C'est un désastre, rien n'a avancé sur les conditions de logement depuis dix ans.",2026-01-07T03:02:00,i0153,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0071,u079,u081,reply,@u081 Décevant. On tourne en rond et le problème reste entier.,2026-01-07T03:05:00,i0058,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0131,u049,u060,reply,"Le rapport publié l'an dernier abordait déjà la politique migratoire, page 42.",2026-01-07T03:18:00,i0122,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0179,u037,u040,reply,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-07T03:22:00,i0167,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0083,u062,u063,reply,Question honnête : quelles données existent réellement sur les conditions de logement ?,2026-01-07T03:24:00,i0072,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0115,u058,u061,reply,Décevant. On tourne en rond et le problème reste entier. https://exemple.org/article-261,2026-01-07T03:26:00,i0103,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0172,u023,u013,reply,@u013 Il faudrait des chiffres précis sur la langue d'enseignement avant de conclure quoi que ce soit.,2026-01-07T03:27:00,i0160,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0168,u047,u062,reply,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-07T03:28:00,i0156,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0084,u020,u012,reply,"Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-07T03:29:00,i0073,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0216,u075,u082,reply,"Trop c'est trop, la coupe est pleine !!!",2026-01-07T03:35:00,i0201,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0185,u004,u023,reply,Question honnête : quelles données existent réellement sur la langue d'enseignement ?,2026-01-07T03:39:00,i0172,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0154,u036,u068,comment,Scandaleux ! Personne n'assume ses responsabilités sur le rapport entre foi et société !,2026-01-07T03:48:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0213,u034,u044,reply,"@u044 Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-07T03:52:00,i0200,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0177,u081,u007,reply,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #patrimoine 🙏,2026-01-07T03:54:00,i0163,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0182,u031,u047,reply,Encore une promesse non tenue au sujet de les valeurs transmises à l'école. #tradition,2026-01-07T04:00:00,i0168,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0233,u084,u075,reply,"Bravo, enfin quelqu'un qui défend l'identité culturelle sans complexe. #nation",2026-01-07T04:02:00,i0216,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0187,u044,u081,reply,"Insupportable. Assez de ce cirque, réveillez-vous ! #valeurs",2026-01-07T04:03:00,i0177,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0270,u020,u077,comment,"Bravo, enfin quelqu'un qui défend la langue d'enseignement sans complexe. https://exemple.org/article-692",2026-01-07T04:12:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p004,i0129,u059,u081,reply,Question honnête : quelles données existent réellement sur l'emploi et la formation ?,2026-01-07T04:18:00,i0121,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0144,u064,u068,comment,"C'est un désastre, rien n'a avancé sur l'emploi et la formation depuis dix ans.",2026-01-07T04:22:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0120,u053,u055,reply,"@u055 Je suis en colère, on se moque ouvertement de nous.",2026-01-07T04:24:00,i0111,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0230,u043,u034,reply,"@u034 Bravo, enfin quelqu'un qui défend la liberté de croyance sans complexe.",2026-01-07T04:56:00,i0213,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0260,u077,u075,share,@u075 Ça suffit ! On nous ment depuis des années sur la mémoire collective !!! #هوية,2026-01-07T05:00:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0217,u079,u072,reply,@u072 كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #هوية,2026-01-07T05:03:00,i0202,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0189,u029,u037,reply,"Excellente analyse sur la liberté de croyance, merci pour la clarté du propos. #société 🤔",2026-01-07T05:07:00,i0179,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0140,u053,u059,reply,"Je suis en colère, on se moque ouvertement de nous. https://exemple.org/article-854",2026-01-07T05:11:00,i0129,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0180,u023,u040,reply,"C'est un désastre, rien n'a avancé sur la réforme universitaire depuis dix ans.",2026-01-07T05:12:00,i0167,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0236,u032,u073,reply,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #دين https://exemple.org/article-764,2026-01-07T05:13:00,i0219,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0266,u076,u077,comment,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-07T05:31:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0190,u079,u037,reply,"Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-07T05:35:00,i0179,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0150,u065,u068,comment,Scandaleux ! Personne n'assume ses responsabilités sur l'immigration de travail !,2026-01-07T05:36:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0151,u077,u068,comment,"Quel imbécile, il ferait mieux de se taire.",2026-01-07T05:56:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0198,u081,u075,comment,"Vous avez tout mon soutien, ne lâchez rien. #identité",2026-01-07T06:02:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0215,u060,u082,reply,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-07T06:10:00,i0201,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0207,u080,u075,comment,"Je ne suis pas d'accord, l'argument sur le patrimoine commun ne tient pas.",2026-01-07T06:28:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0183,u048,u067,reply,"Insupportable. Assez de ce cirque, réveillez-vous !",2026-01-07T06:30:00,i0169,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0123,u021,u075,reply,"Je ne suis pas d'accord, l'argument sur l'arabisation des programmes ne tient pas.",2026-01-07T06:42:00,i0118,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p007,i0275,u068,u076,reply,"@u076 Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-07T06:43:00,i0266,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0188,u080,u081,reply,On peut discuter de la transmission culturelle sans transformer chaque échange en affrontement.,2026-01-07T06:45:00,i0177,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0075,u039,u045,reply,"@u045 Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-07T06:48:00,i0061,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0124,u077,u075,reply,"Franchement, ce discours sur le patrimoine commun est un échec complet.",2026-01-07T06:51:00,i0118,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0192,u034,u048,reply,"Le débat sur les valeurs transmises à l'école revient chaque année, sans évaluation publique.",2026-01-07T06:55:00,i0183,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0173,u053,u051,reply,"Bravo, enfin quelqu'un qui défend l'immigration de travail sans complexe. #هجرة",2026-01-07T06:58:00,i0161,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0264,u080,u077,comment,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #identité,2026-01-07T07:04:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p004,i0127,u068,u053,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل. https://exemple.org/article-251,2026-01-07T07:12:00,i0120,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p003,i0094,u001,u020,reply,اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-07T07:23:00,i0084,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0223,u083,u080,reply,Quelqu'un a-t-il une source sérieuse concernant la transmission culturelle ? #nation,2026-01-07T07:34:00,i0207,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0178,u008,u021,reply,@u021 Ça suffit ! On nous ment depuis des années sur le bilinguisme !!! #arabisation 🙏,2026-01-07T07:47:00,i0166,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0267,u075,u077,comment,Ça suffit ! On nous ment depuis des années sur la transmission culturelle !!! #culture,2026-01-07T07:51:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0170,u044,u013,reply,@u013 Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-07T08:04:00,i0160,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0250,u042,u039,reply,@u039 Question honnête : quelles données existent réellement sur la liberté de croyance ? https://exemple.org/article-172,2026-01-07T08:05:00,i0231,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0128,u061,u053,reply,Respect pour le courage de poser la question de les conditions de logement publiquement.,2026-01-07T08:13:00,i0120,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0136,u069,u079,reply,"Le rapport publié l'an dernier abordait déjà le sentiment d'appartenance, page 42.",2026-01-07T08:22:00,i0126,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0199,u079,u075,comment,Scandaleux ! Personne n'assume ses responsabilités sur le patrimoine commun ! #culture,2026-01-07T08:22:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0139,u053,u059,reply,"@u059 Insupportable. Assez de ce cirque, réveillez-vous ! #travail",2026-01-07T08:27:00,i0129,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0174,u050,u051,reply,"Bande d'ignorants, vous ne comprenez rien à les conditions de logement.",2026-01-07T08:39:00,i0161,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0248,u059,u043,reply,"Je ne suis pas d'accord, l'argument sur l'immigration de travail ne tient pas. #économie",2026-01-07T08:42:00,i0230,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0082,u071,u079,reply,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #patrimoine,2026-01-07T08:49:00,i0071,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0212,u071,u079,reply,"Trop c'est trop, la coupe est pleine !!!",2026-01-07T08:52:00,i0199,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0130,u015,u081,reply,"Le rapport publié l'an dernier abordait déjà la réforme universitaire, page 42.",2026-01-07T08:53:00,i0121,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0171,u024,u013,reply,"Je soutiens totalement cette position sur la réforme universitaire, continuez. #تعريب #école",2026-01-07T08:59:00,i0160,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,p008,u010,,post,Ça suffit ! On nous ment depuis des années sur la place du français à l'école !!! #école,2026-01-07T09:00:00,,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0218,u084,u072,reply,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-07T09:02:00,i0202,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0175,u063,u051,reply,"Trop c'est trop, la coupe est pleine !!!",2026-01-07T09:05:00,i0161,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0133,u079,u077,reply,"@u077 Les étrangers doivent partir, dehors, on ne veut pas d'eux.",2026-01-07T09:07:00,i0124,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0162,u081,u065,reply,"Les étrangers doivent partir, dehors, on ne veut pas d'eux.",2026-01-07T09:08:00,i0150,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0254,u045,u032,reply,"Trop c'est trop, la coupe est pleine !!! #société",2026-01-07T09:18:00,i0236,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0125,u030,u075,reply,"@u075 Quel imbécile, il ferait mieux de se taire.",2026-01-07T09:28:00,i0118,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0135,u078,u079,reply,Merci d'aborder le patrimoine commun avec autant de calme et de respect.,2026-01-07T09:30:00,i0126,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p008,i0304,u013,u010,comment,Il faudrait des chiffres précis sur la réforme universitaire avant de conclure quoi que ce soit. https://exemple.org/article-956,2026-01-07T09:39:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0301,u019,u010,comment,شكرا على هذا الطرح الممتاز حول la réforme universitaire. #université,2026-01-07T09:42:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p003,i0095,u022,u020,reply,"Je partage cette vidéo pour information, elle traite de la langue d'enseignement.",2026-01-07T09:43:00,i0084,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p008,i0315,u006,u019,reply,"@u019 Je partage cette vidéo pour information, elle traite de la réforme universitaire.",2026-01-07T09:46:00,i0301,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0302,u012,u010,comment,"Le débat sur l'arabisation des programmes revient chaque année, sans évaluation publique.",2026-01-07T09:48:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0299,u016,u010,comment,"C'est une honte, j'en ai vraiment marre de ce mépris. 🤔",2026-01-07T09:49:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0191,u041,u031,reply,@u031 Quelqu'un a-t-il une source sérieuse concernant les valeurs transmises à l'école ? #دين 👏,2026-01-07T10:03:00,i0182,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0305,u013,u010,comment,شكرا على هذا الطرح الممتاز حول le bilinguisme. #تعريب,2026-01-07T10:03:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0276,u081,u076,reply,"Un contenu utile et bien construit, à partager largement. #patrimoine",2026-01-07T10:07:00,i0266,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p003,i0093,u047,u062,reply,كذاب، ما عندك حتى فكرة على les traditions familiales.,2026-01-07T10:10:00,i0083,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_002,p004,i0137,u050,u068,reply,"Un contenu utile et bien construit, à partager largement.",2026-01-07T10:11:00,i0127,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p007,i0269,u073,u077,comment,كذاب، ما عندك حتى فكرة على la mémoire collective.,2026-01-07T10:11:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0316,u023,u012,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-07T10:22:00,i0302,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0194,u027,u068,share,"Je ne suis pas d'accord, l'argument sur la liberté de croyance ne tient pas. #valeurs",2026-01-07T10:27:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0208,u015,u075,comment,"Quel imbécile, il ferait mieux de se taire.",2026-01-07T10:30:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0132,u074,u077,reply,@u077 اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-07T10:34:00,i0124,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p007,i0272,u007,u080,reply,"@u080 Arrête de dire n'importe quoi, tu es complètement stupide.",2026-01-07T10:37:00,i0264,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0318,u046,u013,reply,Merci d'aborder le rapport entre foi et société avec autant de calme et de respect. https://exemple.org/article-130,2026-01-07T10:37:00,i0304,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0209,u084,u075,comment,اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-07T10:41:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0206,u084,u075,comment,Question honnête : quelles données existent réellement sur le sentiment d'appartenance ?,2026-01-07T10:43:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0265,u046,u077,comment,Scandaleux ! Personne n'assume ses responsabilités sur le rapport entre foi et société !,2026-01-07T10:43:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0204,u072,u075,comment,"Je suis en colère, on se moque ouvertement de nous.",2026-01-07T10:45:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0205,u017,u075,comment,"Insupportable. Assez de ce cirque, réveillez-vous !",2026-01-07T10:53:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0271,u082,u077,comment,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #culture,2026-01-07T11:42:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p003,i0091,u037,u071,reply,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-07T11:45:00,i0082,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p005,i0158,u053,u064,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-07T11:47:00,i0144,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0138,u054,u061,reply,"Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-07T11:49:00,i0128,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_004,p008,i0298,u039,u010,comment,On peut discuter de les traditions familiales sans transformer chaque échange en affrontement. #valeurs,2026-01-07T11:53:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0328,u026,u023,reply,@u023 Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-07T12:11:00,i0316,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_001,p001,i0027,u005,u013,share,,2026-01-07T12:13:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_004,p008,i0333,u018,u010,mention,"Je suis en colère, on se moque ouvertement de nous. 🤔",2026-01-07T12:27:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0311,u001,u010,comment,"Je suis en colère, on se moque ouvertement de nous. 🙏",2026-01-07T12:31:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0307,u006,u010,comment,"Je soutiens totalement cette position sur le bilinguisme, continuez. #école",2026-01-07T12:52:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p004,i0142,u059,u056,mention,"@u056 C'est un désastre, rien n'a avancé sur les conditions de logement depuis dix ans.",2026-01-07T12:54:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0232,u067,u060,reply,نؤيد هذا الموقف تماما، بارك الله فيك. #travail,2026-01-07T13:00:00,i0215,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0211,u008,u079,reply,Respect pour le courage de poser la question de la langue d'enseignement publiquement. 🙏,2026-01-07T13:08:00,i0199,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0224,u046,u080,reply,"@u080 Bravo, enfin quelqu'un qui défend la liberté de croyance sans complexe.",2026-01-07T13:10:00,i0207,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_001,p002,i0044,u045,u034,mention,"@u034 Je partage cette vidéo pour information, elle traite de la liberté de croyance.",2026-01-07T13:15:00,p002,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_004,p008,i0322,u016,u001,reply,"Bravo, enfin quelqu'un qui défend la place du français à l'école sans complexe.",2026-01-07T13:16:00,i0311,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0303,u023,u010,comment,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #université,2026-01-07T13:27:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0306,u029,u010,comment,"Quel imbécile, il ferait mieux de se taire.",2026-01-07T13:47:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0210,u074,u081,reply,Scandaleux ! Personne n'assume ses responsabilités sur le patrimoine commun ! https://exemple.org/article-394,2026-01-07T13:53:00,i0198,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p003,i0092,u078,u071,reply,"Quel imbécile, il ferait mieux de se taire.",2026-01-07T13:54:00,i0082,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_005,p009,p009,u014,,post,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-07T14:00:00,,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_003,p005,i0176,u071,u081,reply,"Un contenu utile et bien construit, à partager largement. #identité",2026-01-07T14:17:00,i0162,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0327,u027,u023,reply,Encore une promesse non tenue au sujet de la place de la religion dans l'espace public. #valeurs,2026-01-07T14:19:00,i0316,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0268,u071,u077,comment,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-07T15:22:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0281,u004,u007,reply,"@u007 Je partage cette vidéo pour information, elle traite de la place du français à l'école.",2026-01-07T15:38:00,i0272,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0319,u060,u006,reply,"Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-07T15:41:00,i0307,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0274,u023,u046,reply,نؤيد هذا الموقف تماما، بارك الله فيك. #arabisation #école,2026-01-07T15:42:00,i0265,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0229,u021,u008,reply,"@u008 Bravo, enfin quelqu'un qui défend le bilinguisme sans complexe. #langue",2026-01-07T15:45:00,i0211,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p005,i0186,u029,u050,reply,Encore une promesse non tenue au sujet de les valeurs transmises à l'école. #religion #religion 💯,2026-01-07T15:51:00,i0174,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p009,i0338,u009,u014,comment,"Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-07T16:12:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0263,u076,u077,comment,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #patrimoine,2026-01-07T16:19:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0235,u077,u084,reply,"@u084 Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-07T16:38:00,i0218,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0279,u059,u073,reply,"Insupportable. Assez de ce cirque, réveillez-vous !",2026-01-07T16:39:00,i0269,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0332,u014,u010,share,,2026-01-07T16:43:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0273,u045,u046,reply,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-07T16:47:00,i0265,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0184,u002,u024,reply,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-07T16:48:00,i0171,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0222,u038,u084,reply,@u084 كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #دين,2026-01-07T16:50:00,i0206,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0234,u082,u084,reply,Ça suffit ! On nous ment depuis des années sur l'identité culturelle !!! #identité,2026-01-07T16:50:00,i0218,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0227,u083,u074,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-07T16:59:00,i0210,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0134,u032,u030,reply,@u030 نؤيد هذا الموقف تماما، بارك الله فيك. #tradition,2026-01-07T17:04:00,i0125,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0220,u079,u072,reply,"Le débat sur le sentiment d'appartenance revient chaque année, sans évaluation publique.",2026-01-07T17:07:00,i0204,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0225,u072,u084,reply,"Je suis en colère, on se moque ouvertement de nous.",2026-01-07T17:10:00,i0209,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0237,u071,u079,reply,Question honnête : quelles données existent réellement sur le sentiment d'appartenance ?,2026-01-07T17:35:00,i0220,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0283,u032,u045,reply,"Le rapport publié l'an dernier abordait déjà la liberté de croyance, page 42. https://exemple.org/article-421",2026-01-07T17:47:00,i0273,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0221,u024,u017,reply,"Menteur professionnel, personne ne te croit ici. #تعريب",2026-01-07T18:01:00,i0205,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0288,u063,u059,reply,"Trop c'est trop, la coupe est pleine !!!",2026-01-07T18:06:00,i0279,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0317,u005,u023,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-07T18:07:00,i0303,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0226,u083,u074,reply,@u074 Respect pour le courage de poser la question de l'identité culturelle publiquement.,2026-01-07T18:10:00,i0210,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_002,p004,i0143,u058,u056,mention,"@u056 Insupportable. Assez de ce cirque, réveillez-vous ! 🤔",2026-01-07T18:14:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_003,p006,i0246,u079,u021,reply,"Tu es ridicule, va apprendre avant d'ouvrir la bouche. #identité",2026-01-07T18:40:00,i0229,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0297,u072,u077,mention,"Je partage cette vidéo pour information, elle traite de la mémoire collective.",2026-01-07T19:07:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0323,u011,u001,reply,نؤيد هذا الموقف تماما، بارك الله فيك. #arabisation,2026-01-07T19:17:00,i0311,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0280,u083,u082,reply,@u082 هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #culture https://exemple.org/article-486,2026-01-07T19:20:00,i0271,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0239,u074,u072,reply,"@u072 Bande d'ignorants, vous ne comprenez rien à le sentiment d'appartenance.",2026-01-07T19:23:00,i0225,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0252,u070,u082,reply,@u082 Scandaleux ! Personne n'assume ses responsabilités sur la mémoire collective !,2026-01-07T20:12:00,i0234,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0308,u011,u010,comment,Respect pour le courage de poser la question de l'arabisation des programmes publiquement.,2026-01-07T20:12:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0242,u037,u083,reply,"Trop c'est trop, la coupe est pleine !!! https://exemple.org/article-291",2026-01-07T20:13:00,i0226,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0240,u066,u072,reply,@u072 اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-07T20:15:00,i0225,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0310,u002,u010,comment,"Franchement, ce discours sur l'arabisation des programmes est un échec complet.",2026-01-07T20:15:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0277,u076,u071,reply,Scandaleux ! Personne n'assume ses responsabilités sur la transmission culturelle !,2026-01-07T20:25:00,i0268,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0228,u059,u074,reply,اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا. #travail,2026-01-07T20:42:00,i0210,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0243,u077,u083,reply,@u083 Décevant. On tourne en rond et le problème reste entier.,2026-01-07T20:48:00,i0226,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0309,u020,u010,comment,"Excellente analyse sur la langue d'enseignement, merci pour la clarté du propos. #arabisation #école",2026-01-07T20:50:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0251,u074,u082,reply,"@u082 Je partage cette vidéo pour information, elle traite de le sentiment d'appartenance. #culture",2026-01-07T20:51:00,i0234,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0278,u069,u071,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse. #nation,2026-01-07T20:55:00,i0268,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,p010,u032,,post,Décevant. On tourne en rond et le problème reste entier.,2026-01-07T21:00:00,,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0351,u015,u014,share,"@u014 Insupportable. Assez de ce cirque, réveillez-vous !",2026-01-07T21:02:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_003,p006,i0245,u080,u059,reply,"@u059 Le rapport publié l'an dernier abordait déjà la mémoire collective, page 42. #هوية",2026-01-07T21:06:00,i0228,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p010,i0356,u084,u032,comment,On peut discuter de la transmission culturelle sans transformer chaque échange en affrontement.,2026-01-07T21:07:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p008,i0321,u039,u002,reply,"@u002 Insupportable. Assez de ce cirque, réveillez-vous ! #société",2026-01-07T21:25:00,i0310,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0244,u076,u059,reply,"Quel imbécile, il ferait mieux de se taire. #identité",2026-01-07T21:32:00,i0228,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0300,u025,u010,comment,شكرا على هذا الطرح الممتاز حول la réforme universitaire. #تعريب,2026-01-07T21:57:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0238,u020,u024,reply,Respect pour le courage de poser la question de l'arabisation des programmes publiquement.,2026-01-07T22:06:00,i0221,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0312,u049,u010,comment,Quelqu'un a-t-il une source sérieuse concernant la politique migratoire ? #frontières,2026-01-07T22:07:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0255,u016,u066,reply,Ça suffit ! On nous ment depuis des années sur la place du français à l'école !!! #arabisation,2026-01-07T22:37:00,i0240,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p009,i0340,u018,u014,comment,On peut discuter de la place du français à l'école sans transformer chaque échange en affrontement.,2026-01-07T22:49:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0348,u017,u014,mention,"@u014 Je partage cette vidéo pour information, elle traite de le bilinguisme.",2026-01-07T23:12:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0339,u018,u014,comment,Encore une promesse non tenue au sujet de l'arabisation des programmes. #école,2026-01-07T23:19:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_003,p006,i0247,u070,u021,reply,"@u021 Trop c'est trop, la coupe est pleine !!!",2026-01-07T23:20:00,i0229,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p008,i0313,u021,u010,comment,"Franchement, ce discours sur le bilinguisme est un échec complet. #langue",2026-01-07T23:23:00,p008,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p005,i0197,u057,u068,mention,"Très bonne intervention, je suis d'accord avec l'essentiel. #immigration",2026-01-07T23:34:00,p005,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p009,i0334,u020,u014,comment,نؤيد هذا الموقف تماما، بارك الله فيك. #arabisation,2026-01-07T23:38:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0342,u001,u018,reply,"Le rapport publié l'an dernier abordait déjà le bilinguisme, page 42. #تعريب",2026-01-07T23:45:00,i0339,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p008,i0325,u055,u049,reply,@u049 Décevant. On tourne en rond et le problème reste entier.,2026-01-08T00:09:00,i0312,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0241,u057,u072,reply,@u072 هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #هجرة,2026-01-08T00:10:00,i0225,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0253,u032,u077,reply,"D'accord à 100 %, il faut défendre cette idée.",2026-01-08T00:11:00,i0235,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0282,u029,u045,reply,"Je partage cette vidéo pour information, elle traite de le rapport entre foi et société.",2026-01-08T00:27:00,i0273,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0329,u043,u039,reply,"@u039 Exactement ce que je pense depuis des années, merci de le dire.",2026-01-08T00:27:00,i0321,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,i0368,u073,u084,reply,"Exactement ce que je pense depuis des années, merci de le dire. #nation",2026-01-08T00:31:00,i0356,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0287,u055,u059,reply,"@u059 Je partage cette vidéo pour information, elle traite de la politique migratoire. #frontières",2026-01-08T00:35:00,i0279,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0320,u081,u020,reply,كذاب، ما عندك حتى فكرة على l'identité culturelle.,2026-01-08T00:59:00,i0309,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_003,p006,i0256,u076,u066,reply,@u066 اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-08T01:05:00,i0240,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p010,i0382,u002,u032,mention,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-08T01:22:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p008,i0314,u032,u025,reply,"Arrête de dire n'importe quoi, tu es complètement stupide.",2026-01-08T01:35:00,i0300,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0324,u035,u049,reply,"Je ne suis pas d'accord, l'argument sur le rapport entre foi et société ne tient pas.",2026-01-08T01:39:00,i0312,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,i0360,u039,u032,comment,"Le rapport publié l'an dernier abordait déjà les traditions familiales, page 42. #société",2026-01-08T01:47:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0336,u022,u014,comment,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-08T02:08:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0289,u044,u083,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-08T02:36:00,i0280,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p009,i0335,u025,u014,comment,Ça suffit ! On nous ment depuis des années sur la réforme universitaire !!! #langue,2026-01-08T02:45:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0358,u041,u032,comment,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-08T02:58:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0337,u002,u014,comment,Quelqu'un a-t-il une source sérieuse concernant le bilinguisme ? #université,2026-01-08T03:11:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0344,u013,u001,reply,Ça suffit ! On nous ment depuis des années sur la langue d'enseignement !!! #تعريب,2026-01-08T03:23:00,i0342,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0284,u084,u069,reply,"Le rapport publié l'an dernier abordait déjà le patrimoine commun, page 42.",2026-01-08T03:26:00,i0278,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_002,p004,i0141,u067,u056,mention,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-08T03:34:00,p004,https://www.facebook.com/share/p/1HYJ6PKM2Q/
+facebook,facebook_005,p010,i0355,u038,u032,comment,"Je partage cette vidéo pour information, elle traite de les valeurs transmises à l'école. https://exemple.org/article-908",2026-01-08T03:40:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0387,u046,u032,share,"Je soutiens totalement cette position sur la liberté de croyance, continuez. #société https://exemple.org/article-560 😡",2026-01-08T04:05:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0286,u082,u069,reply,اطردوهم كلهم، هؤلاء الأجانب غزاة ولا مكان لهم هنا.,2026-01-08T04:16:00,i0278,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,i0378,u074,u073,reply,"Ces gens-là sont des parasites, il faut les chasser du pays.",2026-01-08T04:22:00,i0368,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0285,u015,u069,reply,"C'est un désastre, rien n'a avancé sur la place du français à l'école depuis dix ans.",2026-01-08T04:26:00,i0278,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p009,i0341,u073,u018,reply,@u018 كذاب، ما عندك حتى فكرة على le sentiment d'appartenance.,2026-01-08T04:33:00,i0339,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_003,p006,i0257,u065,u057,reply,"Le rapport publié l'an dernier abordait déjà l'accueil des nouveaux arrivants, page 42.",2026-01-08T04:37:00,i0241,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_005,p010,i0359,u047,u032,comment,"Le rapport publié l'an dernier abordait déjà le rapport entre foi et société, page 42.",2026-01-08T05:08:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0366,u024,u038,reply,"Franchement, ce discours sur le bilinguisme est un échec complet.",2026-01-08T05:18:00,i0355,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0386,u029,u032,share,,2026-01-08T05:18:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0385,u038,u032,share,"Le rapport publié l'an dernier abordait déjà la place de la religion dans l'espace public, page 42.",2026-01-08T05:21:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0357,u043,u032,comment,"Un contenu utile et bien construit, à partager largement.",2026-01-08T05:55:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0346,u010,u013,reply,Scandaleux ! Personne n'assume ses responsabilités sur la langue d'enseignement !,2026-01-08T05:58:00,i0344,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,p011,u035,,post,"Trop c'est trop, la coupe est pleine !!!",2026-01-08T06:00:00,,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0370,u027,u047,reply,"@u047 Franchement, ce discours sur la place de la religion dans l'espace public est un échec complet.",2026-01-08T06:22:00,i0359,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0398,u010,u035,comment,"Menteur professionnel, personne ne te croit ici.",2026-01-08T06:24:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p009,i0343,u008,u073,reply,Scandaleux ! Personne n'assume ses responsabilités sur la réforme universitaire !,2026-01-08T06:29:00,i0341,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_003,p006,i0258,u068,u057,reply,Scandaleux ! Personne n'assume ses responsabilités sur les conditions de logement !,2026-01-08T06:50:00,i0241,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_003,p006,i0261,u028,u075,share,,2026-01-08T07:14:00,p006,https://www.facebook.com/share/v/1GCZzavgcV/
+facebook,facebook_004,p007,i0293,u035,u044,reply,"Un contenu utile et bien construit, à partager largement.",2026-01-08T07:16:00,i0289,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0290,u017,u015,reply,"Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-08T07:35:00,i0285,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0326,u031,u032,reply,شكرا على هذا الطرح الممتاز حول la place de la religion dans l'espace public. #valeurs,2026-01-08T07:47:00,i0314,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p007,i0292,u063,u044,reply,"Menteur professionnel, personne ne te croit ici.",2026-01-08T07:51:00,i0289,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_004,p008,i0330,u039,u035,reply,شكرا على هذا الطرح الممتاز حول la liberté de croyance. #religion,2026-01-08T07:56:00,i0324,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p009,i0349,u007,u014,share,"Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-08T08:06:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0345,u011,u013,reply,@u013 Question honnête : quelles données existent réellement sur la place du français à l'école ?,2026-01-08T08:27:00,i0344,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p009,i0347,u070,u013,reply,"Je suis en colère, on se moque ouvertement de nous. #patrimoine",2026-01-08T08:27:00,i0344,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0399,u036,u035,comment,شكرا على هذا الطرح الممتاز حول la place de la religion dans l'espace public. #religion,2026-01-08T08:54:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0354,u034,u032,comment,"Le rapport publié l'an dernier abordait déjà la liberté de croyance, page 42.",2026-01-08T09:13:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0363,u033,u032,comment,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-08T09:33:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0361,u028,u032,comment,"Je partage cette vidéo pour information, elle traite de le rapport entre foi et société.",2026-01-08T09:47:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0291,u021,u015,reply,@u015 كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #école,2026-01-08T09:55:00,i0285,https://www.facebook.com/share/p/1F5HSSqfkM/
+x,x_001,p011,i0410,u028,u036,reply,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse. #دين,2026-01-08T10:06:00,i0399,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0393,u033,u035,comment,"Le débat sur la liberté de croyance revient chaque année, sans évaluation publique. 💯",2026-01-08T10:08:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0392,u028,u035,comment,"Bravo, enfin quelqu'un qui défend les valeurs transmises à l'école sans complexe.",2026-01-08T10:33:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0388,u007,u035,comment,Merci d'aborder la langue d'enseignement avec autant de calme et de respect.,2026-01-08T10:41:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0353,u068,u032,comment,"Bande d'ignorants, vous ne comprenez rien à l'emploi et la formation.",2026-01-08T10:42:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_004,p007,i0296,u071,u077,mention,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-08T10:54:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,i0362,u030,u032,comment,Question honnête : quelles données existent réellement sur la place de la religion dans l'espace public ? https://exemple.org/article-646,2026-01-08T11:10:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0367,u080,u038,reply,"Il faut expulser les immigrés, ce sont des envahisseurs.",2026-01-08T11:12:00,i0355,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0369,u066,u043,reply,@u043 نؤيد هذا الموقف تماما، بارك الله فيك. #travail,2026-01-08T11:16:00,i0357,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0405,u045,u033,reply,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-08T11:17:00,i0393,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0364,u064,u068,reply,@u068 Il faudrait des chiffres précis sur l'emploi et la formation avant de conclure quoi que ce soit.,2026-01-08T11:49:00,i0353,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p012,p012,u066,,post,On peut discuter de l'immigration de travail sans transformer chaque échange en affrontement.,2026-01-08T12:00:00,,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0416,u073,u045,reply,Ça suffit ! On nous ment depuis des années sur la transmission culturelle !!! #culture #patrimoine,2026-01-08T12:06:00,i0405,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0394,u031,u035,comment,"Nous sommes nombreux à partager cet avis, courage à vous.",2026-01-08T12:21:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0406,u001,u033,reply,"Le rapport publié l'an dernier abordait déjà la réforme universitaire, page 42.",2026-01-08T12:29:00,i0393,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0372,u066,u064,reply,"@u064 Je ne suis pas d'accord, l'argument sur l'emploi et la formation ne tient pas.",2026-01-08T12:38:00,i0364,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0396,u046,u035,comment,"Un contenu utile et bien construit, à partager largement.",2026-01-08T12:38:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0371,u027,u028,reply,"Le rapport publié l'an dernier abordait déjà le rapport entre foi et société, page 42.",2026-01-08T12:55:00,i0361,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0417,u082,u001,reply,"@u001 D'accord à 100 %, il faut défendre cette idée.",2026-01-08T13:00:00,i0406,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0426,u075,u082,reply,"Je soutiens totalement cette position sur le patrimoine commun, continuez. #culture",2026-01-08T13:03:00,i0417,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0365,u065,u034,reply,"@u034 Je suis en colère, on se moque ouvertement de nous.",2026-01-08T13:50:00,i0354,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p012,i0437,u058,u066,comment,On peut discuter de les conditions de logement sans transformer chaque échange en affrontement.,2026-01-08T13:54:00,p012,https://x.com/i/status/2087872720012796385
+facebook,facebook_004,p007,i0294,u080,u077,mention,هذا الكلام غير صحيح ولا يستند إلى أي دليل. 🤔,2026-01-08T14:11:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+x,x_001,p011,i0389,u030,u035,comment,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #دين,2026-01-08T14:54:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_004,p008,i0331,u046,u039,reply,"@u039 Je soutiens totalement cette position sur les traditions familiales, continuez. #tradition",2026-01-08T14:55:00,i0330,https://www.facebook.com/share/p/1F5HSSqfkM/
+facebook,facebook_005,p010,i0377,u071,u080,reply,@u080 Merci d'aborder le sentiment d'appartenance avec autant de calme et de respect.,2026-01-08T15:17:00,i0367,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p012,i0436,u084,u066,comment,"Menteur professionnel, personne ne te croit ici. #nation",2026-01-08T15:40:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0415,u043,u045,reply,"C'est un désastre, rien n'a avancé sur le rapport entre foi et société depuis dix ans.",2026-01-08T15:45:00,i0405,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0402,u035,u030,reply,"Le rapport publié l'an dernier abordait déjà le rapport entre foi et société, page 42.",2026-01-08T16:00:00,i0389,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0374,u058,u064,reply,"Je soutiens totalement cette position sur les conditions de logement, continuez. #travail #frontières",2026-01-08T16:04:00,i0364,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0429,u068,u035,quote,هذا الكلام غير صحيح ولا يستند إلى أي دليل. #travail,2026-01-08T16:21:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0376,u049,u065,reply,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #immigration #هجرة,2026-01-08T16:24:00,i0365,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0391,u012,u035,comment,"Le rapport publié l'an dernier abordait déjà l'arabisation des programmes, page 42. #université",2026-01-08T16:26:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0395,u044,u035,comment,"Excellente analyse sur les valeurs transmises à l'école, merci pour la clarté du propos. #دين",2026-01-08T16:59:00,p011,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p009,i0350,u008,u014,share,,2026-01-08T17:02:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0397,u040,u035,comment,Il faudrait des chiffres précis sur les valeurs transmises à l'école avant de conclure quoi que ce soit.,2026-01-08T17:17:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0430,u041,u035,quote,كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #دين,2026-01-08T17:22:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0408,u042,u046,reply,"@u046 Je suis en colère, on se moque ouvertement de nous.",2026-01-08T17:25:00,i0396,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0407,u044,u046,reply,كذاب، ما عندك حتى فكرة على le rapport entre foi et société.,2026-01-08T17:37:00,i0396,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0433,u083,u066,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-08T17:57:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0458,u055,u066,mention,"@u066 C'est un désastre, rien n'a avancé sur la politique migratoire depuis dix ans.",2026-01-08T18:15:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0445,u050,u058,reply,"Bravo, enfin quelqu'un qui défend les conditions de logement sans complexe.",2026-01-08T18:16:00,i0437,https://x.com/i/status/2087872720012796385
+facebook,facebook_004,p007,i0295,u026,u077,mention,"@u077 Très bonne intervention, je suis d'accord avec l'essentiel.",2026-01-08T18:25:00,p007,https://www.facebook.com/share/p/1F5HSSqfkM/
+x,x_001,p012,i0435,u064,u066,comment,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #frontières,2026-01-08T18:31:00,p012,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0384,u035,u032,share,"Arrête de dire n'importe quoi, tu es complètement stupide. https://exemple.org/article-816",2026-01-08T18:36:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+facebook,facebook_005,p010,i0380,u060,u058,reply,Scandaleux ! Personne n'assume ses responsabilités sur les conditions de logement !,2026-01-08T18:49:00,i0374,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p012,i0452,u002,u050,reply,"Le rapport publié l'an dernier abordait déjà la réforme universitaire, page 42.",2026-01-08T18:53:00,i0445,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0456,u082,u002,reply,"Les étrangers doivent partir, dehors, on ne veut pas d'eux.",2026-01-08T18:59:00,i0452,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p013,p013,u068,,post,Respect pour le courage de poser la question de l'emploi et la formation publiquement.,2026-01-08T19:00:00,,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0462,u058,u068,comment,"Quel imbécile, il ferait mieux de se taire.",2026-01-08T19:09:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+facebook,facebook_005,p010,i0373,u046,u064,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-08T19:17:00,i0364,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0390,u045,u035,comment,On peut discuter de la liberté de croyance sans transformer chaque échange en affrontement.,2026-01-08T19:25:00,p011,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0434,u055,u066,comment,"Excellente analyse sur la politique migratoire, merci pour la clarté du propos. #frontières",2026-01-08T19:40:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0401,u059,u030,reply,نؤيد هذا الموقف تماما، بارك الله فيك. #travail,2026-01-08T19:45:00,i0389,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0379,u079,u058,reply,"Franchement, ce discours sur le patrimoine commun est un échec complet.",2026-01-08T19:49:00,i0374,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0419,u039,u044,reply,"Menteur professionnel, personne ne te croit ici. 🙏",2026-01-08T19:58:00,i0407,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0375,u062,u065,reply,"@u065 C'est un désastre, rien n'a avancé sur les conditions de logement depuis dix ans.",2026-01-08T20:17:00,i0365,https://www.facebook.com/share/p/18GdU39RoV/
+instagram,instagram_001,p013,i0461,u057,u068,comment,"Je suis en colère, on se moque ouvertement de nous. #immigration",2026-01-08T20:44:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0443,u050,u083,reply,@u083 Encore une promesse non tenue au sujet de les conditions de logement. #économie,2026-01-08T20:53:00,i0433,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0444,u047,u084,reply,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-08T20:55:00,i0436,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0400,u048,u030,reply,@u030 كفى ! هذا عار حقيقي وما نقبلوش هذا الوضع. #tradition,2026-01-08T21:01:00,i0389,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0409,u059,u040,reply,"Ces gens n'ont rien à faire ici, qu'ils dégagent tous.",2026-01-08T21:08:00,i0397,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0381,u052,u062,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-08T21:13:00,i0375,https://www.facebook.com/share/p/18GdU39RoV/
+instagram,instagram_001,p013,i0466,u084,u057,reply,"Je suis en colère, on se moque ouvertement de nous.",2026-01-08T21:31:00,i0461,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0404,u030,u045,reply,شكرا على هذا الطرح الممتاز حول les traditions familiales. #société,2026-01-08T22:11:00,i0390,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0418,u080,u044,reply,"@u044 Le rapport publié l'an dernier abordait déjà le patrimoine commun, page 42.",2026-01-08T22:23:00,i0407,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0451,u049,u050,reply,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #travail,2026-01-08T22:31:00,i0445,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0413,u030,u035,reply,نؤيد هذا الموقف تماما، بارك الله فيك. #religion,2026-01-08T22:37:00,i0402,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,p014,u078,,post,"Le rapport publié l'an dernier abordait déjà la mémoire collective, page 42. #patrimoine",2026-01-08T23:00:00,,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0464,u061,u068,comment,Décevant. On tourne en rond et le problème reste entier.,2026-01-08T23:07:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0438,u064,u066,comment,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #frontières https://exemple.org/article-291,2026-01-08T23:12:00,p012,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0485,u075,u078,comment,"Un contenu utile et bien construit, à partager largement. #هوية",2026-01-08T23:18:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0480,u084,u078,comment,Ça suffit ! On nous ment depuis des années sur le patrimoine commun !!! #nation,2026-01-08T23:48:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0432,u057,u066,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-09T00:25:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0449,u004,u050,reply,"C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-09T00:27:00,i0443,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0427,u002,u039,reply,"C'est un désastre, rien n'a avancé sur l'arabisation des programmes depuis dix ans. 👏",2026-01-09T00:44:00,i0419,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0455,u025,u004,reply,"@u004 Bravo pour ce travail documenté, c'est exactement ce qui manquait. https://exemple.org/article-185",2026-01-09T00:57:00,i0449,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0442,u069,u083,reply,"@u083 Insupportable. Assez de ce cirque, réveillez-vous ! 🙏",2026-01-09T00:58:00,i0433,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0440,u060,u057,reply,"Je ne suis pas d'accord, l'argument sur l'emploi et la formation ne tient pas.",2026-01-09T01:06:00,i0432,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0459,u008,u066,repost,,2026-01-09T01:18:00,p012,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0412,u063,u059,reply,"Il faut expulser les immigrés, ce sont des envahisseurs.",2026-01-09T01:19:00,i0401,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0424,u021,u030,reply,@u030 كذاب، ما عندك حتى فكرة على la réforme universitaire.,2026-01-09T01:33:00,i0413,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0403,u048,u045,reply,Quelqu'un a-t-il une source sérieuse concernant les traditions familiales ? #دين #tradition,2026-01-09T01:38:00,i0390,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0457,u005,u002,reply,Quelqu'un a-t-il une source sérieuse concernant la place du français à l'école ? #تعريب 💯,2026-01-09T01:52:00,i0452,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0414,u014,u048,reply,"@u048 Quel imbécile, il ferait mieux de se taire.",2026-01-09T01:54:00,i0403,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0478,u079,u078,comment,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-09T01:54:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0450,u059,u050,reply,"D'accord à 100 %, il faut défendre cette idée. https://exemple.org/article-143 😡",2026-01-09T01:58:00,i0445,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0448,u053,u069,reply,"Vous avez tout mon soutien, ne lâchez rien.",2026-01-09T02:33:00,i0442,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p010,i0383,u001,u032,share,,2026-01-09T02:58:00,p010,https://www.facebook.com/share/p/18GdU39RoV/
+x,x_001,p011,i0411,u028,u048,reply,Question honnête : quelles données existent réellement sur la place de la religion dans l'espace public ?,2026-01-09T02:59:00,i0400,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p013,i0465,u066,u068,comment,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-09T03:07:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0505,u069,u078,mention,"Trop c'est trop, la coupe est pleine !!!",2026-01-09T03:22:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0425,u036,u030,reply,"Le rapport publié l'an dernier abordait déjà les traditions familiales, page 42. 😡",2026-01-09T03:27:00,i0413,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0476,u083,u078,comment,"Bande d'ignorants, vous ne comprenez rien à la transmission culturelle.",2026-01-09T03:40:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0473,u051,u068,mention,"@u068 Quel imbécile, il ferait mieux de se taire.",2026-01-09T03:42:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0463,u065,u068,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-09T03:55:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0481,u071,u078,comment,"Franchement, ce discours sur le sentiment d'appartenance est un échec complet.",2026-01-09T04:03:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0487,u040,u083,reply,Ça suffit ! On nous ment depuis des années sur les traditions familiales !!! #دين,2026-01-09T04:09:00,i0476,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0431,u028,u035,quote,"@u035 Le débat sur la place de la religion dans l'espace public revient chaque année, sans évaluation publique.",2026-01-09T04:11:00,p011,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0486,u053,u078,comment,Scandaleux ! Personne n'assume ses responsabilités sur l'accueil des nouveaux arrivants !,2026-01-09T04:12:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0420,u080,u059,reply,"Je ne suis pas d'accord, l'argument sur la mémoire collective ne tient pas.",2026-01-09T04:29:00,i0409,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0447,u081,u060,reply,Question honnête : quelles données existent réellement sur la mémoire collective ?,2026-01-09T05:34:00,i0440,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0488,u001,u083,reply,"@u083 Tu es ridicule, va apprendre avant d'ouvrir la bouche.",2026-01-09T05:39:00,i0476,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0439,u073,u057,reply,"Bande d'ignorants, vous ne comprenez rien à le sentiment d'appartenance.",2026-01-09T05:52:00,i0432,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0446,u071,u073,reply,Question honnête : quelles données existent réellement sur la mémoire collective ?,2026-01-09T06:10:00,i0439,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0453,u073,u081,reply,"Franchement, ce discours sur la mémoire collective est un échec complet. #patrimoine",2026-01-09T06:11:00,i0447,https://x.com/i/status/2087872720012796385
+x,x_001,p012,i0454,u005,u004,reply,"@u004 Bande d'ignorants, vous ne comprenez rien à la langue d'enseignement. #école",2026-01-09T06:24:00,i0449,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p013,i0460,u058,u068,comment,Il faudrait des chiffres précis sur l'accueil des nouveaux arrivants avant de conclure quoi que ce soit.,2026-01-09T06:53:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0467,u008,u061,reply,@u061 كذاب، ما عندك حتى فكرة على la place du français à l'école.,2026-01-09T07:04:00,i0464,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p012,i0441,u054,u057,reply,On peut discuter de l'immigration de travail sans transformer chaque échange en affrontement.,2026-01-09T07:09:00,i0432,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0428,u025,u080,reply,"Je suis en colère, on se moque ouvertement de nous.",2026-01-09T07:22:00,i0420,https://x.com/i/status/2087872720012796385
+x,x_001,p011,i0422,u048,u063,reply,@u063 نؤيد هذا الموقف تماما، بارك الله فيك. #دين,2026-01-09T07:31:00,i0412,https://x.com/i/status/2087872720012796385
+facebook,facebook_005,p009,i0352,u018,u014,mention,"Excellente analyse sur la réforme universitaire, merci pour la clarté du propos. #langue",2026-01-09T07:45:00,p009,https://www.facebook.com/share/p/18GdU39RoV/
+instagram,instagram_001,p013,i0468,u015,u066,reply,"Je ne suis pas d'accord, l'argument sur la langue d'enseignement ne tient pas.",2026-01-09T07:48:00,i0465,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0483,u075,u078,comment,Quelqu'un a-t-il une source sérieuse concernant le sentiment d'appartenance ? #هوية,2026-01-09T07:53:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0474,u081,u078,comment,Encore une promesse non tenue au sujet de l'identité culturelle. #identité https://exemple.org/article-859,2026-01-09T07:55:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0423,u006,u063,reply,"Bravo, enfin quelqu'un qui défend le bilinguisme sans complexe.",2026-01-09T08:10:00,i0412,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0491,u041,u071,reply,"@u071 C'est un désastre, rien n'a avancé sur les traditions familiales depuis dix ans.",2026-01-09T08:47:00,i0481,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+x,x_001,p011,i0421,u079,u063,reply,"Vous avez tout mon soutien, ne lâchez rien. #culture",2026-01-09T08:56:00,i0412,https://x.com/i/status/2087872720012796385
+instagram,instagram_001,p014,i0493,u061,u001,reply,"Bande d'ignorants, vous ne comprenez rien à la politique migratoire.",2026-01-09T09:19:00,i0488,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0469,u004,u008,reply,@u008 On peut discuter de la réforme universitaire sans transformer chaque échange en affrontement.,2026-01-09T09:24:00,i0467,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0471,u060,u004,reply,"Le débat sur la politique migratoire revient chaque année, sans évaluation publique.",2026-01-09T10:04:00,i0469,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0503,u071,u078,share,,2026-01-09T11:17:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0470,u053,u004,reply,"C'est une honte, j'en ai vraiment marre de ce mépris. #هجرة",2026-01-09T11:28:00,i0469,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0475,u070,u078,comment,"Bravo pour ce travail documenté, c'est exactement ce qui manquait.",2026-01-09T12:53:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0484,u075,u078,comment,"D'accord à 100 %, il faut défendre cette idée.",2026-01-09T12:53:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0479,u075,u078,comment,"Exactement ce que je pense depuis des années, merci de le dire.",2026-01-09T12:54:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0477,u080,u078,comment,"Trop c'est trop, la coupe est pleine !!!",2026-01-09T13:03:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0492,u082,u075,reply,@u075 Encore une promesse non tenue au sujet de l'identité culturelle. #identité,2026-01-09T13:11:00,i0483,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0495,u062,u041,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-09T13:12:00,i0491,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0482,u079,u078,comment,Respect pour le courage de poser la question de la transmission culturelle publiquement. #culture,2026-01-09T13:27:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0499,u078,u062,reply,هذا الموضوع يحتاج إلى نقاش هادئ ومعطيات دقيقة. #nation,2026-01-09T13:59:00,i0495,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0490,u012,u080,reply,"Le rapport publié l'an dernier abordait déjà l'arabisation des programmes, page 42.",2026-01-09T14:58:00,i0477,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0494,u025,u012,reply,"D'accord à 100 %, il faut défendre cette idée. #langue 💯",2026-01-09T16:05:00,i0490,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0498,u082,u025,reply,"@u025 C'est une honte, j'en ai vraiment marre de ce mépris.",2026-01-09T16:29:00,i0494,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0497,u039,u025,reply,"@u025 Je suis en colère, on se moque ouvertement de nous.",2026-01-09T18:00:00,i0494,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0506,u013,u078,mention,"@u078 Vous avez tout mon soutien, ne lâchez rien.",2026-01-09T19:11:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0500,u057,u062,reply,@u062 نؤيد هذا الموقف تماما، بارك الله فيك. #travail,2026-01-09T19:42:00,i0495,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0489,u025,u080,reply,هذا الكلام غير صحيح ولا يستند إلى أي دليل.,2026-01-09T20:16:00,i0477,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0496,u032,u082,reply,Décevant. On tourne en rond et le problème reste entier.,2026-01-09T20:48:00,i0492,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p013,i0472,u025,u068,mention,"@u068 C'est un désastre, rien n'a avancé sur la place du français à l'école depuis dix ans.",2026-01-09T21:40:00,p013,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0502,u034,u032,reply,"Le rapport publié l'an dernier abordait déjà la liberté de croyance, page 42.",2026-01-10T00:04:00,i0496,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0501,u002,u032,reply,Question honnête : quelles données existent réellement sur la langue d'enseignement ?,2026-01-10T02:34:00,i0496,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0504,u077,u078,mention,Ce raisonnement est faux et ne repose sur aucune donnée sérieuse.,2026-01-10T13:59:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==
+instagram,instagram_001,p014,i0507,u069,u078,mention,"C'est un désastre, rien n'a avancé sur le sentiment d'appartenance depuis dix ans. https://exemple.org/article-426",2026-01-10T14:16:00,p014,https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==

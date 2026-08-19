@@ -1,0 +1,5 @@
+platform,source_id,post_id,interaction_id,source_user,target_user,interaction_type,text,timestamp,parent_id,url
+facebook,facebook_001,p001,i001,u001,,post,"Texte de la publication d'origine",2026-01-01T10:00:00,,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i002,u002,u001,comment,"Texte du commentaire",2026-01-01T10:12:00,p001,https://www.facebook.com/share/v/18hGjKiFVK/
+facebook,facebook_001,p001,i003,u003,u002,reply,"Texte de la réponse au commentaire",2026-01-01T10:31:00,i002,https://www.facebook.com/share/v/18hGjKiFVK/
+x,x_001,p002,i004,u004,u001,quote,"Texte de la citation",2026-01-02T09:05:00,p002,https://x.com/i/status/2087872720012796385

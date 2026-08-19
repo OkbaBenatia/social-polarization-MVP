@@ -1,0 +1,133 @@
+{
+  "genere_le": "2026-08-19T20:55:02+00:00",
+  "agent_utilisateur": "social-polarization-MVP/0.1 (recherche academique ; collecte de metadonnees publiques)",
+  "environnement": "Le rapport reflète ce qui a été réellement obtenu depuis l'environnement d'exécution utilisé. Un accès sortant refusé (politique réseau, pare-feu, mandataire) est documenté comme une limite technique et n'est jamais contourné.",
+  "regles": [
+    "Aucune authentification, aucun cookie personnel, aucune session privée.",
+    "Aucun contournement de CAPTCHA, de protection anti-bot ou de limitation d'API.",
+    "Respect du fichier robots.txt de chaque plateforme.",
+    "Une seule requête par URL, avec délai entre les requêtes.",
+    "Aucune donnée privée n'est recherchée ni conservée."
+  ],
+  "resultats": [
+    {
+      "source_id": "facebook_001",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
+      "tentative_le": "2026-08-19T20:54:48+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_002",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
+      "tentative_le": "2026-08-19T20:54:50+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_003",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
+      "tentative_le": "2026-08-19T20:54:53+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_004",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
+      "tentative_le": "2026-08-19T20:54:55+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_005",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/18GdU39RoV/",
+      "tentative_le": "2026-08-19T20:54:57+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "x_001",
+      "platform": "x",
+      "url": "https://x.com/i/status/2087872720012796385",
+      "tentative_le": "2026-08-19T20:55:00+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "instagram_001",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
+      "tentative_le": "2026-08-19T20:55:02+00:00",
+      "methode": "requête HTTP publique unique, sans authentification",
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "http_status": null,
+      "metadonnees_publiques": {},
+      "interactions_recuperees": 0,
+      "mur_authentification_detecte": false,
+      "accessible": false,
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "genere_le": "2026-08-19T21:02:13+00:00",
+  "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
+  "auteur": "Dr. Okba Ben Atia",
+  "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
+  "jeu_de_donnees": {
+    "type": "synthetique",
+    "synthetique": true,
+    "fichiers": [
+      "sample_interactions.csv"
+    ],
+    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+  },
+  "sources": [
+    {
+      "source_id": "facebook_001",
+      "plateforme": "facebook",
+      "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
+      "type_contenu": "video",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 47,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_002",
+      "plateforme": "facebook",
+      "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
+      "type_contenu": "publication",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 100,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_003",
+      "plateforme": "facebook",
+      "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
+      "type_contenu": "video",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 120,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_004",
+      "plateforme": "facebook",
+      "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
+      "type_contenu": "publication",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 74,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "facebook_005",
+      "plateforme": "facebook",
+      "url": "https://www.facebook.com/share/p/18GdU39RoV/",
+      "type_contenu": "publication",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 56,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "x_001",
+      "plateforme": "x",
+      "url": "https://x.com/i/status/2087872720012796385",
+      "type_contenu": "publication",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 74,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    },
+    {
+      "source_id": "instagram_001",
+      "plateforme": "instagram",
+      "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
+      "type_contenu": "reel",
+      "statut": "Données de démonstration",
+      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
+      "interactions": 50,
+      "publications": 2,
+      "collecte_tentee": true,
+      "http_status": null,
+      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "mur_authentification_detecte": false,
+      "metadonnees_publiques": {},
+      "limites": [
+        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+      ]
+    }
+  ],
+  "statuts_possibles": [
+    "Données disponibles",
+    "Accès partiel",
+    "Import manuel requis",
+    "Données de démonstration"
+  ],
+  "regles_collecte": [
+    "Aucune authentification, aucun cookie personnel, aucune session privée.",
+    "Aucun contournement de CAPTCHA, de protection anti-bot ou de limitation d'API.",
+    "Respect du fichier robots.txt de chaque plateforme.",
+    "Aucune donnée privée n'est recherchée ni conservée."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "etude": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "responsable": "Dr. Okba Ben Atia",
+  "note": "Liste des sources initiales réelles de l'étude. Le champ « statut_collecte » est mis à jour par analysis/collect.py ; il ne doit jamais être renseigné manuellement comme « Données disponibles » tant que les données n'ont pas été réellement importées.",
+  "sources": [
+    {
+      "source_id": "facebook_001",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
+      "type_contenu": "video",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "facebook_002",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
+      "type_contenu": "publication",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "facebook_003",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
+      "type_contenu": "video",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "facebook_004",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
+      "type_contenu": "publication",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "facebook_005",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/18GdU39RoV/",
+      "type_contenu": "publication",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "x_001",
+      "platform": "x",
+      "url": "https://x.com/i/status/2087872720012796385",
+      "type_contenu": "publication",
+      "thematique_declaree": "à qualifier manuellement"
+    },
+    {
+      "source_id": "instagram_001",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
+      "type_contenu": "reel",
+      "thematique_declaree": "à qualifier manuellement"
+    }
+  ]
+}

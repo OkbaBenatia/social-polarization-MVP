@@ -1,0 +1,5611 @@
+{
+  "genere_le": "2026-08-19T21:02:13+00:00",
+  "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
+  "auteur": "Dr. Okba Ben Atia",
+  "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
+  "jeu_de_donnees": {
+    "type": "synthetique",
+    "synthetique": true,
+    "fichiers": [
+      "sample_interactions.csv"
+    ],
+    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+  },
+  "profils": {
+    "toutes|toutes": {
+      "messages_avec_texte": 511,
+      "mots": [
+        {
+          "terme": "c'est",
+          "occurrences": 58
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 44
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 43
+        },
+        {
+          "terme": "rien",
+          "occurrences": 40
+        },
+        {
+          "terme": "suis",
+          "occurrences": 39
+        },
+        {
+          "terme": "travail",
+          "occurrences": 36
+        },
+        {
+          "terme": "trop",
+          "occurrences": 34
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 30
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 28
+        },
+        {
+          "terme": "années",
+          "occurrences": 28
+        },
+        {
+          "terme": "publié",
+          "occurrences": 28
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 28
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 28
+        },
+        {
+          "terme": "abordait",
+          "occurrences": 28
+        },
+        {
+          "terme": "page",
+          "occurrences": 28
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 27
+        },
+        {
+          "terme": "place",
+          "occurrences": 26
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 26
+        },
+        {
+          "terme": "question",
+          "occurrences": 25
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 25
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 28
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 28
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 28
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 28
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 28
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 22
+        },
+        {
+          "terme": "liberté croyance",
+          "occurrences": 22
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 19
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 19
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 19
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 19
+        },
+        {
+          "terme": "reste entier",
+          "occurrences": 19
+        },
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 18
+        },
+        {
+          "terme": "place français",
+          "occurrences": 17
+        },
+        {
+          "terme": "français l'école",
+          "occurrences": 17
+        },
+        {
+          "terme": "question honnête",
+          "occurrences": 17
+        },
+        {
+          "terme": "honnête données",
+          "occurrences": 17
+        },
+        {
+          "terme": "données existent",
+          "occurrences": 17
+        },
+        {
+          "terme": "existent réellement",
+          "occurrences": 17
+        },
+        {
+          "terme": "trop c'est",
+          "occurrences": 17
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "est",
+          "score": 0.0332
+        },
+        {
+          "terme": "suis",
+          "score": 0.028
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0262
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0247
+        },
+        {
+          "terme": "rien",
+          "score": 0.0243
+        },
+        {
+          "terme": "trop",
+          "score": 0.024
+        },
+        {
+          "terme": "travail",
+          "score": 0.0233
+        },
+        {
+          "terme": "école",
+          "score": 0.0224
+        },
+        {
+          "terme": "accord",
+          "score": 0.0214
+        },
+        {
+          "terme": "exactement",
+          "score": 0.021
+        },
+        {
+          "terme": "années",
+          "score": 0.0199
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0185
+        },
+        {
+          "terme": "abordait",
+          "score": 0.0182
+        },
+        {
+          "terme": "dernier",
+          "score": 0.0182
+        },
+        {
+          "terme": "page",
+          "score": 0.0182
+        },
+        {
+          "terme": "publié",
+          "score": 0.0182
+        },
+        {
+          "terme": "an",
+          "score": 0.0182
+        },
+        {
+          "terme": "colère",
+          "score": 0.017
+        },
+        {
+          "terme": "moque",
+          "score": 0.017
+        },
+        {
+          "terme": "ouvertement",
+          "score": 0.017
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 13
+        },
+        {
+          "terme": "#école",
+          "occurrences": 12
+        },
+        {
+          "terme": "#travail",
+          "occurrences": 12
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 11
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 10
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 10
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 10
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 9
+        },
+        {
+          "terme": "#arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "#société",
+          "occurrences": 8
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 8
+        },
+        {
+          "terme": "#هوية",
+          "occurrences": 7
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 7
+        },
+        {
+          "terme": "#université",
+          "occurrences": 6
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 6
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 6
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 6
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 6
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 4
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 3
+        }
+      ],
+      "message": ""
+    },
+    "toutes|facebook": {
+      "messages_avec_texte": 389,
+      "mots": [
+        {
+          "terme": "c'est",
+          "occurrences": 40
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 33
+        },
+        {
+          "terme": "suis",
+          "occurrences": 31
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 31
+        },
+        {
+          "terme": "travail",
+          "occurrences": 26
+        },
+        {
+          "terme": "rien",
+          "occurrences": 25
+        },
+        {
+          "terme": "trop",
+          "occurrences": 24
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 23
+        },
+        {
+          "terme": "années",
+          "occurrences": 23
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 22
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 21
+        },
+        {
+          "terme": "place",
+          "occurrences": 20
+        },
+        {
+          "terme": "sérieuse",
+          "occurrences": 20
+        },
+        {
+          "terme": "société",
+          "occurrences": 19
+        },
+        {
+          "terme": "merci",
+          "occurrences": 19
+        },
+        {
+          "terme": "question",
+          "occurrences": 19
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 19
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 19
+        },
+        {
+          "terme": "liberté",
+          "occurrences": 19
+        },
+        {
+          "terme": "croyance",
+          "occurrences": 19
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 23
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 19
+        },
+        {
+          "terme": "liberté croyance",
+          "occurrences": 19
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 19
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 19
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 19
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 19
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 17
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 17
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 17
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 17
+        },
+        {
+          "terme": "reste entier",
+          "occurrences": 17
+        },
+        {
+          "terme": "place français",
+          "occurrences": 14
+        },
+        {
+          "terme": "français l'école",
+          "occurrences": 14
+        },
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 14
+        },
+        {
+          "terme": "question honnête",
+          "occurrences": 13
+        },
+        {
+          "terme": "honnête données",
+          "occurrences": 13
+        },
+        {
+          "terme": "données existent",
+          "occurrences": 13
+        },
+        {
+          "terme": "existent réellement",
+          "occurrences": 13
+        },
+        {
+          "terme": "rapport foi",
+          "occurrences": 12
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "est",
+          "score": 0.0307
+        },
+        {
+          "terme": "suis",
+          "score": 0.0287
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0263
+        },
+        {
+          "terme": "école",
+          "score": 0.0241
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0236
+        },
+        {
+          "terme": "travail",
+          "score": 0.0222
+        },
+        {
+          "terme": "trop",
+          "score": 0.0222
+        },
+        {
+          "terme": "années",
+          "score": 0.0214
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0213
+        },
+        {
+          "terme": "accord",
+          "score": 0.0213
+        },
+        {
+          "terme": "rien",
+          "score": 0.0204
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0177
+        },
+        {
+          "terme": "merci",
+          "score": 0.0176
+        },
+        {
+          "terme": "rond",
+          "score": 0.0176
+        },
+        {
+          "terme": "reste",
+          "score": 0.0176
+        },
+        {
+          "terme": "décevant",
+          "score": 0.0176
+        },
+        {
+          "terme": "problème",
+          "score": 0.0176
+        },
+        {
+          "terme": "tourne",
+          "score": 0.0176
+        },
+        {
+          "terme": "entier",
+          "score": 0.0176
+        },
+        {
+          "terme": "dire",
+          "score": 0.0172
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#école",
+          "occurrences": 11
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 10
+        },
+        {
+          "terme": "#arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 8
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 8
+        },
+        {
+          "terme": "#travail",
+          "occurrences": 8
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 8
+        },
+        {
+          "terme": "#société",
+          "occurrences": 7
+        },
+        {
+          "terme": "#دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 6
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 6
+        },
+        {
+          "terme": "#université",
+          "occurrences": 5
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 5
+        },
+        {
+          "terme": "#هوية",
+          "occurrences": 5
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 5
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 4
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 4
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 3
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 3
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 2
+        }
+      ],
+      "message": ""
+    },
+    "toutes|instagram": {
+      "messages_avec_texte": 49,
+      "mots": [
+        {
+          "terme": "c'est",
+          "occurrences": 9
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 7
+        },
+        {
+          "terme": "trop",
+          "occurrences": 6
+        },
+        {
+          "terme": "rien",
+          "occurrences": 6
+        },
+        {
+          "terme": "suis",
+          "occurrences": 4
+        },
+        {
+          "terme": "années",
+          "occurrences": 4
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 4
+        },
+        {
+          "terme": "question",
+          "occurrences": 3
+        },
+        {
+          "terme": "colère",
+          "occurrences": 3
+        },
+        {
+          "terme": "moque",
+          "occurrences": 3
+        },
+        {
+          "terme": "ouvertement",
+          "occurrences": 3
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 3
+        },
+        {
+          "terme": "publié",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 3
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 3
+        },
+        {
+          "terme": "abordait",
+          "occurrences": 3
+        },
+        {
+          "terme": "page",
+          "occurrences": 3
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 3
+        },
+        {
+          "terme": "الكلام",
+          "occurrences": 3
+        },
+        {
+          "terme": "صحيح",
+          "occurrences": 3
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 4
+        },
+        {
+          "terme": "suis colère",
+          "occurrences": 3
+        },
+        {
+          "terme": "colère moque",
+          "occurrences": 3
+        },
+        {
+          "terme": "moque ouvertement",
+          "occurrences": 3
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 3
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 3
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 3
+        },
+        {
+          "terme": "الكلام صحيح",
+          "occurrences": 3
+        },
+        {
+          "terme": "صحيح ولا",
+          "occurrences": 3
+        },
+        {
+          "terme": "ولا يستند",
+          "occurrences": 3
+        },
+        {
+          "terme": "يستند اي",
+          "occurrences": 3
+        },
+        {
+          "terme": "اي دليل",
+          "occurrences": 3
+        },
+        {
+          "terme": "trop c'est",
+          "occurrences": 3
+        },
+        {
+          "terme": "c'est trop",
+          "occurrences": 3
+        },
+        {
+          "terme": "trop coupe",
+          "occurrences": 3
+        },
+        {
+          "terme": "coupe pleine",
+          "occurrences": 3
+        },
+        {
+          "terme": "sentiment d'appartenance",
+          "occurrences": 3
+        },
+        {
+          "terme": "c'est désastre",
+          "occurrences": 3
+        },
+        {
+          "terme": "désastre rien",
+          "occurrences": 3
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "est",
+          "score": 0.0521
+        },
+        {
+          "terme": "trop",
+          "score": 0.0445
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0421
+        },
+        {
+          "terme": "rien",
+          "score": 0.0389
+        },
+        {
+          "terme": "suis",
+          "score": 0.035
+        },
+        {
+          "terme": "colère",
+          "score": 0.0296
+        },
+        {
+          "terme": "ouvertement",
+          "score": 0.0296
+        },
+        {
+          "terme": "moque",
+          "score": 0.0296
+        },
+        {
+          "terme": "années",
+          "score": 0.0294
+        },
+        {
+          "terme": "culturelle",
+          "score": 0.0277
+        },
+        {
+          "terme": "identité",
+          "score": 0.0269
+        },
+        {
+          "terme": "pleine",
+          "score": 0.0263
+        },
+        {
+          "terme": "coupe",
+          "score": 0.0263
+        },
+        {
+          "terme": "accord",
+          "score": 0.0261
+        },
+        {
+          "terme": "صحيح",
+          "score": 0.025
+        },
+        {
+          "terme": "دليل",
+          "score": 0.025
+        },
+        {
+          "terme": "الكلام",
+          "score": 0.025
+        },
+        {
+          "terme": "ولا",
+          "score": 0.025
+        },
+        {
+          "terme": "يستند",
+          "score": 0.025
+        },
+        {
+          "terme": "اي",
+          "score": 0.025
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#هوية",
+          "occurrences": 2
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 2
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 2
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 1
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 1
+        },
+        {
+          "terme": "#دين",
+          "occurrences": 1
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 1
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 1
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 1
+        },
+        {
+          "terme": "#travail",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "toutes|x": {
+      "messages_avec_texte": 73,
+      "mots": [
+        {
+          "terme": "c'est",
+          "occurrences": 9
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 9
+        },
+        {
+          "terme": "rien",
+          "occurrences": 9
+        },
+        {
+          "terme": "travail",
+          "occurrences": 8
+        },
+        {
+          "terme": "دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 6
+        },
+        {
+          "terme": "publié",
+          "occurrences": 6
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 6
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 6
+        },
+        {
+          "terme": "abordait",
+          "occurrences": 6
+        },
+        {
+          "terme": "page",
+          "occurrences": 6
+        },
+        {
+          "terme": "religion",
+          "occurrences": 5
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 5
+        },
+        {
+          "terme": "trop",
+          "occurrences": 4
+        },
+        {
+          "terme": "علي",
+          "occurrences": 4
+        },
+        {
+          "terme": "place",
+          "occurrences": 4
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 4
+        },
+        {
+          "terme": "discuter",
+          "occurrences": 4
+        },
+        {
+          "terme": "transformer",
+          "occurrences": 4
+        },
+        {
+          "terme": "échange",
+          "occurrences": 4
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "rapport publié",
+          "occurrences": 6
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 6
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 6
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 6
+        },
+        {
+          "terme": "transformer échange",
+          "occurrences": 4
+        },
+        {
+          "terme": "échange affrontement",
+          "occurrences": 4
+        },
+        {
+          "terme": "الموضوع يحتاج",
+          "occurrences": 4
+        },
+        {
+          "terme": "يحتاج نقاش",
+          "occurrences": 4
+        },
+        {
+          "terme": "نقاش هادي",
+          "occurrences": 4
+        },
+        {
+          "terme": "هادي ومعطيات",
+          "occurrences": 4
+        },
+        {
+          "terme": "ومعطيات دقيقه",
+          "occurrences": 4
+        },
+        {
+          "terme": "mémoire collective",
+          "occurrences": 4
+        },
+        {
+          "terme": "menteur professionnel",
+          "occurrences": 3
+        },
+        {
+          "terme": "professionnel personne",
+          "occurrences": 3
+        },
+        {
+          "terme": "personne croit",
+          "occurrences": 3
+        },
+        {
+          "terme": "place religion",
+          "occurrences": 3
+        },
+        {
+          "terme": "religion l'espace",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'espace public",
+          "occurrences": 3
+        },
+        {
+          "terme": "bravo enfin",
+          "occurrences": 3
+        },
+        {
+          "terme": "enfin quelqu'un",
+          "occurrences": 3
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "rien",
+          "score": 0.0386
+        },
+        {
+          "terme": "est",
+          "score": 0.0373
+        },
+        {
+          "terme": "travail",
+          "score": 0.0364
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0355
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0288
+        },
+        {
+          "terme": "dernier",
+          "score": 0.0272
+        },
+        {
+          "terme": "publié",
+          "score": 0.0272
+        },
+        {
+          "terme": "page",
+          "score": 0.0272
+        },
+        {
+          "terme": "abordait",
+          "score": 0.0272
+        },
+        {
+          "terme": "an",
+          "score": 0.0272
+        },
+        {
+          "terme": "دين",
+          "score": 0.0251
+        },
+        {
+          "terme": "accord",
+          "score": 0.0229
+        },
+        {
+          "terme": "suis",
+          "score": 0.0227
+        },
+        {
+          "terme": "échange",
+          "score": 0.022
+        },
+        {
+          "terme": "transformer",
+          "score": 0.022
+        },
+        {
+          "terme": "discuter",
+          "score": 0.022
+        },
+        {
+          "terme": "affrontement",
+          "score": 0.022
+        },
+        {
+          "terme": "un",
+          "score": 0.0212
+        },
+        {
+          "terme": "quelqu",
+          "score": 0.0212
+        },
+        {
+          "terme": "école",
+          "score": 0.021
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 3
+        },
+        {
+          "terme": "#travail",
+          "occurrences": 3
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 3
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 2
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 2
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 2
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 1
+        },
+        {
+          "terme": "#université",
+          "occurrences": 1
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 1
+        },
+        {
+          "terme": "#société",
+          "occurrences": 1
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 1
+        },
+        {
+          "terme": "#école",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "1|toutes": {
+      "messages_avec_texte": 123,
+      "mots": [
+        {
+          "terme": "langue",
+          "occurrences": 19
+        },
+        {
+          "terme": "réforme",
+          "occurrences": 18
+        },
+        {
+          "terme": "universitaire",
+          "occurrences": 18
+        },
+        {
+          "terme": "place",
+          "occurrences": 17
+        },
+        {
+          "terme": "français",
+          "occurrences": 17
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 17
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 13
+        },
+        {
+          "terme": "l'arabisation",
+          "occurrences": 13
+        },
+        {
+          "terme": "programmes",
+          "occurrences": 13
+        },
+        {
+          "terme": "d'enseignement",
+          "occurrences": 13
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 12
+        },
+        {
+          "terme": "école",
+          "occurrences": 12
+        },
+        {
+          "terme": "bilinguisme",
+          "occurrences": 11
+        },
+        {
+          "terme": "suis",
+          "occurrences": 10
+        },
+        {
+          "terme": "rien",
+          "occurrences": 9
+        },
+        {
+          "terme": "question",
+          "occurrences": 9
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 9
+        },
+        {
+          "terme": "تعريب",
+          "occurrences": 9
+        },
+        {
+          "terme": "arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 8
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 18
+        },
+        {
+          "terme": "place français",
+          "occurrences": 17
+        },
+        {
+          "terme": "français l'école",
+          "occurrences": 17
+        },
+        {
+          "terme": "l'arabisation programmes",
+          "occurrences": 13
+        },
+        {
+          "terme": "langue d'enseignement",
+          "occurrences": 13
+        },
+        {
+          "terme": "depuis années",
+          "occurrences": 7
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 7
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 7
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 7
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 6
+        },
+        {
+          "terme": "question honnête",
+          "occurrences": 6
+        },
+        {
+          "terme": "honnête données",
+          "occurrences": 6
+        },
+        {
+          "terme": "données existent",
+          "occurrences": 6
+        },
+        {
+          "terme": "existent réellement",
+          "occurrences": 6
+        },
+        {
+          "terme": "suffit ment",
+          "occurrences": 6
+        },
+        {
+          "terme": "ment depuis",
+          "occurrences": 6
+        },
+        {
+          "terme": "c'est désastre",
+          "occurrences": 5
+        },
+        {
+          "terme": "désastre rien",
+          "occurrences": 5
+        },
+        {
+          "terme": "rien n'a",
+          "occurrences": 5
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "école",
+          "score": 0.0546
+        },
+        {
+          "terme": "arabisation",
+          "score": 0.0476
+        },
+        {
+          "terme": "langue",
+          "score": 0.0444
+        },
+        {
+          "terme": "universitaire",
+          "score": 0.0418
+        },
+        {
+          "terme": "réforme",
+          "score": 0.0418
+        },
+        {
+          "terme": "français",
+          "score": 0.0386
+        },
+        {
+          "terme": "place",
+          "score": 0.0386
+        },
+        {
+          "terme": "enseignement",
+          "score": 0.034
+        },
+        {
+          "terme": "programmes",
+          "score": 0.0336
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0323
+        },
+        {
+          "terme": "est",
+          "score": 0.0323
+        },
+        {
+          "terme": "suis",
+          "score": 0.0312
+        },
+        {
+          "terme": "bilinguisme",
+          "score": 0.0302
+        },
+        {
+          "terme": "question",
+          "score": 0.0266
+        },
+        {
+          "terme": "rien",
+          "score": 0.0258
+        },
+        {
+          "terme": "تعريب",
+          "score": 0.0247
+        },
+        {
+          "terme": "un",
+          "score": 0.0242
+        },
+        {
+          "terme": "quelqu",
+          "score": 0.0242
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0235
+        },
+        {
+          "terme": "années",
+          "score": 0.0232
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#école",
+          "occurrences": 12
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 9
+        },
+        {
+          "terme": "#arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "#université",
+          "occurrences": 6
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 6
+        }
+      ],
+      "message": ""
+    },
+    "1|facebook": {
+      "messages_avec_texte": 99,
+      "mots": [
+        {
+          "terme": "place",
+          "occurrences": 14
+        },
+        {
+          "terme": "français",
+          "occurrences": 14
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 14
+        },
+        {
+          "terme": "réforme",
+          "occurrences": 14
+        },
+        {
+          "terme": "universitaire",
+          "occurrences": 14
+        },
+        {
+          "terme": "langue",
+          "occurrences": 14
+        },
+        {
+          "terme": "école",
+          "occurrences": 11
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 10
+        },
+        {
+          "terme": "l'arabisation",
+          "occurrences": 10
+        },
+        {
+          "terme": "programmes",
+          "occurrences": 10
+        },
+        {
+          "terme": "bilinguisme",
+          "occurrences": 10
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 9
+        },
+        {
+          "terme": "d'enseignement",
+          "occurrences": 9
+        },
+        {
+          "terme": "arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "suis",
+          "occurrences": 8
+        },
+        {
+          "terme": "question",
+          "occurrences": 8
+        },
+        {
+          "terme": "تعريب",
+          "occurrences": 8
+        },
+        {
+          "terme": "années",
+          "occurrences": 7
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 7
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 6
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "place français",
+          "occurrences": 14
+        },
+        {
+          "terme": "français l'école",
+          "occurrences": 14
+        },
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 14
+        },
+        {
+          "terme": "l'arabisation programmes",
+          "occurrences": 10
+        },
+        {
+          "terme": "langue d'enseignement",
+          "occurrences": 9
+        },
+        {
+          "terme": "depuis années",
+          "occurrences": 7
+        },
+        {
+          "terme": "suffit ment",
+          "occurrences": 6
+        },
+        {
+          "terme": "ment depuis",
+          "occurrences": 6
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 5
+        },
+        {
+          "terme": "question honnête",
+          "occurrences": 5
+        },
+        {
+          "terme": "honnête données",
+          "occurrences": 5
+        },
+        {
+          "terme": "données existent",
+          "occurrences": 5
+        },
+        {
+          "terme": "existent réellement",
+          "occurrences": 5
+        },
+        {
+          "terme": "quelqu'un a-t-il",
+          "occurrences": 4
+        },
+        {
+          "terme": "a-t-il source",
+          "occurrences": 4
+        },
+        {
+          "terme": "source sérieuse",
+          "occurrences": 4
+        },
+        {
+          "terme": "sérieuse concernant",
+          "occurrences": 4
+        },
+        {
+          "terme": "شكرا علي",
+          "occurrences": 4
+        },
+        {
+          "terme": "علي الطرح",
+          "occurrences": 4
+        },
+        {
+          "terme": "الطرح الممتاز",
+          "occurrences": 4
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "école",
+          "score": 0.0585
+        },
+        {
+          "terme": "arabisation",
+          "score": 0.0516
+        },
+        {
+          "terme": "langue",
+          "score": 0.0427
+        },
+        {
+          "terme": "réforme",
+          "score": 0.0416
+        },
+        {
+          "terme": "universitaire",
+          "score": 0.0416
+        },
+        {
+          "terme": "place",
+          "score": 0.0399
+        },
+        {
+          "terme": "français",
+          "score": 0.0399
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0342
+        },
+        {
+          "terme": "bilinguisme",
+          "score": 0.0337
+        },
+        {
+          "terme": "programmes",
+          "score": 0.0336
+        },
+        {
+          "terme": "enseignement",
+          "score": 0.0311
+        },
+        {
+          "terme": "suis",
+          "score": 0.0308
+        },
+        {
+          "terme": "question",
+          "score": 0.0289
+        },
+        {
+          "terme": "est",
+          "score": 0.0284
+        },
+        {
+          "terme": "années",
+          "score": 0.0282
+        },
+        {
+          "terme": "تعريب",
+          "score": 0.0268
+        },
+        {
+          "terme": "suffit",
+          "score": 0.0255
+        },
+        {
+          "terme": "ment",
+          "score": 0.0255
+        },
+        {
+          "terme": "quelqu",
+          "score": 0.0235
+        },
+        {
+          "terme": "un",
+          "score": 0.0235
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#école",
+          "occurrences": 11
+        },
+        {
+          "terme": "#arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 8
+        },
+        {
+          "terme": "#université",
+          "occurrences": 5
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 5
+        }
+      ],
+      "message": ""
+    },
+    "1|instagram": {
+      "messages_avec_texte": 10,
+      "mots": [
+        {
+          "terme": "langue",
+          "occurrences": 3
+        },
+        {
+          "terme": "place",
+          "occurrences": 2
+        },
+        {
+          "terme": "français",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 2
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 2
+        },
+        {
+          "terme": "d'enseignement",
+          "occurrences": 2
+        },
+        {
+          "terme": "rien",
+          "occurrences": 2
+        },
+        {
+          "terme": "es",
+          "occurrences": 1
+        },
+        {
+          "terme": "ridicule",
+          "occurrences": 1
+        },
+        {
+          "terme": "va",
+          "occurrences": 1
+        },
+        {
+          "terme": "apprendre",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'ouvrir",
+          "occurrences": 1
+        },
+        {
+          "terme": "bouche",
+          "occurrences": 1
+        },
+        {
+          "terme": "كذاب،",
+          "occurrences": 1
+        },
+        {
+          "terme": "عندك",
+          "occurrences": 1
+        },
+        {
+          "terme": "حتي",
+          "occurrences": 1
+        },
+        {
+          "terme": "فكره",
+          "occurrences": 1
+        },
+        {
+          "terme": "علي",
+          "occurrences": 1
+        },
+        {
+          "terme": "suis",
+          "occurrences": 1
+        },
+        {
+          "terme": "l'argument",
+          "occurrences": 1
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "place français",
+          "occurrences": 2
+        },
+        {
+          "terme": "français l'école",
+          "occurrences": 2
+        },
+        {
+          "terme": "langue d'enseignement",
+          "occurrences": 2
+        },
+        {
+          "terme": "es ridicule",
+          "occurrences": 1
+        },
+        {
+          "terme": "ridicule va",
+          "occurrences": 1
+        },
+        {
+          "terme": "va apprendre",
+          "occurrences": 1
+        },
+        {
+          "terme": "apprendre d'ouvrir",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'ouvrir bouche",
+          "occurrences": 1
+        },
+        {
+          "terme": "كذاب، عندك",
+          "occurrences": 1
+        },
+        {
+          "terme": "عندك حتي",
+          "occurrences": 1
+        },
+        {
+          "terme": "حتي فكره",
+          "occurrences": 1
+        },
+        {
+          "terme": "فكره علي",
+          "occurrences": 1
+        },
+        {
+          "terme": "علي place",
+          "occurrences": 1
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'accord l'argument",
+          "occurrences": 1
+        },
+        {
+          "terme": "l'argument langue",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'enseignement tient",
+          "occurrences": 1
+        },
+        {
+          "terme": "discuter réforme",
+          "occurrences": 1
+        },
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 1
+        },
+        {
+          "terme": "universitaire transformer",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "langue",
+          "score": 0.0989
+        },
+        {
+          "terme": "accord",
+          "score": 0.0791
+        },
+        {
+          "terme": "rien",
+          "score": 0.0726
+        },
+        {
+          "terme": "enseignement",
+          "score": 0.072
+        },
+        {
+          "terme": "français",
+          "score": 0.0603
+        },
+        {
+          "terme": "place",
+          "score": 0.0603
+        },
+        {
+          "terme": "école",
+          "score": 0.0603
+        },
+        {
+          "terme": "soutien",
+          "score": 0.0518
+        },
+        {
+          "terme": "lâchez",
+          "score": 0.0518
+        },
+        {
+          "terme": "avez",
+          "score": 0.0518
+        },
+        {
+          "terme": "défendre",
+          "score": 0.0484
+        },
+        {
+          "terme": "faut",
+          "score": 0.0484
+        },
+        {
+          "terme": "idée",
+          "score": 0.0484
+        },
+        {
+          "terme": "suis",
+          "score": 0.0447
+        },
+        {
+          "terme": "tient",
+          "score": 0.0447
+        },
+        {
+          "terme": "argument",
+          "score": 0.0447
+        },
+        {
+          "terme": "va",
+          "score": 0.0408
+        },
+        {
+          "terme": "ridicule",
+          "score": 0.0408
+        },
+        {
+          "terme": "universitaire",
+          "score": 0.0408
+        },
+        {
+          "terme": "transformer",
+          "score": 0.0408
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#langue",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "1|x": {
+      "messages_avec_texte": 14,
+      "mots": [
+        {
+          "terme": "rapport",
+          "occurrences": 3
+        },
+        {
+          "terme": "publié",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 3
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 3
+        },
+        {
+          "terme": "abordait",
+          "occurrences": 3
+        },
+        {
+          "terme": "réforme",
+          "occurrences": 3
+        },
+        {
+          "terme": "universitaire",
+          "occurrences": 3
+        },
+        {
+          "terme": "page",
+          "occurrences": 3
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 3
+        },
+        {
+          "terme": "langue",
+          "occurrences": 2
+        },
+        {
+          "terme": "d'enseignement",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'arabisation",
+          "occurrences": 2
+        },
+        {
+          "terme": "programmes",
+          "occurrences": 2
+        },
+        {
+          "terme": "rien",
+          "occurrences": 2
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 2
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 2
+        },
+        {
+          "terme": "menteur",
+          "occurrences": 1
+        },
+        {
+          "terme": "professionnel",
+          "occurrences": 1
+        },
+        {
+          "terme": "personne",
+          "occurrences": 1
+        },
+        {
+          "terme": "croit",
+          "occurrences": 1
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "rapport publié",
+          "occurrences": 3
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 3
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 3
+        },
+        {
+          "terme": "réforme universitaire",
+          "occurrences": 3
+        },
+        {
+          "terme": "langue d'enseignement",
+          "occurrences": 2
+        },
+        {
+          "terme": "abordait réforme",
+          "occurrences": 2
+        },
+        {
+          "terme": "universitaire page",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'arabisation programmes",
+          "occurrences": 2
+        },
+        {
+          "terme": "menteur professionnel",
+          "occurrences": 1
+        },
+        {
+          "terme": "professionnel personne",
+          "occurrences": 1
+        },
+        {
+          "terme": "personne croit",
+          "occurrences": 1
+        },
+        {
+          "terme": "merci d'aborder",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'aborder langue",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'enseignement autant",
+          "occurrences": 1
+        },
+        {
+          "terme": "autant calme",
+          "occurrences": 1
+        },
+        {
+          "terme": "calme respect",
+          "occurrences": 1
+        },
+        {
+          "terme": "abordait l'arabisation",
+          "occurrences": 1
+        },
+        {
+          "terme": "programmes page",
+          "occurrences": 1
+        },
+        {
+          "terme": "page université",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "an",
+          "score": 0.0729
+        },
+        {
+          "terme": "dernier",
+          "score": 0.0729
+        },
+        {
+          "terme": "page",
+          "score": 0.0729
+        },
+        {
+          "terme": "publié",
+          "score": 0.0729
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0729
+        },
+        {
+          "terme": "abordait",
+          "score": 0.0729
+        },
+        {
+          "terme": "réforme",
+          "score": 0.0726
+        },
+        {
+          "terme": "universitaire",
+          "score": 0.0726
+        },
+        {
+          "terme": "est",
+          "score": 0.0667
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0515
+        },
+        {
+          "terme": "enseignement",
+          "score": 0.0495
+        },
+        {
+          "terme": "langue",
+          "score": 0.0495
+        },
+        {
+          "terme": "rien",
+          "score": 0.0473
+        },
+        {
+          "terme": "programmes",
+          "score": 0.0472
+        },
+        {
+          "terme": "arabisation",
+          "score": 0.0472
+        },
+        {
+          "terme": "école",
+          "score": 0.0456
+        },
+        {
+          "terme": "un",
+          "score": 0.0451
+        },
+        {
+          "terme": "quelqu",
+          "score": 0.0451
+        },
+        {
+          "terme": "suis",
+          "score": 0.0357
+        },
+        {
+          "terme": "imbécile",
+          "score": 0.0357
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#université",
+          "occurrences": 1
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 1
+        },
+        {
+          "terme": "#école",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "2|toutes": {
+      "messages_avec_texte": 123,
+      "mots": [
+        {
+          "terme": "travail",
+          "occurrences": 26
+        },
+        {
+          "terme": "suis",
+          "occurrences": 16
+        },
+        {
+          "terme": "rien",
+          "occurrences": 16
+        },
+        {
+          "terme": "conditions",
+          "occurrences": 15
+        },
+        {
+          "terme": "logement",
+          "occurrences": 15
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 15
+        },
+        {
+          "terme": "politique",
+          "occurrences": 14
+        },
+        {
+          "terme": "migratoire",
+          "occurrences": 14
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 14
+        },
+        {
+          "terme": "l'emploi",
+          "occurrences": 10
+        },
+        {
+          "terme": "formation",
+          "occurrences": 10
+        },
+        {
+          "terme": "l'immigration",
+          "occurrences": 10
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 9
+        },
+        {
+          "terme": "l'argument",
+          "occurrences": 8
+        },
+        {
+          "terme": "tient",
+          "occurrences": 8
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 8
+        },
+        {
+          "terme": "ولا",
+          "occurrences": 8
+        },
+        {
+          "terme": "publié",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 7
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 7
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "conditions logement",
+          "occurrences": 15
+        },
+        {
+          "terme": "politique migratoire",
+          "occurrences": 14
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 11
+        },
+        {
+          "terme": "l'emploi formation",
+          "occurrences": 10
+        },
+        {
+          "terme": "l'immigration travail",
+          "occurrences": 10
+        },
+        {
+          "terme": "d'accord l'argument",
+          "occurrences": 8
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 7
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 7
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 7
+        },
+        {
+          "terme": "c'est désastre",
+          "occurrences": 6
+        },
+        {
+          "terme": "désastre rien",
+          "occurrences": 6
+        },
+        {
+          "terme": "rien n'a",
+          "occurrences": 6
+        },
+        {
+          "terme": "n'a avancé",
+          "occurrences": 6
+        },
+        {
+          "terme": "depuis dix",
+          "occurrences": 6
+        },
+        {
+          "terme": "dix ans",
+          "occurrences": 6
+        },
+        {
+          "terme": "الموضوع يحتاج",
+          "occurrences": 6
+        },
+        {
+          "terme": "يحتاج نقاش",
+          "occurrences": 6
+        },
+        {
+          "terme": "نقاش هادي",
+          "occurrences": 6
+        },
+        {
+          "terme": "هادي ومعطيات",
+          "occurrences": 6
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "travail",
+          "score": 0.0528
+        },
+        {
+          "terme": "suis",
+          "score": 0.0457
+        },
+        {
+          "terme": "rien",
+          "score": 0.0409
+        },
+        {
+          "terme": "accord",
+          "score": 0.0405
+        },
+        {
+          "terme": "est",
+          "score": 0.0365
+        },
+        {
+          "terme": "conditions",
+          "score": 0.0364
+        },
+        {
+          "terme": "logement",
+          "score": 0.0364
+        },
+        {
+          "terme": "immigration",
+          "score": 0.0358
+        },
+        {
+          "terme": "politique",
+          "score": 0.0349
+        },
+        {
+          "terme": "migratoire",
+          "score": 0.0349
+        },
+        {
+          "terme": "formation",
+          "score": 0.0288
+        },
+        {
+          "terme": "emploi",
+          "score": 0.0288
+        },
+        {
+          "terme": "tient",
+          "score": 0.0275
+        },
+        {
+          "terme": "argument",
+          "score": 0.0275
+        },
+        {
+          "terme": "ولا",
+          "score": 0.0232
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0229
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0223
+        },
+        {
+          "terme": "colère",
+          "score": 0.0213
+        },
+        {
+          "terme": "moque",
+          "score": 0.0213
+        },
+        {
+          "terme": "ouvertement",
+          "score": 0.0213
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#travail",
+          "occurrences": 12
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 6
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 6
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 4
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 3
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 2
+        }
+      ],
+      "message": ""
+    },
+    "2|facebook": {
+      "messages_avec_texte": 90,
+      "mots": [
+        {
+          "terme": "travail",
+          "occurrences": 19
+        },
+        {
+          "terme": "suis",
+          "occurrences": 14
+        },
+        {
+          "terme": "conditions",
+          "occurrences": 12
+        },
+        {
+          "terme": "logement",
+          "occurrences": 12
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 12
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 11
+        },
+        {
+          "terme": "rien",
+          "occurrences": 11
+        },
+        {
+          "terme": "politique",
+          "occurrences": 10
+        },
+        {
+          "terme": "migratoire",
+          "occurrences": 10
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 9
+        },
+        {
+          "terme": "l'emploi",
+          "occurrences": 8
+        },
+        {
+          "terme": "formation",
+          "occurrences": 8
+        },
+        {
+          "terme": "l'immigration",
+          "occurrences": 8
+        },
+        {
+          "terme": "l'argument",
+          "occurrences": 7
+        },
+        {
+          "terme": "tient",
+          "occurrences": 7
+        },
+        {
+          "terme": "publié",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'an",
+          "occurrences": 7
+        },
+        {
+          "terme": "dernier",
+          "occurrences": 7
+        },
+        {
+          "terme": "abordait",
+          "occurrences": 7
+        },
+        {
+          "terme": "page",
+          "occurrences": 7
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "conditions logement",
+          "occurrences": 12
+        },
+        {
+          "terme": "politique migratoire",
+          "occurrences": 10
+        },
+        {
+          "terme": "suis d'accord",
+          "occurrences": 10
+        },
+        {
+          "terme": "l'emploi formation",
+          "occurrences": 8
+        },
+        {
+          "terme": "l'immigration travail",
+          "occurrences": 8
+        },
+        {
+          "terme": "d'accord l'argument",
+          "occurrences": 7
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 7
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 7
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 7
+        },
+        {
+          "terme": "c'est désastre",
+          "occurrences": 5
+        },
+        {
+          "terme": "désastre rien",
+          "occurrences": 5
+        },
+        {
+          "terme": "rien n'a",
+          "occurrences": 5
+        },
+        {
+          "terme": "n'a avancé",
+          "occurrences": 5
+        },
+        {
+          "terme": "depuis dix",
+          "occurrences": 5
+        },
+        {
+          "terme": "dix ans",
+          "occurrences": 5
+        },
+        {
+          "terme": "faudrait chiffres",
+          "occurrences": 4
+        },
+        {
+          "terme": "chiffres précis",
+          "occurrences": 4
+        },
+        {
+          "terme": "suis colère",
+          "occurrences": 4
+        },
+        {
+          "terme": "colère moque",
+          "occurrences": 4
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "suis",
+          "score": 0.0535
+        },
+        {
+          "terme": "travail",
+          "score": 0.0533
+        },
+        {
+          "terme": "accord",
+          "score": 0.0463
+        },
+        {
+          "terme": "logement",
+          "score": 0.0401
+        },
+        {
+          "terme": "conditions",
+          "score": 0.0401
+        },
+        {
+          "terme": "rien",
+          "score": 0.0383
+        },
+        {
+          "terme": "immigration",
+          "score": 0.0374
+        },
+        {
+          "terme": "est",
+          "score": 0.0371
+        },
+        {
+          "terme": "migratoire",
+          "score": 0.0361
+        },
+        {
+          "terme": "politique",
+          "score": 0.0361
+        },
+        {
+          "terme": "argument",
+          "score": 0.0324
+        },
+        {
+          "terme": "tient",
+          "score": 0.0324
+        },
+        {
+          "terme": "formation",
+          "score": 0.0313
+        },
+        {
+          "terme": "emploi",
+          "score": 0.0313
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0308
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0262
+        },
+        {
+          "terme": "publié",
+          "score": 0.0262
+        },
+        {
+          "terme": "an",
+          "score": 0.0262
+        },
+        {
+          "terme": "page",
+          "score": 0.0262
+        },
+        {
+          "terme": "abordait",
+          "score": 0.0262
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#travail",
+          "occurrences": 8
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 5
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 3
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 3
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 2
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 2
+        }
+      ],
+      "message": ""
+    },
+    "2|instagram": {
+      "messages_avec_texte": 14,
+      "mots": [
+        {
+          "terme": "imbécile",
+          "occurrences": 2
+        },
+        {
+          "terme": "ferait",
+          "occurrences": 2
+        },
+        {
+          "terme": "mieux",
+          "occurrences": 2
+        },
+        {
+          "terme": "taire",
+          "occurrences": 2
+        },
+        {
+          "terme": "الكلام",
+          "occurrences": 2
+        },
+        {
+          "terme": "صحيح",
+          "occurrences": 2
+        },
+        {
+          "terme": "ولا",
+          "occurrences": 2
+        },
+        {
+          "terme": "يستند",
+          "occurrences": 2
+        },
+        {
+          "terme": "اي",
+          "occurrences": 2
+        },
+        {
+          "terme": "دليل",
+          "occurrences": 2
+        },
+        {
+          "terme": "trop",
+          "occurrences": 2
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'accueil",
+          "occurrences": 2
+        },
+        {
+          "terme": "nouveaux",
+          "occurrences": 2
+        },
+        {
+          "terme": "arrivants",
+          "occurrences": 2
+        },
+        {
+          "terme": "politique",
+          "occurrences": 2
+        },
+        {
+          "terme": "migratoire",
+          "occurrences": 2
+        },
+        {
+          "terme": "respect",
+          "occurrences": 1
+        },
+        {
+          "terme": "courage",
+          "occurrences": 1
+        },
+        {
+          "terme": "poser",
+          "occurrences": 1
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "imbécile ferait",
+          "occurrences": 2
+        },
+        {
+          "terme": "ferait mieux",
+          "occurrences": 2
+        },
+        {
+          "terme": "mieux taire",
+          "occurrences": 2
+        },
+        {
+          "terme": "الكلام صحيح",
+          "occurrences": 2
+        },
+        {
+          "terme": "صحيح ولا",
+          "occurrences": 2
+        },
+        {
+          "terme": "ولا يستند",
+          "occurrences": 2
+        },
+        {
+          "terme": "يستند اي",
+          "occurrences": 2
+        },
+        {
+          "terme": "اي دليل",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'accueil nouveaux",
+          "occurrences": 2
+        },
+        {
+          "terme": "nouveaux arrivants",
+          "occurrences": 2
+        },
+        {
+          "terme": "politique migratoire",
+          "occurrences": 2
+        },
+        {
+          "terme": "respect courage",
+          "occurrences": 1
+        },
+        {
+          "terme": "courage poser",
+          "occurrences": 1
+        },
+        {
+          "terme": "poser question",
+          "occurrences": 1
+        },
+        {
+          "terme": "question l'emploi",
+          "occurrences": 1
+        },
+        {
+          "terme": "l'emploi formation",
+          "occurrences": 1
+        },
+        {
+          "terme": "formation publiquement",
+          "occurrences": 1
+        },
+        {
+          "terme": "suis colère",
+          "occurrences": 1
+        },
+        {
+          "terme": "colère moque",
+          "occurrences": 1
+        },
+        {
+          "terme": "moque ouvertement",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "imbécile",
+          "score": 0.0714
+        },
+        {
+          "terme": "ferait",
+          "score": 0.0714
+        },
+        {
+          "terme": "taire",
+          "score": 0.0714
+        },
+        {
+          "terme": "mieux",
+          "score": 0.0714
+        },
+        {
+          "terme": "الكلام",
+          "score": 0.0583
+        },
+        {
+          "terme": "يستند",
+          "score": 0.0583
+        },
+        {
+          "terme": "ولا",
+          "score": 0.0583
+        },
+        {
+          "terme": "اي",
+          "score": 0.0583
+        },
+        {
+          "terme": "دليل",
+          "score": 0.0583
+        },
+        {
+          "terme": "صحيح",
+          "score": 0.0583
+        },
+        {
+          "terme": "trop",
+          "score": 0.051
+        },
+        {
+          "terme": "politique",
+          "score": 0.0506
+        },
+        {
+          "terme": "migratoire",
+          "score": 0.0506
+        },
+        {
+          "terme": "est",
+          "score": 0.0499
+        },
+        {
+          "terme": "arrivants",
+          "score": 0.0495
+        },
+        {
+          "terme": "nouveaux",
+          "score": 0.0495
+        },
+        {
+          "terme": "accueil",
+          "score": 0.0495
+        },
+        {
+          "terme": "ouvertement",
+          "score": 0.0319
+        },
+        {
+          "terme": "suis",
+          "score": 0.0319
+        },
+        {
+          "terme": "colère",
+          "score": 0.0319
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#immigration",
+          "occurrences": 1
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 1
+        },
+        {
+          "terme": "#travail",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "2|x": {
+      "messages_avec_texte": 19,
+      "mots": [
+        {
+          "terme": "travail",
+          "occurrences": 6
+        },
+        {
+          "terme": "rien",
+          "occurrences": 4
+        },
+        {
+          "terme": "discuter",
+          "occurrences": 3
+        },
+        {
+          "terme": "transformer",
+          "occurrences": 3
+        },
+        {
+          "terme": "échange",
+          "occurrences": 3
+        },
+        {
+          "terme": "affrontement",
+          "occurrences": 3
+        },
+        {
+          "terme": "conditions",
+          "occurrences": 3
+        },
+        {
+          "terme": "logement",
+          "occurrences": 3
+        },
+        {
+          "terme": "الموضوع",
+          "occurrences": 3
+        },
+        {
+          "terme": "يحتاج",
+          "occurrences": 3
+        },
+        {
+          "terme": "نقاش",
+          "occurrences": 3
+        },
+        {
+          "terme": "هادي",
+          "occurrences": 3
+        },
+        {
+          "terme": "ومعطيات",
+          "occurrences": 3
+        },
+        {
+          "terme": "دقيقه",
+          "occurrences": 3
+        },
+        {
+          "terme": "frontières",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'immigration",
+          "occurrences": 2
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 2
+        },
+        {
+          "terme": "politique",
+          "occurrences": 2
+        },
+        {
+          "terme": "migratoire",
+          "occurrences": 2
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 2
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "transformer échange",
+          "occurrences": 3
+        },
+        {
+          "terme": "échange affrontement",
+          "occurrences": 3
+        },
+        {
+          "terme": "conditions logement",
+          "occurrences": 3
+        },
+        {
+          "terme": "الموضوع يحتاج",
+          "occurrences": 3
+        },
+        {
+          "terme": "يحتاج نقاش",
+          "occurrences": 3
+        },
+        {
+          "terme": "نقاش هادي",
+          "occurrences": 3
+        },
+        {
+          "terme": "هادي ومعطيات",
+          "occurrences": 3
+        },
+        {
+          "terme": "ومعطيات دقيقه",
+          "occurrences": 3
+        },
+        {
+          "terme": "discuter l'immigration",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'immigration travail",
+          "occurrences": 2
+        },
+        {
+          "terme": "travail transformer",
+          "occurrences": 2
+        },
+        {
+          "terme": "politique migratoire",
+          "occurrences": 2
+        },
+        {
+          "terme": "دقيقه frontières",
+          "occurrences": 2
+        },
+        {
+          "terme": "avez soutien",
+          "occurrences": 2
+        },
+        {
+          "terme": "soutien lâchez",
+          "occurrences": 2
+        },
+        {
+          "terme": "lâchez rien",
+          "occurrences": 2
+        },
+        {
+          "terme": "discuter conditions",
+          "occurrences": 1
+        },
+        {
+          "terme": "logement transformer",
+          "occurrences": 1
+        },
+        {
+          "terme": "الكلام صحيح",
+          "occurrences": 1
+        },
+        {
+          "terme": "صحيح ولا",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "travail",
+          "score": 0.0908
+        },
+        {
+          "terme": "rien",
+          "score": 0.075
+        },
+        {
+          "terme": "échange",
+          "score": 0.065
+        },
+        {
+          "terme": "transformer",
+          "score": 0.065
+        },
+        {
+          "terme": "affrontement",
+          "score": 0.065
+        },
+        {
+          "terme": "discuter",
+          "score": 0.065
+        },
+        {
+          "terme": "نقاش",
+          "score": 0.0602
+        },
+        {
+          "terme": "هادي",
+          "score": 0.0602
+        },
+        {
+          "terme": "يحتاج",
+          "score": 0.0602
+        },
+        {
+          "terme": "ومعطيات",
+          "score": 0.0602
+        },
+        {
+          "terme": "الموضوع",
+          "score": 0.0602
+        },
+        {
+          "terme": "دقيقه",
+          "score": 0.0602
+        },
+        {
+          "terme": "logement",
+          "score": 0.0553
+        },
+        {
+          "terme": "conditions",
+          "score": 0.0553
+        },
+        {
+          "terme": "frontières",
+          "score": 0.0553
+        },
+        {
+          "terme": "lâchez",
+          "score": 0.0549
+        },
+        {
+          "terme": "soutien",
+          "score": 0.0549
+        },
+        {
+          "terme": "avez",
+          "score": 0.0549
+        },
+        {
+          "terme": "faut",
+          "score": 0.0483
+        },
+        {
+          "terme": "immigration",
+          "score": 0.0483
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#travail",
+          "occurrences": 3
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 3
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "3|toutes": {
+      "messages_avec_texte": 129,
+      "mots": [
+        {
+          "terme": "rapport",
+          "occurrences": 21
+        },
+        {
+          "terme": "société",
+          "occurrences": 21
+        },
+        {
+          "terme": "liberté",
+          "occurrences": 20
+        },
+        {
+          "terme": "croyance",
+          "occurrences": 20
+        },
+        {
+          "terme": "valeurs",
+          "occurrences": 18
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 16
+        },
+        {
+          "terme": "foi",
+          "occurrences": 13
+        },
+        {
+          "terme": "دين",
+          "occurrences": 13
+        },
+        {
+          "terme": "religion",
+          "occurrences": 13
+        },
+        {
+          "terme": "traditions",
+          "occurrences": 11
+        },
+        {
+          "terme": "familiales",
+          "occurrences": 11
+        },
+        {
+          "terme": "transmises",
+          "occurrences": 10
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 10
+        },
+        {
+          "terme": "tradition",
+          "occurrences": 10
+        },
+        {
+          "terme": "trop",
+          "occurrences": 10
+        },
+        {
+          "terme": "sérieuse",
+          "occurrences": 9
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 9
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 9
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 9
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 8
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "liberté croyance",
+          "occurrences": 20
+        },
+        {
+          "terme": "rapport foi",
+          "occurrences": 13
+        },
+        {
+          "terme": "foi société",
+          "occurrences": 13
+        },
+        {
+          "terme": "traditions familiales",
+          "occurrences": 11
+        },
+        {
+          "terme": "valeurs transmises",
+          "occurrences": 10
+        },
+        {
+          "terme": "transmises l'école",
+          "occurrences": 10
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 8
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 8
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 8
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 8
+        },
+        {
+          "terme": "place religion",
+          "occurrences": 7
+        },
+        {
+          "terme": "religion l'espace",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'espace public",
+          "occurrences": 7
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 5
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 5
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 5
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 5
+        },
+        {
+          "terme": "reste entier",
+          "occurrences": 5
+        },
+        {
+          "terme": "transformer échange",
+          "occurrences": 5
+        },
+        {
+          "terme": "échange affrontement",
+          "occurrences": 5
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "liberté",
+          "score": 0.044
+        },
+        {
+          "terme": "croyance",
+          "score": 0.044
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0433
+        },
+        {
+          "terme": "société",
+          "score": 0.0422
+        },
+        {
+          "terme": "valeurs",
+          "score": 0.0391
+        },
+        {
+          "terme": "est",
+          "score": 0.0371
+        },
+        {
+          "terme": "foi",
+          "score": 0.0304
+        },
+        {
+          "terme": "دين",
+          "score": 0.0296
+        },
+        {
+          "terme": "religion",
+          "score": 0.0281
+        },
+        {
+          "terme": "trop",
+          "score": 0.0276
+        },
+        {
+          "terme": "familiales",
+          "score": 0.0271
+        },
+        {
+          "terme": "traditions",
+          "score": 0.0271
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0267
+        },
+        {
+          "terme": "tradition",
+          "score": 0.0259
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0252
+        },
+        {
+          "terme": "transmises",
+          "score": 0.0247
+        },
+        {
+          "terme": "école",
+          "score": 0.0247
+        },
+        {
+          "terme": "partager",
+          "score": 0.0244
+        },
+        {
+          "terme": "sérieuse",
+          "score": 0.0237
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0235
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 13
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 10
+        },
+        {
+          "terme": "#société",
+          "occurrences": 8
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 8
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 6
+        }
+      ],
+      "message": ""
+    },
+    "3|facebook": {
+      "messages_avec_texte": 98,
+      "mots": [
+        {
+          "terme": "société",
+          "occurrences": 17
+        },
+        {
+          "terme": "liberté",
+          "occurrences": 17
+        },
+        {
+          "terme": "croyance",
+          "occurrences": 17
+        },
+        {
+          "terme": "valeurs",
+          "occurrences": 15
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 15
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 12
+        },
+        {
+          "terme": "foi",
+          "occurrences": 10
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 8
+        },
+        {
+          "terme": "religion",
+          "occurrences": 8
+        },
+        {
+          "terme": "tradition",
+          "occurrences": 8
+        },
+        {
+          "terme": "trop",
+          "occurrences": 8
+        },
+        {
+          "terme": "transmises",
+          "occurrences": 7
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 7
+        },
+        {
+          "terme": "sérieuse",
+          "occurrences": 7
+        },
+        {
+          "terme": "bravo",
+          "occurrences": 7
+        },
+        {
+          "terme": "quelqu'un",
+          "occurrences": 6
+        },
+        {
+          "terme": "traditions",
+          "occurrences": 6
+        },
+        {
+          "terme": "familiales",
+          "occurrences": 6
+        },
+        {
+          "terme": "دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 6
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "liberté croyance",
+          "occurrences": 17
+        },
+        {
+          "terme": "rapport foi",
+          "occurrences": 10
+        },
+        {
+          "terme": "foi société",
+          "occurrences": 10
+        },
+        {
+          "terme": "valeurs transmises",
+          "occurrences": 7
+        },
+        {
+          "terme": "transmises l'école",
+          "occurrences": 7
+        },
+        {
+          "terme": "traditions familiales",
+          "occurrences": 6
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 5
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 5
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 5
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 5
+        },
+        {
+          "terme": "الكلام صحيح",
+          "occurrences": 5
+        },
+        {
+          "terme": "صحيح ولا",
+          "occurrences": 5
+        },
+        {
+          "terme": "ولا يستند",
+          "occurrences": 5
+        },
+        {
+          "terme": "يستند اي",
+          "occurrences": 5
+        },
+        {
+          "terme": "اي دليل",
+          "occurrences": 5
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 4
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 4
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 4
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 4
+        },
+        {
+          "terme": "reste entier",
+          "occurrences": 4
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "croyance",
+          "score": 0.0476
+        },
+        {
+          "terme": "liberté",
+          "score": 0.0476
+        },
+        {
+          "terme": "société",
+          "score": 0.0451
+        },
+        {
+          "terme": "valeurs",
+          "score": 0.0427
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0419
+        },
+        {
+          "terme": "est",
+          "score": 0.0374
+        },
+        {
+          "terme": "foi",
+          "score": 0.0318
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0306
+        },
+        {
+          "terme": "trop",
+          "score": 0.0288
+        },
+        {
+          "terme": "tradition",
+          "score": 0.0279
+        },
+        {
+          "terme": "bravo",
+          "score": 0.0261
+        },
+        {
+          "terme": "sérieuse",
+          "score": 0.0245
+        },
+        {
+          "terme": "partager",
+          "score": 0.0241
+        },
+        {
+          "terme": "religion",
+          "score": 0.0241
+        },
+        {
+          "terme": "école",
+          "score": 0.0238
+        },
+        {
+          "terme": "transmises",
+          "score": 0.0238
+        },
+        {
+          "terme": "dire",
+          "score": 0.0234
+        },
+        {
+          "terme": "merci",
+          "score": 0.0228
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0222
+        },
+        {
+          "terme": "traditions",
+          "score": 0.0211
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#tradition",
+          "occurrences": 8
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 8
+        },
+        {
+          "terme": "#société",
+          "occurrences": 7
+        },
+        {
+          "terme": "#دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 4
+        }
+      ],
+      "message": ""
+    },
+    "3|instagram": {
+      "messages_avec_texte": 5,
+      "mots": [
+        {
+          "terme": "depuis",
+          "occurrences": 2
+        },
+        {
+          "terme": "traditions",
+          "occurrences": 2
+        },
+        {
+          "terme": "familiales",
+          "occurrences": 2
+        },
+        {
+          "terme": "suffit",
+          "occurrences": 1
+        },
+        {
+          "terme": "ment",
+          "occurrences": 1
+        },
+        {
+          "terme": "années",
+          "occurrences": 1
+        },
+        {
+          "terme": "دين",
+          "occurrences": 1
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 1
+        },
+        {
+          "terme": "désastre",
+          "occurrences": 1
+        },
+        {
+          "terme": "rien",
+          "occurrences": 1
+        },
+        {
+          "terme": "n'a",
+          "occurrences": 1
+        },
+        {
+          "terme": "avancé",
+          "occurrences": 1
+        },
+        {
+          "terme": "dix",
+          "occurrences": 1
+        },
+        {
+          "terme": "ans",
+          "occurrences": 1
+        },
+        {
+          "terme": "suis",
+          "occurrences": 1
+        },
+        {
+          "terme": "colère",
+          "occurrences": 1
+        },
+        {
+          "terme": "moque",
+          "occurrences": 1
+        },
+        {
+          "terme": "ouvertement",
+          "occurrences": 1
+        },
+        {
+          "terme": "décevant",
+          "occurrences": 1
+        },
+        {
+          "terme": "tourne",
+          "occurrences": 1
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "traditions familiales",
+          "occurrences": 2
+        },
+        {
+          "terme": "suffit ment",
+          "occurrences": 1
+        },
+        {
+          "terme": "ment depuis",
+          "occurrences": 1
+        },
+        {
+          "terme": "depuis années",
+          "occurrences": 1
+        },
+        {
+          "terme": "années traditions",
+          "occurrences": 1
+        },
+        {
+          "terme": "familiales دين",
+          "occurrences": 1
+        },
+        {
+          "terme": "c'est désastre",
+          "occurrences": 1
+        },
+        {
+          "terme": "désastre rien",
+          "occurrences": 1
+        },
+        {
+          "terme": "rien n'a",
+          "occurrences": 1
+        },
+        {
+          "terme": "n'a avancé",
+          "occurrences": 1
+        },
+        {
+          "terme": "avancé traditions",
+          "occurrences": 1
+        },
+        {
+          "terme": "familiales depuis",
+          "occurrences": 1
+        },
+        {
+          "terme": "depuis dix",
+          "occurrences": 1
+        },
+        {
+          "terme": "dix ans",
+          "occurrences": 1
+        },
+        {
+          "terme": "suis colère",
+          "occurrences": 1
+        },
+        {
+          "terme": "colère moque",
+          "occurrences": 1
+        },
+        {
+          "terme": "moque ouvertement",
+          "occurrences": 1
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 1
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 1
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "traditions",
+          "score": 0.1234
+        },
+        {
+          "terme": "depuis",
+          "score": 0.1234
+        },
+        {
+          "terme": "familiales",
+          "score": 0.1234
+        },
+        {
+          "terme": "ouvertement",
+          "score": 0.1
+        },
+        {
+          "terme": "colère",
+          "score": 0.1
+        },
+        {
+          "terme": "suis",
+          "score": 0.1
+        },
+        {
+          "terme": "moque",
+          "score": 0.1
+        },
+        {
+          "terme": "années",
+          "score": 0.082
+        },
+        {
+          "terme": "ment",
+          "score": 0.082
+        },
+        {
+          "terme": "suffit",
+          "score": 0.082
+        },
+        {
+          "terme": "دين",
+          "score": 0.082
+        },
+        {
+          "terme": "problème",
+          "score": 0.0816
+        },
+        {
+          "terme": "rond",
+          "score": 0.0816
+        },
+        {
+          "terme": "tourne",
+          "score": 0.0816
+        },
+        {
+          "terme": "reste",
+          "score": 0.0816
+        },
+        {
+          "terme": "décevant",
+          "score": 0.0816
+        },
+        {
+          "terme": "entier",
+          "score": 0.0816
+        },
+        {
+          "terme": "désastre",
+          "score": 0.0709
+        },
+        {
+          "terme": "rien",
+          "score": 0.0709
+        },
+        {
+          "terme": "ans",
+          "score": 0.0709
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "3|x": {
+      "messages_avec_texte": 26,
+      "mots": [
+        {
+          "terme": "دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "religion",
+          "occurrences": 5
+        },
+        {
+          "terme": "rapport",
+          "occurrences": 5
+        },
+        {
+          "terme": "société",
+          "occurrences": 4
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 3
+        },
+        {
+          "terme": "علي",
+          "occurrences": 3
+        },
+        {
+          "terme": "place",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'espace",
+          "occurrences": 3
+        },
+        {
+          "terme": "public",
+          "occurrences": 3
+        },
+        {
+          "terme": "valeurs",
+          "occurrences": 3
+        },
+        {
+          "terme": "transmises",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 3
+        },
+        {
+          "terme": "foi",
+          "occurrences": 3
+        },
+        {
+          "terme": "traditions",
+          "occurrences": 3
+        },
+        {
+          "terme": "familiales",
+          "occurrences": 3
+        },
+        {
+          "terme": "trop",
+          "occurrences": 2
+        },
+        {
+          "terme": "شكرا",
+          "occurrences": 2
+        },
+        {
+          "terme": "الطرح",
+          "occurrences": 2
+        },
+        {
+          "terme": "الممتاز",
+          "occurrences": 2
+        },
+        {
+          "terme": "حول",
+          "occurrences": 2
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "place religion",
+          "occurrences": 3
+        },
+        {
+          "terme": "religion l'espace",
+          "occurrences": 3
+        },
+        {
+          "terme": "l'espace public",
+          "occurrences": 3
+        },
+        {
+          "terme": "valeurs transmises",
+          "occurrences": 3
+        },
+        {
+          "terme": "transmises l'école",
+          "occurrences": 3
+        },
+        {
+          "terme": "rapport foi",
+          "occurrences": 3
+        },
+        {
+          "terme": "foi société",
+          "occurrences": 3
+        },
+        {
+          "terme": "traditions familiales",
+          "occurrences": 3
+        },
+        {
+          "terme": "شكرا علي",
+          "occurrences": 2
+        },
+        {
+          "terme": "علي الطرح",
+          "occurrences": 2
+        },
+        {
+          "terme": "الطرح الممتاز",
+          "occurrences": 2
+        },
+        {
+          "terme": "الممتاز حول",
+          "occurrences": 2
+        },
+        {
+          "terme": "liberté croyance",
+          "occurrences": 2
+        },
+        {
+          "terme": "revient année",
+          "occurrences": 2
+        },
+        {
+          "terme": "année évaluation",
+          "occurrences": 2
+        },
+        {
+          "terme": "évaluation publique",
+          "occurrences": 2
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 2
+        },
+        {
+          "terme": "publié l'an",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'an dernier",
+          "occurrences": 2
+        },
+        {
+          "terme": "dernier abordait",
+          "occurrences": 2
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "دين",
+          "score": 0.0602
+        },
+        {
+          "terme": "religion",
+          "score": 0.0521
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0518
+        },
+        {
+          "terme": "société",
+          "score": 0.0443
+        },
+        {
+          "terme": "est",
+          "score": 0.0372
+        },
+        {
+          "terme": "familiales",
+          "score": 0.037
+        },
+        {
+          "terme": "traditions",
+          "score": 0.037
+        },
+        {
+          "terme": "علي",
+          "score": 0.0368
+        },
+        {
+          "terme": "école",
+          "score": 0.0356
+        },
+        {
+          "terme": "transmises",
+          "score": 0.0356
+        },
+        {
+          "terme": "valeurs",
+          "score": 0.0356
+        },
+        {
+          "terme": "place",
+          "score": 0.035
+        },
+        {
+          "terme": "public",
+          "score": 0.035
+        },
+        {
+          "terme": "espace",
+          "score": 0.035
+        },
+        {
+          "terme": "foi",
+          "score": 0.0349
+        },
+        {
+          "terme": "partager",
+          "score": 0.0312
+        },
+        {
+          "terme": "فيك",
+          "score": 0.0299
+        },
+        {
+          "terme": "بارك",
+          "score": 0.0299
+        },
+        {
+          "terme": "تماما",
+          "score": 0.0299
+        },
+        {
+          "terme": "الموقف",
+          "score": 0.0299
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 6
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 2
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 2
+        },
+        {
+          "terme": "#société",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "4|toutes": {
+      "messages_avec_texte": 136,
+      "mots": [
+        {
+          "terme": "patrimoine",
+          "occurrences": 23
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 20
+        },
+        {
+          "terme": "trop",
+          "occurrences": 16
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 15
+        },
+        {
+          "terme": "années",
+          "occurrences": 14
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 14
+        },
+        {
+          "terme": "mémoire",
+          "occurrences": 14
+        },
+        {
+          "terme": "collective",
+          "occurrences": 14
+        },
+        {
+          "terme": "commun",
+          "occurrences": 12
+        },
+        {
+          "terme": "sentiment",
+          "occurrences": 12
+        },
+        {
+          "terme": "d'appartenance",
+          "occurrences": 12
+        },
+        {
+          "terme": "l'identité",
+          "occurrences": 11
+        },
+        {
+          "terme": "merci",
+          "occurrences": 10
+        },
+        {
+          "terme": "dire",
+          "occurrences": 10
+        },
+        {
+          "terme": "culture",
+          "occurrences": 10
+        },
+        {
+          "terme": "rien",
+          "occurrences": 10
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 9
+        },
+        {
+          "terme": "transmission",
+          "occurrences": 9
+        },
+        {
+          "terme": "pense",
+          "occurrences": 8
+        },
+        {
+          "terme": "coupe",
+          "occurrences": 8
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 14
+        },
+        {
+          "terme": "mémoire collective",
+          "occurrences": 14
+        },
+        {
+          "terme": "patrimoine commun",
+          "occurrences": 12
+        },
+        {
+          "terme": "sentiment d'appartenance",
+          "occurrences": 12
+        },
+        {
+          "terme": "l'identité culturelle",
+          "occurrences": 11
+        },
+        {
+          "terme": "transmission culturelle",
+          "occurrences": 9
+        },
+        {
+          "terme": "exactement pense",
+          "occurrences": 8
+        },
+        {
+          "terme": "pense depuis",
+          "occurrences": 8
+        },
+        {
+          "terme": "années merci",
+          "occurrences": 8
+        },
+        {
+          "terme": "merci dire",
+          "occurrences": 8
+        },
+        {
+          "terme": "trop c'est",
+          "occurrences": 8
+        },
+        {
+          "terme": "c'est trop",
+          "occurrences": 8
+        },
+        {
+          "terme": "trop coupe",
+          "occurrences": 8
+        },
+        {
+          "terme": "coupe pleine",
+          "occurrences": 8
+        },
+        {
+          "terme": "franchement discours",
+          "occurrences": 8
+        },
+        {
+          "terme": "échec complet",
+          "occurrences": 8
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 7
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 7
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 7
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 7
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "patrimoine",
+          "score": 0.0472
+        },
+        {
+          "terme": "trop",
+          "score": 0.042
+        },
+        {
+          "terme": "culturelle",
+          "score": 0.0419
+        },
+        {
+          "terme": "identité",
+          "score": 0.0405
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0382
+        },
+        {
+          "terme": "années",
+          "score": 0.0372
+        },
+        {
+          "terme": "est",
+          "score": 0.0347
+        },
+        {
+          "terme": "collective",
+          "score": 0.0326
+        },
+        {
+          "terme": "mémoire",
+          "score": 0.0326
+        },
+        {
+          "terme": "commun",
+          "score": 0.03
+        },
+        {
+          "terme": "merci",
+          "score": 0.0289
+        },
+        {
+          "terme": "dire",
+          "score": 0.0288
+        },
+        {
+          "terme": "appartenance",
+          "score": 0.0273
+        },
+        {
+          "terme": "sentiment",
+          "score": 0.0273
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0272
+        },
+        {
+          "terme": "rien",
+          "score": 0.0259
+        },
+        {
+          "terme": "pense",
+          "score": 0.0255
+        },
+        {
+          "terme": "échec",
+          "score": 0.0251
+        },
+        {
+          "terme": "franchement",
+          "score": 0.0251
+        },
+        {
+          "terme": "discours",
+          "score": 0.0251
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#patrimoine",
+          "occurrences": 11
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 10
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 8
+        },
+        {
+          "terme": "#هوية",
+          "occurrences": 7
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 7
+        }
+      ],
+      "message": ""
+    },
+    "4|facebook": {
+      "messages_avec_texte": 102,
+      "mots": [
+        {
+          "terme": "patrimoine",
+          "occurrences": 17
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 15
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 10
+        },
+        {
+          "terme": "années",
+          "occurrences": 10
+        },
+        {
+          "terme": "trop",
+          "occurrences": 10
+        },
+        {
+          "terme": "commun",
+          "occurrences": 9
+        },
+        {
+          "terme": "mémoire",
+          "occurrences": 9
+        },
+        {
+          "terme": "collective",
+          "occurrences": 9
+        },
+        {
+          "terme": "l'identité",
+          "occurrences": 9
+        },
+        {
+          "terme": "merci",
+          "occurrences": 8
+        },
+        {
+          "terme": "dire",
+          "occurrences": 8
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 8
+        },
+        {
+          "terme": "sentiment",
+          "occurrences": 8
+        },
+        {
+          "terme": "d'appartenance",
+          "occurrences": 8
+        },
+        {
+          "terme": "décevant",
+          "occurrences": 7
+        },
+        {
+          "terme": "tourne",
+          "occurrences": 7
+        },
+        {
+          "terme": "rond",
+          "occurrences": 7
+        },
+        {
+          "terme": "problème",
+          "occurrences": 7
+        },
+        {
+          "terme": "reste",
+          "occurrences": 7
+        },
+        {
+          "terme": "entier",
+          "occurrences": 7
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 10
+        },
+        {
+          "terme": "patrimoine commun",
+          "occurrences": 9
+        },
+        {
+          "terme": "mémoire collective",
+          "occurrences": 9
+        },
+        {
+          "terme": "l'identité culturelle",
+          "occurrences": 9
+        },
+        {
+          "terme": "sentiment d'appartenance",
+          "occurrences": 8
+        },
+        {
+          "terme": "décevant tourne",
+          "occurrences": 7
+        },
+        {
+          "terme": "tourne rond",
+          "occurrences": 7
+        },
+        {
+          "terme": "rond problème",
+          "occurrences": 7
+        },
+        {
+          "terme": "problème reste",
+          "occurrences": 7
+        },
+        {
+          "terme": "reste entier",
+          "occurrences": 7
+        },
+        {
+          "terme": "كفي عار",
+          "occurrences": 7
+        },
+        {
+          "terme": "عار حقيقي",
+          "occurrences": 7
+        },
+        {
+          "terme": "حقيقي وما",
+          "occurrences": 7
+        },
+        {
+          "terme": "وما نقبلوش",
+          "occurrences": 7
+        },
+        {
+          "terme": "نقبلوش الوضع",
+          "occurrences": 7
+        },
+        {
+          "terme": "exactement pense",
+          "occurrences": 6
+        },
+        {
+          "terme": "pense depuis",
+          "occurrences": 6
+        },
+        {
+          "terme": "années merci",
+          "occurrences": 6
+        },
+        {
+          "terme": "merci dire",
+          "occurrences": 6
+        },
+        {
+          "terme": "franchement discours",
+          "occurrences": 6
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "patrimoine",
+          "score": 0.0481
+        },
+        {
+          "terme": "culturelle",
+          "score": 0.0426
+        },
+        {
+          "terme": "identité",
+          "score": 0.0422
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0356
+        },
+        {
+          "terme": "années",
+          "score": 0.0356
+        },
+        {
+          "terme": "trop",
+          "score": 0.0349
+        },
+        {
+          "terme": "commun",
+          "score": 0.0304
+        },
+        {
+          "terme": "dire",
+          "score": 0.0299
+        },
+        {
+          "terme": "merci",
+          "score": 0.0298
+        },
+        {
+          "terme": "collective",
+          "score": 0.0292
+        },
+        {
+          "terme": "mémoire",
+          "score": 0.0292
+        },
+        {
+          "terme": "est",
+          "score": 0.0284
+        },
+        {
+          "terme": "entier",
+          "score": 0.028
+        },
+        {
+          "terme": "reste",
+          "score": 0.028
+        },
+        {
+          "terme": "décevant",
+          "score": 0.028
+        },
+        {
+          "terme": "problème",
+          "score": 0.028
+        },
+        {
+          "terme": "rond",
+          "score": 0.028
+        },
+        {
+          "terme": "tourne",
+          "score": 0.028
+        },
+        {
+          "terme": "كفي",
+          "score": 0.0264
+        },
+        {
+          "terme": "عار",
+          "score": 0.0264
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#patrimoine",
+          "occurrences": 8
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 6
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 6
+        },
+        {
+          "terme": "#هوية",
+          "occurrences": 5
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 4
+        }
+      ],
+      "message": ""
+    },
+    "4|instagram": {
+      "messages_avec_texte": 20,
+      "mots": [
+        {
+          "terme": "c'est",
+          "occurrences": 5
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 4
+        },
+        {
+          "terme": "trop",
+          "occurrences": 4
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 4
+        },
+        {
+          "terme": "années",
+          "occurrences": 3
+        },
+        {
+          "terme": "exactement",
+          "occurrences": 3
+        },
+        {
+          "terme": "sentiment",
+          "occurrences": 3
+        },
+        {
+          "terme": "d'appartenance",
+          "occurrences": 3
+        },
+        {
+          "terme": "patrimoine",
+          "occurrences": 2
+        },
+        {
+          "terme": "هويه",
+          "occurrences": 2
+        },
+        {
+          "terme": "nation",
+          "occurrences": 2
+        },
+        {
+          "terme": "pense",
+          "occurrences": 2
+        },
+        {
+          "terme": "merci",
+          "occurrences": 2
+        },
+        {
+          "terme": "dire",
+          "occurrences": 2
+        },
+        {
+          "terme": "coupe",
+          "occurrences": 2
+        },
+        {
+          "terme": "pleine",
+          "occurrences": 2
+        },
+        {
+          "terme": "rien",
+          "occurrences": 2
+        },
+        {
+          "terme": "transmission",
+          "occurrences": 2
+        },
+        {
+          "terme": "sérieuse",
+          "occurrences": 2
+        },
+        {
+          "terme": "promesse",
+          "occurrences": 2
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "depuis années",
+          "occurrences": 3
+        },
+        {
+          "terme": "sentiment d'appartenance",
+          "occurrences": 3
+        },
+        {
+          "terme": "exactement pense",
+          "occurrences": 2
+        },
+        {
+          "terme": "pense depuis",
+          "occurrences": 2
+        },
+        {
+          "terme": "années merci",
+          "occurrences": 2
+        },
+        {
+          "terme": "merci dire",
+          "occurrences": 2
+        },
+        {
+          "terme": "trop c'est",
+          "occurrences": 2
+        },
+        {
+          "terme": "c'est trop",
+          "occurrences": 2
+        },
+        {
+          "terme": "trop coupe",
+          "occurrences": 2
+        },
+        {
+          "terme": "coupe pleine",
+          "occurrences": 2
+        },
+        {
+          "terme": "transmission culturelle",
+          "occurrences": 2
+        },
+        {
+          "terme": "promesse tenue",
+          "occurrences": 2
+        },
+        {
+          "terme": "tenue sujet",
+          "occurrences": 2
+        },
+        {
+          "terme": "sujet l'identité",
+          "occurrences": 2
+        },
+        {
+          "terme": "l'identité culturelle",
+          "occurrences": 2
+        },
+        {
+          "terme": "culturelle identité",
+          "occurrences": 2
+        },
+        {
+          "terme": "suis colère",
+          "occurrences": 1
+        },
+        {
+          "terme": "colère moque",
+          "occurrences": 1
+        },
+        {
+          "terme": "moque ouvertement",
+          "occurrences": 1
+        },
+        {
+          "terme": "rapport publié",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "est",
+          "score": 0.0748
+        },
+        {
+          "terme": "trop",
+          "score": 0.0725
+        },
+        {
+          "terme": "identité",
+          "score": 0.0662
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0648
+        },
+        {
+          "terme": "culturelle",
+          "score": 0.0619
+        },
+        {
+          "terme": "exactement",
+          "score": 0.0567
+        },
+        {
+          "terme": "années",
+          "score": 0.0558
+        },
+        {
+          "terme": "sentiment",
+          "score": 0.0465
+        },
+        {
+          "terme": "appartenance",
+          "score": 0.0465
+        },
+        {
+          "terme": "pense",
+          "score": 0.0434
+        },
+        {
+          "terme": "merci",
+          "score": 0.0434
+        },
+        {
+          "terme": "dire",
+          "score": 0.0434
+        },
+        {
+          "terme": "coupe",
+          "score": 0.0428
+        },
+        {
+          "terme": "pleine",
+          "score": 0.0428
+        },
+        {
+          "terme": "sujet",
+          "score": 0.0391
+        },
+        {
+          "terme": "tenue",
+          "score": 0.0391
+        },
+        {
+          "terme": "promesse",
+          "score": 0.0391
+        },
+        {
+          "terme": "rien",
+          "score": 0.0361
+        },
+        {
+          "terme": "transmission",
+          "score": 0.0358
+        },
+        {
+          "terme": "nation",
+          "score": 0.0353
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#هوية",
+          "occurrences": 2
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 2
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 2
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 1
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    },
+    "4|x": {
+      "messages_avec_texte": 14,
+      "mots": [
+        {
+          "terme": "patrimoine",
+          "occurrences": 4
+        },
+        {
+          "terme": "mémoire",
+          "occurrences": 4
+        },
+        {
+          "terme": "collective",
+          "occurrences": 4
+        },
+        {
+          "terme": "culture",
+          "occurrences": 3
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 2
+        },
+        {
+          "terme": "commun",
+          "occurrences": 2
+        },
+        {
+          "terme": "trop",
+          "occurrences": 2
+        },
+        {
+          "terme": "question",
+          "occurrences": 2
+        },
+        {
+          "terme": "honnête",
+          "occurrences": 2
+        },
+        {
+          "terme": "données",
+          "occurrences": 2
+        },
+        {
+          "terme": "existent",
+          "occurrences": 2
+        },
+        {
+          "terme": "réellement",
+          "occurrences": 2
+        },
+        {
+          "terme": "rien",
+          "occurrences": 2
+        },
+        {
+          "terme": "suffit",
+          "occurrences": 1
+        },
+        {
+          "terme": "ment",
+          "occurrences": 1
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 1
+        },
+        {
+          "terme": "années",
+          "occurrences": 1
+        },
+        {
+          "terme": "transmission",
+          "occurrences": 1
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 1
+        },
+        {
+          "terme": "faut",
+          "occurrences": 1
+        }
+      ],
+      "bigrammes": [
+        {
+          "terme": "mémoire collective",
+          "occurrences": 4
+        },
+        {
+          "terme": "patrimoine commun",
+          "occurrences": 2
+        },
+        {
+          "terme": "question honnête",
+          "occurrences": 2
+        },
+        {
+          "terme": "honnête données",
+          "occurrences": 2
+        },
+        {
+          "terme": "données existent",
+          "occurrences": 2
+        },
+        {
+          "terme": "existent réellement",
+          "occurrences": 2
+        },
+        {
+          "terme": "réellement mémoire",
+          "occurrences": 2
+        },
+        {
+          "terme": "suffit ment",
+          "occurrences": 1
+        },
+        {
+          "terme": "ment depuis",
+          "occurrences": 1
+        },
+        {
+          "terme": "depuis années",
+          "occurrences": 1
+        },
+        {
+          "terme": "années transmission",
+          "occurrences": 1
+        },
+        {
+          "terme": "transmission culturelle",
+          "occurrences": 1
+        },
+        {
+          "terme": "culturelle culture",
+          "occurrences": 1
+        },
+        {
+          "terme": "culture patrimoine",
+          "occurrences": 1
+        },
+        {
+          "terme": "d'accord faut",
+          "occurrences": 1
+        },
+        {
+          "terme": "faut défendre",
+          "occurrences": 1
+        },
+        {
+          "terme": "défendre idée",
+          "occurrences": 1
+        },
+        {
+          "terme": "soutiens totalement",
+          "occurrences": 1
+        },
+        {
+          "terme": "totalement position",
+          "occurrences": 1
+        },
+        {
+          "terme": "position patrimoine",
+          "occurrences": 1
+        }
+      ],
+      "tfidf": [
+        {
+          "terme": "collective",
+          "score": 0.09
+        },
+        {
+          "terme": "mémoire",
+          "score": 0.09
+        },
+        {
+          "terme": "patrimoine",
+          "score": 0.0791
+        },
+        {
+          "terme": "culture",
+          "score": 0.0699
+        },
+        {
+          "terme": "accord",
+          "score": 0.0604
+        },
+        {
+          "terme": "données",
+          "score": 0.0569
+        },
+        {
+          "terme": "existent",
+          "score": 0.0569
+        },
+        {
+          "terme": "honnête",
+          "score": 0.0569
+        },
+        {
+          "terme": "réellement",
+          "score": 0.0569
+        },
+        {
+          "terme": "question",
+          "score": 0.0569
+        },
+        {
+          "terme": "rien",
+          "score": 0.0555
+        },
+        {
+          "terme": "trop",
+          "score": 0.0499
+        },
+        {
+          "terme": "commun",
+          "score": 0.0486
+        },
+        {
+          "terme": "défendre",
+          "score": 0.0369
+        },
+        {
+          "terme": "idée",
+          "score": 0.0369
+        },
+        {
+          "terme": "faut",
+          "score": 0.0369
+        },
+        {
+          "terme": "lâchez",
+          "score": 0.0343
+        },
+        {
+          "terme": "soutien",
+          "score": 0.0343
+        },
+        {
+          "terme": "avez",
+          "score": 0.0343
+        },
+        {
+          "terme": "argument",
+          "score": 0.0329
+        }
+      ],
+      "hashtags": [
+        {
+          "terme": "#culture",
+          "occurrences": 3
+        },
+        {
+          "terme": "#patrimoine",
+          "occurrences": 2
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 1
+        }
+      ],
+      "message": ""
+    }
+  },
+  "communautes": [
+    {
+      "id": "toutes",
+      "nom": "Toutes les communautés"
+    },
+    {
+      "id": "1",
+      "nom": "Communauté 1"
+    },
+    {
+      "id": "2",
+      "nom": "Communauté 2"
+    },
+    {
+      "id": "3",
+      "nom": "Communauté 3"
+    },
+    {
+      "id": "4",
+      "nom": "Communauté 4"
+    }
+  ],
+  "plateformes": [
+    {
+      "id": "toutes",
+      "nom": "Toutes les plateformes"
+    },
+    {
+      "id": "facebook",
+      "nom": "Facebook"
+    },
+    {
+      "id": "instagram",
+      "nom": "Instagram"
+    },
+    {
+      "id": "x",
+      "nom": "X"
+    }
+  ],
+  "taille_top": 20,
+  "methode": "Fréquences brutes après suppression des mots vides (français et arabe), bigrammes consécutifs, et pondération TF-IDF (scikit-learn) calculée sur le sous-ensemble sélectionné."
+}

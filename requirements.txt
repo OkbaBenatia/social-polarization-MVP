@@ -1,0 +1,8 @@
+# Pipeline d'analyse — dépendances volontairement limitées.
+pandas>=2.2
+numpy>=1.26
+networkx>=3.2
+scikit-learn>=1.4
+scipy>=1.11
+python-louvain>=0.16
+pytest>=8.0

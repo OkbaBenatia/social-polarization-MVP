@@ -1,0 +1,218 @@
+{
+  "genere_le": "2026-08-19T21:02:13+00:00",
+  "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
+  "auteur": "Dr. Okba Ben Atia",
+  "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
+  "jeu_de_donnees": {
+    "type": "synthetique",
+    "synthetique": true,
+    "fichiers": [
+      "sample_interactions.csv"
+    ],
+    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+  },
+  "kpi": {
+    "sources_declarees": 7,
+    "sources_avec_donnees": 7,
+    "publications": 14,
+    "utilisateurs": 84,
+    "interactions": 521,
+    "communautes": 4,
+    "modularite": 0.4337,
+    "polarisation": "Polarisation modérée",
+    "contenus_potentiellement_haineux": 20,
+    "contenus_toxiques": 31,
+    "messages_avec_texte": 511
+  },
+  "repartition_plateformes": [
+    {
+      "plateforme": "facebook",
+      "libelle": "Facebook",
+      "interactions": 397,
+      "part": 0.762,
+      "publications": 10
+    },
+    {
+      "plateforme": "x",
+      "libelle": "X",
+      "interactions": 74,
+      "part": 0.142,
+      "publications": 2
+    },
+    {
+      "plateforme": "instagram",
+      "libelle": "Instagram",
+      "interactions": 50,
+      "part": 0.096,
+      "publications": 2
+    }
+  ],
+  "sentiment_global": [
+    {
+      "categorie": "Positif",
+      "nombre": 147,
+      "part": 0.2877
+    },
+    {
+      "categorie": "Neutre",
+      "nombre": 185,
+      "part": 0.362
+    },
+    {
+      "categorie": "Négatif",
+      "nombre": 179,
+      "part": 0.3503
+    }
+  ],
+  "emotions_globales": [
+    {
+      "categorie": "Colère",
+      "nombre": 107,
+      "part": 0.2094
+    },
+    {
+      "categorie": "Soutien / approbation",
+      "nombre": 107,
+      "part": 0.2094
+    },
+    {
+      "categorie": "Autre / neutre",
+      "nombre": 297,
+      "part": 0.5812
+    }
+  ],
+  "haine_globale": [
+    {
+      "categorie": "Non haineux",
+      "nombre": 460,
+      "part": 0.9002
+    },
+    {
+      "categorie": "Toxique / offensant",
+      "nombre": 31,
+      "part": 0.0607
+    },
+    {
+      "categorie": "Potentiellement haineux",
+      "nombre": 20,
+      "part": 0.0391
+    }
+  ],
+  "distribution_communautes": [
+    {
+      "communaute": "Communauté 1",
+      "utilisateurs": 26,
+      "messages": 128,
+      "part_interactions_internes": 0.513
+    },
+    {
+      "communaute": "Communauté 2",
+      "utilisateurs": 22,
+      "messages": 123,
+      "part_interactions_internes": 0.5466
+    },
+    {
+      "communaute": "Communauté 3",
+      "utilisateurs": 20,
+      "messages": 133,
+      "part_interactions_internes": 0.5202
+    },
+    {
+      "communaute": "Communauté 4",
+      "utilisateurs": 16,
+      "messages": 137,
+      "part_interactions_internes": 0.5028
+    }
+  ],
+  "evolution_temporelle": [
+    {
+      "date": "2026-01-05",
+      "interactions": 5,
+      "negatif": 2,
+      "colere": 0,
+      "potentiellement_haineux": 0
+    },
+    {
+      "date": "2026-01-06",
+      "interactions": 116,
+      "negatif": 37,
+      "colere": 16,
+      "potentiellement_haineux": 1
+    },
+    {
+      "date": "2026-01-07",
+      "interactions": 202,
+      "negatif": 79,
+      "colere": 58,
+      "potentiellement_haineux": 13
+    },
+    {
+      "date": "2026-01-08",
+      "interactions": 126,
+      "negatif": 38,
+      "colere": 22,
+      "potentiellement_haineux": 5
+    },
+    {
+      "date": "2026-01-09",
+      "interactions": 68,
+      "negatif": 21,
+      "colere": 11,
+      "potentiellement_haineux": 1
+    },
+    {
+      "date": "2026-01-10",
+      "interactions": 4,
+      "negatif": 2,
+      "colere": 0,
+      "potentiellement_haineux": 0
+    }
+  ],
+  "polarisation": {
+    "modularite": 0.4337,
+    "interactions_intra_communautes": 347,
+    "interactions_inter_communautes": 160,
+    "interactions_totales": 507,
+    "part_liens_internes": 0.6844,
+    "ratio_intra_inter": 2.169,
+    "interpretation": "Polarisation modérée",
+    "seuils_indicatifs": {
+      "faible": "modularité < 0.3",
+      "moderee": "0.3 ≤ modularité < 0.5",
+      "forte": "modularité ≥ 0.5"
+    },
+    "avertissement": "Les seuils d'interprétation sont indicatifs et conventionnels. Ils ne constituent pas une mesure validée de la polarisation et ne remplacent pas la lecture des valeurs numériques."
+  },
+  "reseau": {
+    "noeuds": 84,
+    "liens": 447,
+    "poids_total": 507,
+    "densite": 0.06411,
+    "degre_moyen": 10.643,
+    "degre_entrant_moyen": 5.321,
+    "degre_sortant_moyen": 5.321,
+    "composantes_faibles": 1,
+    "taille_composante_principale": 84,
+    "part_composante_principale": 1.0,
+    "reciprocite": 0.1432,
+    "intermediarite_exacte": true
+  },
+  "qualite_donnees": {
+    "lignes_ignorees": 0,
+    "doublons_supprimes": 0,
+    "types_inconnus": [],
+    "horodatages_invalides": 0,
+    "messages_sans_texte": 10
+  },
+  "questions_recherche": [
+    "RQ1. Les interactions observées forment-elles des communautés distinctes ?",
+    "RQ2. Quel niveau de polarisation structurelle peut être observé ?",
+    "RQ3. Les communautés utilisent-elles des champs lexicaux différents ?",
+    "RQ4. Certaines communautés présentent-elles davantage de sentiment négatif ?",
+    "RQ5. Certaines communautés expriment-elles davantage de colère ou de soutien ?",
+    "RQ6. Certaines communautés présentent-elles davantage de contenus classifiés comme toxiques ou potentiellement haineux ?",
+    "RQ7. Comment les contenus se propagent-ils à travers le réseau et entre communautés ?",
+    "RQ8. Observe-t-on des différences entre Facebook, X et Instagram lorsque les données disponibles permettent une comparaison valide ?"
+  ]
+}

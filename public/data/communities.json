@@ -1,0 +1,887 @@
+{
+  "genere_le": "2026-08-19T21:02:13+00:00",
+  "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
+  "auteur": "Dr. Okba Ben Atia",
+  "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
+  "jeu_de_donnees": {
+    "type": "synthetique",
+    "synthetique": true,
+    "fichiers": [
+      "sample_interactions.csv"
+    ],
+    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+  },
+  "algorithme": "Louvain (python-louvain)",
+  "nombre_communautes": 4,
+  "modularite": 0.4337,
+  "polarisation": {
+    "modularite": 0.4337,
+    "interactions_intra_communautes": 347,
+    "interactions_inter_communautes": 160,
+    "interactions_totales": 507,
+    "part_liens_internes": 0.6844,
+    "ratio_intra_inter": 2.169,
+    "interpretation": "Polarisation modérée",
+    "seuils_indicatifs": {
+      "faible": "modularité < 0.3",
+      "moderee": "0.3 ≤ modularité < 0.5",
+      "forte": "modularité ≥ 0.5"
+    },
+    "avertissement": "Les seuils d'interprétation sont indicatifs et conventionnels. Ils ne constituent pas une mesure validée de la polarisation et ne remplacent pas la lecture des valeurs numériques."
+  },
+  "communautes": [
+    {
+      "id": 1,
+      "nom": "Communauté 1",
+      "utilisateurs": 26,
+      "messages": 128,
+      "messages_avec_texte": 123,
+      "interactions_internes": 79,
+      "interactions_externes": 75,
+      "part_interactions_internes": 0.513,
+      "liens_internes": 73,
+      "liens_externes": 73,
+      "top_mots": [
+        {
+          "terme": "langue",
+          "occurrences": 19
+        },
+        {
+          "terme": "réforme",
+          "occurrences": 18
+        },
+        {
+          "terme": "universitaire",
+          "occurrences": 18
+        },
+        {
+          "terme": "place",
+          "occurrences": 17
+        },
+        {
+          "terme": "français",
+          "occurrences": 17
+        },
+        {
+          "terme": "l'école",
+          "occurrences": 17
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 13
+        },
+        {
+          "terme": "l'arabisation",
+          "occurrences": 13
+        },
+        {
+          "terme": "programmes",
+          "occurrences": 13
+        },
+        {
+          "terme": "d'enseignement",
+          "occurrences": 13
+        }
+      ],
+      "top_hashtags": [
+        {
+          "terme": "#école",
+          "occurrences": 12
+        },
+        {
+          "terme": "#تعريب",
+          "occurrences": 9
+        },
+        {
+          "terme": "#arabisation",
+          "occurrences": 9
+        },
+        {
+          "terme": "#université",
+          "occurrences": 6
+        },
+        {
+          "terme": "#langue",
+          "occurrences": 6
+        }
+      ],
+      "termes_caracteristiques": [
+        {
+          "terme": "école",
+          "score": 0.0546
+        },
+        {
+          "terme": "arabisation",
+          "score": 0.0476
+        },
+        {
+          "terme": "langue",
+          "score": 0.0444
+        },
+        {
+          "terme": "universitaire",
+          "score": 0.0418
+        },
+        {
+          "terme": "réforme",
+          "score": 0.0418
+        },
+        {
+          "terme": "français",
+          "score": 0.0386
+        },
+        {
+          "terme": "place",
+          "score": 0.0386
+        },
+        {
+          "terme": "enseignement",
+          "score": 0.034
+        },
+        {
+          "terme": "programmes",
+          "score": 0.0336
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0323
+        }
+      ],
+      "sentiment": [
+        {
+          "categorie": "Positif",
+          "nombre": 41,
+          "part": 0.3333
+        },
+        {
+          "categorie": "Neutre",
+          "nombre": 42,
+          "part": 0.3415
+        },
+        {
+          "categorie": "Négatif",
+          "nombre": 40,
+          "part": 0.3252
+        }
+      ],
+      "emotions": [
+        {
+          "categorie": "Colère",
+          "nombre": 23,
+          "part": 0.187
+        },
+        {
+          "categorie": "Soutien / approbation",
+          "nombre": 34,
+          "part": 0.2764
+        },
+        {
+          "categorie": "Autre / neutre",
+          "nombre": 66,
+          "part": 0.5366
+        }
+      ],
+      "haine": [
+        {
+          "categorie": "Non haineux",
+          "nombre": 113,
+          "part": 0.9187
+        },
+        {
+          "categorie": "Toxique / offensant",
+          "nombre": 9,
+          "part": 0.0732
+        },
+        {
+          "categorie": "Potentiellement haineux",
+          "nombre": 1,
+          "part": 0.0081
+        }
+      ],
+      "plateformes": [
+        {
+          "plateforme": "facebook",
+          "interactions": 103
+        },
+        {
+          "plateforme": "x",
+          "interactions": 15
+        },
+        {
+          "plateforme": "instagram",
+          "interactions": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Communauté 2",
+      "utilisateurs": 22,
+      "messages": 123,
+      "messages_avec_texte": 123,
+      "interactions_internes": 88,
+      "interactions_externes": 73,
+      "part_interactions_internes": 0.5466,
+      "liens_internes": 70,
+      "liens_externes": 72,
+      "top_mots": [
+        {
+          "terme": "travail",
+          "occurrences": 26
+        },
+        {
+          "terme": "suis",
+          "occurrences": 16
+        },
+        {
+          "terme": "rien",
+          "occurrences": 16
+        },
+        {
+          "terme": "conditions",
+          "occurrences": 15
+        },
+        {
+          "terme": "logement",
+          "occurrences": 15
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 15
+        },
+        {
+          "terme": "politique",
+          "occurrences": 14
+        },
+        {
+          "terme": "migratoire",
+          "occurrences": 14
+        },
+        {
+          "terme": "d'accord",
+          "occurrences": 14
+        },
+        {
+          "terme": "l'emploi",
+          "occurrences": 10
+        }
+      ],
+      "top_hashtags": [
+        {
+          "terme": "#travail",
+          "occurrences": 12
+        },
+        {
+          "terme": "#هجرة",
+          "occurrences": 6
+        },
+        {
+          "terme": "#frontières",
+          "occurrences": 6
+        },
+        {
+          "terme": "#immigration",
+          "occurrences": 4
+        },
+        {
+          "terme": "#économie",
+          "occurrences": 3
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 2
+        }
+      ],
+      "termes_caracteristiques": [
+        {
+          "terme": "travail",
+          "score": 0.0528
+        },
+        {
+          "terme": "suis",
+          "score": 0.0457
+        },
+        {
+          "terme": "rien",
+          "score": 0.0409
+        },
+        {
+          "terme": "accord",
+          "score": 0.0405
+        },
+        {
+          "terme": "est",
+          "score": 0.0365
+        },
+        {
+          "terme": "conditions",
+          "score": 0.0364
+        },
+        {
+          "terme": "logement",
+          "score": 0.0364
+        },
+        {
+          "terme": "immigration",
+          "score": 0.0358
+        },
+        {
+          "terme": "politique",
+          "score": 0.0349
+        },
+        {
+          "terme": "migratoire",
+          "score": 0.0349
+        }
+      ],
+      "sentiment": [
+        {
+          "categorie": "Positif",
+          "nombre": 33,
+          "part": 0.2683
+        },
+        {
+          "categorie": "Neutre",
+          "nombre": 48,
+          "part": 0.3902
+        },
+        {
+          "categorie": "Négatif",
+          "nombre": 42,
+          "part": 0.3415
+        }
+      ],
+      "emotions": [
+        {
+          "categorie": "Colère",
+          "nombre": 21,
+          "part": 0.1707
+        },
+        {
+          "categorie": "Soutien / approbation",
+          "nombre": 20,
+          "part": 0.1626
+        },
+        {
+          "categorie": "Autre / neutre",
+          "nombre": 82,
+          "part": 0.6667
+        }
+      ],
+      "haine": [
+        {
+          "categorie": "Non haineux",
+          "nombre": 111,
+          "part": 0.9024
+        },
+        {
+          "categorie": "Toxique / offensant",
+          "nombre": 6,
+          "part": 0.0488
+        },
+        {
+          "categorie": "Potentiellement haineux",
+          "nombre": 6,
+          "part": 0.0488
+        }
+      ],
+      "plateformes": [
+        {
+          "plateforme": "facebook",
+          "interactions": 90
+        },
+        {
+          "plateforme": "x",
+          "interactions": 19
+        },
+        {
+          "plateforme": "instagram",
+          "interactions": 14
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Communauté 3",
+      "utilisateurs": 20,
+      "messages": 133,
+      "messages_avec_texte": 129,
+      "interactions_internes": 90,
+      "interactions_externes": 83,
+      "part_interactions_internes": 0.5202,
+      "liens_internes": 79,
+      "liens_externes": 82,
+      "top_mots": [
+        {
+          "terme": "rapport",
+          "occurrences": 21
+        },
+        {
+          "terme": "société",
+          "occurrences": 21
+        },
+        {
+          "terme": "liberté",
+          "occurrences": 20
+        },
+        {
+          "terme": "croyance",
+          "occurrences": 20
+        },
+        {
+          "terme": "valeurs",
+          "occurrences": 18
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 16
+        },
+        {
+          "terme": "foi",
+          "occurrences": 13
+        },
+        {
+          "terme": "دين",
+          "occurrences": 13
+        },
+        {
+          "terme": "religion",
+          "occurrences": 13
+        },
+        {
+          "terme": "traditions",
+          "occurrences": 11
+        }
+      ],
+      "top_hashtags": [
+        {
+          "terme": "#دين",
+          "occurrences": 13
+        },
+        {
+          "terme": "#tradition",
+          "occurrences": 10
+        },
+        {
+          "terme": "#société",
+          "occurrences": 8
+        },
+        {
+          "terme": "#valeurs",
+          "occurrences": 8
+        },
+        {
+          "terme": "#religion",
+          "occurrences": 6
+        }
+      ],
+      "termes_caracteristiques": [
+        {
+          "terme": "liberté",
+          "score": 0.044
+        },
+        {
+          "terme": "croyance",
+          "score": 0.044
+        },
+        {
+          "terme": "rapport",
+          "score": 0.0433
+        },
+        {
+          "terme": "société",
+          "score": 0.0422
+        },
+        {
+          "terme": "valeurs",
+          "score": 0.0391
+        },
+        {
+          "terme": "est",
+          "score": 0.0371
+        },
+        {
+          "terme": "foi",
+          "score": 0.0304
+        },
+        {
+          "terme": "دين",
+          "score": 0.0296
+        },
+        {
+          "terme": "religion",
+          "score": 0.0281
+        },
+        {
+          "terme": "trop",
+          "score": 0.0276
+        }
+      ],
+      "sentiment": [
+        {
+          "categorie": "Positif",
+          "nombre": 44,
+          "part": 0.3411
+        },
+        {
+          "categorie": "Neutre",
+          "nombre": 47,
+          "part": 0.3643
+        },
+        {
+          "categorie": "Négatif",
+          "nombre": 38,
+          "part": 0.2946
+        }
+      ],
+      "emotions": [
+        {
+          "categorie": "Colère",
+          "nombre": 21,
+          "part": 0.1628
+        },
+        {
+          "categorie": "Soutien / approbation",
+          "nombre": 32,
+          "part": 0.2481
+        },
+        {
+          "categorie": "Autre / neutre",
+          "nombre": 76,
+          "part": 0.5891
+        }
+      ],
+      "haine": [
+        {
+          "categorie": "Non haineux",
+          "nombre": 120,
+          "part": 0.9302
+        },
+        {
+          "categorie": "Toxique / offensant",
+          "nombre": 8,
+          "part": 0.062
+        },
+        {
+          "categorie": "Potentiellement haineux",
+          "nombre": 1,
+          "part": 0.0078
+        }
+      ],
+      "plateformes": [
+        {
+          "plateforme": "facebook",
+          "interactions": 102
+        },
+        {
+          "plateforme": "x",
+          "interactions": 26
+        },
+        {
+          "plateforme": "instagram",
+          "interactions": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Communauté 4",
+      "utilisateurs": 16,
+      "messages": 137,
+      "messages_avec_texte": 136,
+      "interactions_internes": 90,
+      "interactions_externes": 89,
+      "part_interactions_internes": 0.5028,
+      "liens_internes": 68,
+      "liens_externes": 87,
+      "top_mots": [
+        {
+          "terme": "patrimoine",
+          "occurrences": 23
+        },
+        {
+          "terme": "culturelle",
+          "occurrences": 20
+        },
+        {
+          "terme": "trop",
+          "occurrences": 16
+        },
+        {
+          "terme": "depuis",
+          "occurrences": 15
+        },
+        {
+          "terme": "années",
+          "occurrences": 14
+        },
+        {
+          "terme": "c'est",
+          "occurrences": 14
+        },
+        {
+          "terme": "mémoire",
+          "occurrences": 14
+        },
+        {
+          "terme": "collective",
+          "occurrences": 14
+        },
+        {
+          "terme": "commun",
+          "occurrences": 12
+        },
+        {
+          "terme": "sentiment",
+          "occurrences": 12
+        }
+      ],
+      "top_hashtags": [
+        {
+          "terme": "#patrimoine",
+          "occurrences": 11
+        },
+        {
+          "terme": "#culture",
+          "occurrences": 10
+        },
+        {
+          "terme": "#identité",
+          "occurrences": 8
+        },
+        {
+          "terme": "#هوية",
+          "occurrences": 7
+        },
+        {
+          "terme": "#nation",
+          "occurrences": 7
+        }
+      ],
+      "termes_caracteristiques": [
+        {
+          "terme": "patrimoine",
+          "score": 0.0472
+        },
+        {
+          "terme": "trop",
+          "score": 0.042
+        },
+        {
+          "terme": "culturelle",
+          "score": 0.0419
+        },
+        {
+          "terme": "identité",
+          "score": 0.0405
+        },
+        {
+          "terme": "depuis",
+          "score": 0.0382
+        },
+        {
+          "terme": "années",
+          "score": 0.0372
+        },
+        {
+          "terme": "est",
+          "score": 0.0347
+        },
+        {
+          "terme": "collective",
+          "score": 0.0326
+        },
+        {
+          "terme": "mémoire",
+          "score": 0.0326
+        },
+        {
+          "terme": "commun",
+          "score": 0.03
+        }
+      ],
+      "sentiment": [
+        {
+          "categorie": "Positif",
+          "nombre": 29,
+          "part": 0.2132
+        },
+        {
+          "categorie": "Neutre",
+          "nombre": 48,
+          "part": 0.3529
+        },
+        {
+          "categorie": "Négatif",
+          "nombre": 59,
+          "part": 0.4338
+        }
+      ],
+      "emotions": [
+        {
+          "categorie": "Colère",
+          "nombre": 42,
+          "part": 0.3088
+        },
+        {
+          "categorie": "Soutien / approbation",
+          "nombre": 21,
+          "part": 0.1544
+        },
+        {
+          "categorie": "Autre / neutre",
+          "nombre": 73,
+          "part": 0.5368
+        }
+      ],
+      "haine": [
+        {
+          "categorie": "Non haineux",
+          "nombre": 116,
+          "part": 0.8529
+        },
+        {
+          "categorie": "Toxique / offensant",
+          "nombre": 8,
+          "part": 0.0588
+        },
+        {
+          "categorie": "Potentiellement haineux",
+          "nombre": 12,
+          "part": 0.0882
+        }
+      ],
+      "plateformes": [
+        {
+          "plateforme": "facebook",
+          "interactions": 102
+        },
+        {
+          "plateforme": "instagram",
+          "interactions": 21
+        },
+        {
+          "plateforme": "x",
+          "interactions": 14
+        }
+      ]
+    }
+  ],
+  "matrice_interactions": [
+    {
+      "source": "Communauté 1",
+      "cible": "Communauté 1",
+      "source_id": 1,
+      "cible_id": 1,
+      "interactions": 79
+    },
+    {
+      "source": "Communauté 1",
+      "cible": "Communauté 2",
+      "source_id": 1,
+      "cible_id": 2,
+      "interactions": 13
+    },
+    {
+      "source": "Communauté 1",
+      "cible": "Communauté 3",
+      "source_id": 1,
+      "cible_id": 3,
+      "interactions": 17
+    },
+    {
+      "source": "Communauté 1",
+      "cible": "Communauté 4",
+      "source_id": 1,
+      "cible_id": 4,
+      "interactions": 16
+    },
+    {
+      "source": "Communauté 2",
+      "cible": "Communauté 1",
+      "source_id": 2,
+      "cible_id": 1,
+      "interactions": 6
+    },
+    {
+      "source": "Communauté 2",
+      "cible": "Communauté 2",
+      "source_id": 2,
+      "cible_id": 2,
+      "interactions": 88
+    },
+    {
+      "source": "Communauté 2",
+      "cible": "Communauté 3",
+      "source_id": 2,
+      "cible_id": 3,
+      "interactions": 13
+    },
+    {
+      "source": "Communauté 2",
+      "cible": "Communauté 4",
+      "source_id": 2,
+      "cible_id": 4,
+      "interactions": 12
+    },
+    {
+      "source": "Communauté 3",
+      "cible": "Communauté 1",
+      "source_id": 3,
+      "cible_id": 1,
+      "interactions": 11
+    },
+    {
+      "source": "Communauté 3",
+      "cible": "Communauté 2",
+      "source_id": 3,
+      "cible_id": 2,
+      "interactions": 11
+    },
+    {
+      "source": "Communauté 3",
+      "cible": "Communauté 3",
+      "source_id": 3,
+      "cible_id": 3,
+      "interactions": 90
+    },
+    {
+      "source": "Communauté 3",
+      "cible": "Communauté 4",
+      "source_id": 3,
+      "cible_id": 4,
+      "interactions": 17
+    },
+    {
+      "source": "Communauté 4",
+      "cible": "Communauté 1",
+      "source_id": 4,
+      "cible_id": 1,
+      "interactions": 12
+    },
+    {
+      "source": "Communauté 4",
+      "cible": "Communauté 2",
+      "source_id": 4,
+      "cible_id": 2,
+      "interactions": 18
+    },
+    {
+      "source": "Communauté 4",
+      "cible": "Communauté 3",
+      "source_id": 4,
+      "cible_id": 3,
+      "interactions": 14
+    },
+    {
+      "source": "Communauté 4",
+      "cible": "Communauté 4",
+      "source_id": 4,
+      "cible_id": 4,
+      "interactions": 90
+    }
+  ],
+  "utilisateurs_non_affectes": 0,
+  "message": ""
+}

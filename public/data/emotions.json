@@ -1,0 +1,138 @@
+{
+  "genere_le": "2026-08-19T21:02:13+00:00",
+  "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
+  "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
+  "auteur": "Dr. Okba Ben Atia",
+  "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
+  "jeu_de_donnees": {
+    "type": "synthetique",
+    "synthetique": true,
+    "fichiers": [
+      "sample_interactions.csv"
+    ],
+    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+  },
+  "categories": [
+    "Colère",
+    "Soutien / approbation",
+    "Autre / neutre"
+  ],
+  "methode": {
+    "nom": "Classification lexicale indicative colère/soutien (implémentation du projet)",
+    "version": "0.1",
+    "langues": [
+      "français",
+      "arabe",
+      "texte mixte français/arabe"
+    ],
+    "type": "heuristique lexicale + marqueurs typographiques",
+    "performance_evaluee": false,
+    "avertissement": "Classification automatique indicative du contenu. Elle ne décrit pas l'état émotionnel réel d'une personne et ne doit pas être interprétée comme tel.",
+    "limites": [
+      "Aucune évaluation sur corpus annoté : aucune performance ne peut être annoncée.",
+      "La colère implicite, l'ironie et le second degré ne sont pas détectés.",
+      "Les marqueurs typographiques (majuscules, points d'exclamation) sont des indices faibles et culturellement variables."
+    ]
+  },
+  "messages_analyses": 511,
+  "global": [
+    {
+      "categorie": "Colère",
+      "nombre": 107,
+      "part": 0.2094
+    },
+    {
+      "categorie": "Soutien / approbation",
+      "nombre": 107,
+      "part": 0.2094
+    },
+    {
+      "categorie": "Autre / neutre",
+      "nombre": 297,
+      "part": 0.5812
+    }
+  ],
+  "par_communaute": [
+    {
+      "cle": "Communauté 1",
+      "libelle": "Communauté 1",
+      "messages": 123,
+      "Colère": 23,
+      "part_Colère": 0.187,
+      "Soutien / approbation": 34,
+      "part_Soutien / approbation": 0.2764,
+      "Autre / neutre": 66,
+      "part_Autre / neutre": 0.5366
+    },
+    {
+      "cle": "Communauté 2",
+      "libelle": "Communauté 2",
+      "messages": 123,
+      "Colère": 21,
+      "part_Colère": 0.1707,
+      "Soutien / approbation": 20,
+      "part_Soutien / approbation": 0.1626,
+      "Autre / neutre": 82,
+      "part_Autre / neutre": 0.6667
+    },
+    {
+      "cle": "Communauté 3",
+      "libelle": "Communauté 3",
+      "messages": 129,
+      "Colère": 21,
+      "part_Colère": 0.1628,
+      "Soutien / approbation": 32,
+      "part_Soutien / approbation": 0.2481,
+      "Autre / neutre": 76,
+      "part_Autre / neutre": 0.5891
+    },
+    {
+      "cle": "Communauté 4",
+      "libelle": "Communauté 4",
+      "messages": 136,
+      "Colère": 42,
+      "part_Colère": 0.3088,
+      "Soutien / approbation": 21,
+      "part_Soutien / approbation": 0.1544,
+      "Autre / neutre": 73,
+      "part_Autre / neutre": 0.5368
+    }
+  ],
+  "par_plateforme": [
+    {
+      "cle": "facebook",
+      "libelle": "Facebook",
+      "messages": 389,
+      "Colère": 86,
+      "part_Colère": 0.2211,
+      "Soutien / approbation": 80,
+      "part_Soutien / approbation": 0.2057,
+      "Autre / neutre": 223,
+      "part_Autre / neutre": 0.5733
+    },
+    {
+      "cle": "instagram",
+      "libelle": "Instagram",
+      "messages": 49,
+      "Colère": 11,
+      "part_Colère": 0.2245,
+      "Soutien / approbation": 8,
+      "part_Soutien / approbation": 0.1633,
+      "Autre / neutre": 30,
+      "part_Autre / neutre": 0.6122
+    },
+    {
+      "cle": "x",
+      "libelle": "X",
+      "messages": 73,
+      "Colère": 10,
+      "part_Colère": 0.137,
+      "Soutien / approbation": 19,
+      "part_Soutien / approbation": 0.2603,
+      "Autre / neutre": 44,
+      "part_Autre / neutre": 0.6027
+    }
+  ],
+  "avertissement": "Classification automatique indicative du contenu. Elle ne décrit pas l'état psychologique d'un utilisateur.",
+  "message": ""
+}
