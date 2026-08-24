@@ -1,22 +1,47 @@
-import { Avertissement } from "./ui/Avertissement";
 import type { JeuDeDonnees } from "@/lib/types";
 
 /**
- * Signale explicitement la nature du jeu de données analysé.
- * Les données réelles et synthétiques ne sont jamais confondues.
+ * Signale la nature du jeu de données analysé, de façon discrète et sur une
+ * seule ligne. Les données réelles et synthétiques ne sont jamais confondues.
+ *
+ * Les compteurs de sources sont facultatifs : ils proviennent de `overview.json`
+ * lorsque la page en dispose, et ne sont jamais écrits en dur.
  */
-export function BandeauJeuDeDonnees({ jeu }: { jeu: JeuDeDonnees }) {
+export function BandeauJeuDeDonnees({
+  jeu,
+  sourcesReelles,
+  sourcesImportManuel,
+}: {
+  jeu: JeuDeDonnees;
+  sourcesReelles?: number;
+  sourcesImportManuel?: number;
+}) {
+  const compteurs =
+    typeof sourcesReelles === "number" && typeof sourcesImportManuel === "number";
+
+  let texte: string;
   if (jeu.synthetique) {
-    return (
-      <Avertissement variante="synthetique" titre="Données de démonstration synthétiques">
-        {jeu.avertissement} Fichier analysé : <code>{jeu.fichiers.join(", ")}</code>.
-      </Avertissement>
-    );
+    texte = compteurs
+      ? `Aucune donnée réelle importée — ${sourcesImportManuel} source(s) en attente d'import manuel`
+      : `Aucune donnée réelle importée — corpus de démonstration (${jeu.fichiers.join(", ")})`;
+  } else {
+    texte = compteurs
+      ? `Données réelles importées — ${sourcesReelles} source(s) analysée(s)`
+      : `Données réelles importées (${jeu.fichiers.join(", ")})`;
   }
+
   return (
-    <Avertissement variante="information" titre="Données réelles importées">
-      Les résultats affichés proviennent des données importées au format normalisé (
-      <code>{jeu.fichiers.join(", ")}</code>).
-    </Avertissement>
+    <p
+      role="note"
+      className="flex items-center gap-2 text-xs text-ardoise-500 dark:text-ardoise-400"
+    >
+      <span
+        aria-hidden="true"
+        className={`h-1.5 w-1.5 shrink-0 rounded-full ${
+          jeu.synthetique ? "bg-teal-500" : "bg-ardoise-400"
+        }`}
+      />
+      <span>{texte}</span>
+    </p>
   );
 }

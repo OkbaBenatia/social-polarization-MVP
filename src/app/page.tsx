@@ -38,7 +38,11 @@ export default function PageVueDEnsemble() {
         titre="Vue d'ensemble"
         description="Synthèse des indicateurs calculés par le pipeline d'analyse : volume de données, structure du réseau, communautés détectées, polarisation structurelle et classification indicative des contenus."
       >
-        <BandeauJeuDeDonnees jeu={donnees.jeu_de_donnees} />
+        <BandeauJeuDeDonnees
+          jeu={donnees.jeu_de_donnees}
+          sourcesReelles={kpi.sources_avec_donnees_reelles}
+          sourcesImportManuel={kpi.sources_import_manuel_requis}
+        />
       </EntetePage>
 
       <section aria-label="Indicateurs clés" className="mb-8">
@@ -46,11 +50,6 @@ export default function PageVueDEnsemble() {
           <KpiCarte
             libelle="Sources analysées"
             valeur={`${nombre(kpi.sources_avec_donnees_reelles)} / ${nombre(kpi.sources_declarees)}`}
-            precision={
-              donnees.jeu_de_donnees.synthetique
-                ? `aucune donnée réelle importée — ${nombre(kpi.sources_import_manuel_requis)} source(s) en attente d'import manuel`
-                : "sources avec interactions réelles importées"
-            }
           />
           <KpiCarte libelle="Publications" valeur={nombre(kpi.publications)} />
           <KpiCarte libelle="Utilisateurs" valeur={nombre(kpi.utilisateurs)} precision="pseudonymisés" />

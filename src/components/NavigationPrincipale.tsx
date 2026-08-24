@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -30,9 +31,14 @@ export function NavigationPrincipale() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" className="flex min-w-0 items-center gap-3">
-            <span
+            <Image
+              src="/app-icon.png"
+              alt=""
               aria-hidden="true"
-              className="h-8 w-8 shrink-0 rounded-md bg-gradient-to-br from-ardoise-700 to-teal-600"
+              width={36}
+              height={36}
+              priority
+              className="h-9 w-9 shrink-0 rounded-md object-cover"
             />
             <span className="min-w-0">
               <span className="block truncate text-sm font-semibold text-ardoise-900 dark:text-white">

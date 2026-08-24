@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description:
     "MVP académique d'analyse de la polarisation, des communautés et de la propagation du discours de haine sur les réseaux sociaux. Préparation, conception et programmation : Dr. Okba Ben Atia.",
   authors: [{ name: "Dr. Okba Ben Atia" }],
+  icons: {
+    icon: "/app-icon.png",
+    shortcut: "/app-icon.png",
+    apple: "/app-icon.png",
+  },
 };
 
 // Applique la préférence de thème avant le premier rendu (évite le clignotement).
