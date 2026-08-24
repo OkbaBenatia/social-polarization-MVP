@@ -195,3 +195,20 @@ def test_sources_en_import_manuel_sont_comptabilisees(sortie):
         1 for source in donnees["sources.json"]["sources"] if source["import_manuel_requis"]
     )
     assert donnees["overview.json"]["kpi"]["sources_import_manuel_requis"] == attendu
+
+
+def test_arbres_de_propagation_ordonnes_comme_les_cascades(sortie):
+    """Les arbres suivent l'ordre des cascades : sortie reproductible d'un run à l'autre.
+
+    Une itération sur un ensemble de chaînes varie selon le hachage du processus ;
+    le JSON produit doit rester identique à données constantes.
+    """
+    _, _, donnees = sortie
+    propagation = donnees["propagation.json"]
+    arbres = list(propagation["arbres"].keys())
+    if not arbres:
+        pytest.skip("aucune cascade détaillée")
+    attendu = [
+        cascade["cascade_id"] for cascade in propagation["cascades"][: len(arbres)]
+    ]
+    assert arbres == attendu

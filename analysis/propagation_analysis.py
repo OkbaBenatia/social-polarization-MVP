@@ -123,9 +123,12 @@ def construire_cascades(cadre: pd.DataFrame, noms_communautes: dict[int, str]) -
     cascades.sort(key=lambda cascade: (-cascade["taille"], cascade["cascade_id"]))
 
     # Arbres détaillés pour les principales cascades (visualisation).
-    identifiants_detailles = {
+    # Liste, et non ensemble : l'ordre d'itération d'un ensemble de chaînes varie
+    # d'un processus Python à l'autre (hachage randomisé). Conserver l'ordre des
+    # cascades — décroissant par taille — garantit un JSON reproductible.
+    identifiants_detailles = [
         cascade["cascade_id"] for cascade in cascades[:NOMBRE_CASCADES_DETAILLEES]
-    }
+    ]
     arbres: dict[str, list[dict]] = {}
     for post_id in identifiants_detailles:
         groupe = cadre[cadre["post_id"] == post_id].sort_values("profondeur")
