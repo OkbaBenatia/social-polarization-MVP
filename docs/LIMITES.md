@@ -15,14 +15,20 @@ Sur les sept sources déclarées, **aucune interaction n'a pu être récupérée
 
 Deux causes se cumulent :
 
-* **Cause immédiate** — l'environnement d'exécution utilisé refuse l'accès sortant vers
-  `facebook.com`, `x.com` et `instagram.com`. La lecture préalable de `robots.txt` a échoué avec
-  `Tunnel connection failed: 403 Forbidden`. Conformément au cadre retenu, cette restriction n'a
-  pas été contournée : aucune requête de contenu n'a été émise.
-* **Cause structurelle** — même avec un accès réseau complet, les commentaires, réponses,
+* **Cause immédiate** — les trois plateformes **interdisent explicitement la collecte
+  automatisée** dans leur `robots.txt`. L'exécution du 24 août 2026, menée depuis une machine
+  disposant d'un accès réseau sortant complet, a évalué 14 voies d'accès (7 pages publiques et
+  7 points d'accès oEmbed officiels) : **les 14 ont été refusées**. `www.facebook.com`,
+  `www.instagram.com`, `x.com` et `graph.facebook.com` déclarent `User-agent: * → Disallow: /` ;
+  `publish.x.com` déclare `Disallow: /oembed`. Conformément au cadre retenu, ce refus n'a pas
+  été contourné : aucune requête de contenu n'a été émise.
+* **Cause structurelle** — même avec une autorisation d'accès, les commentaires, réponses,
   mentions, partages, reposts et citations ne sont exposés publiquement par aucune des trois
   plateformes. Leur récupération légitime suppose une API autorisée (API Graph pour Facebook et
-  Instagram, API X pour X), soumise à souscription ou à revue de la plateforme.
+  Instagram, API X pour X), soumise à souscription ou à revue de la plateforme. Une vérification
+  manuelle de faisabilité a confirmé que le point d'accès oEmbed de X n'expose qu'une
+  publication isolée — sans aucune réponse ni repost — et que celui d'Instagram n'expose aucune
+  donnée de contenu.
 
 **Conséquence** : les résultats actuellement publiés proviennent d'un jeu de données
 synthétique.

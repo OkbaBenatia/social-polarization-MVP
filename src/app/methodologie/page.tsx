@@ -115,12 +115,20 @@ export default function PageMethodologie() {
         <Section id="collecte" titre="3. Collecte">
           <p>
             Une tentative de collecte publique est réalisée par <code>analysis/collect.py</code>.
-            Elle se limite aux métadonnées exposées publiquement, sans authentification. Les
-            règles suivantes sont appliquées sans exception : respect du fichier{" "}
-            <code>robots.txt</code>, aucune authentification ni cookie personnel, aucun
-            contournement de CAPTCHA, de protection anti-bot ou de limitation d'API, une seule
-            requête par URL avec délai entre les requêtes, et aucune recherche de données
-            privées.
+            Pour chaque source, deux voies d&apos;accès sont évaluées : la page publique de la
+            publication et le point d&apos;accès oEmbed officiel de la plateforme. Les règles
+            suivantes sont appliquées sans exception : respect du fichier{" "}
+            <code>robots.txt</code> de chaque domaine sollicité, lu avant toute requête, aucune
+            authentification ni cookie personnel, aucun contournement de CAPTCHA, de protection
+            anti-bot ou de limitation d&apos;API, une seule requête par voie autorisée avec délai
+            entre les sources, et aucune recherche de données privées.
+          </p>
+          <p>
+            Résultat de l&apos;exécution du 24 août 2026, menée depuis un environnement disposant
+            d&apos;un accès réseau sortant complet : les 14 voies évaluées ont toutes été
+            refusées par le protocole d&apos;exclusion des plateformes. Aucune interaction
+            n&apos;a été récupérée automatiquement ; les sept sources nécessitent un import
+            manuel. Le détail voie par voie est consultable sur la page « Sources étudiées ».
           </p>
           <p>
             Lorsque les plateformes ne permettent pas la récupération automatisée — ce qui est

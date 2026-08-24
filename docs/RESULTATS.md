@@ -7,7 +7,7 @@
 
 Corpus analysé : `data/sample_interactions.csv` — 521 interactions, 84 utilisateurs,
 14 publications, réparties sur les sept sources déclarées.
-Exécution du 19 août 2026. Tous les chiffres ci-dessous proviennent de `public/data/*.json`.
+Exécution du 24 août 2026. Tous les chiffres ci-dessous proviennent de `public/data/*.json`.
 
 Pour régénérer ces résultats :
 
@@ -22,7 +22,9 @@ python analysis/run_analysis.py
 | Indicateur | Valeur |
 |------------|--------|
 | Sources déclarées | 7 |
-| Sources avec données rattachées | 7 (statut « Données de démonstration ») |
+| Sources avec données réelles importées | **0** |
+| Sources nécessitant un import manuel | **7** |
+| Sources couvertes par le corpus synthétique | 7 (statut « Données de démonstration ») |
 | Publications | 14 |
 | Interactions | 521 |
 | Utilisateurs pseudonymisés | 84 |

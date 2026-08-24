@@ -161,11 +161,60 @@ export default function PageSources() {
                     {source.http_status ?? "aucune réponse obtenue"}
                   </dd>
                 </div>
-                {source.robots_txt ? (
+                <div className="flex gap-2">
+                  <dt className="shrink-0 text-ardoise-500 dark:text-ardoise-400">
+                    Import manuel :
+                  </dt>
+                  <dd className="text-ardoise-800 dark:text-ardoise-200">
+                    {source.import_manuel_requis ? "nécessaire" : "non nécessaire"}
+                  </dd>
+                </div>
+                {source.voies_evaluees.length ? (
                   <div>
-                    <dt className="text-ardoise-500 dark:text-ardoise-400">robots.txt :</dt>
+                    <dt className="text-ardoise-500 dark:text-ardoise-400">
+                      Voies d&apos;accès évaluées :
+                    </dt>
+                    <dd className="mt-1 space-y-2">
+                      {source.voies_evaluees.map((voie) => (
+                        <div
+                          key={voie.url}
+                          className="rounded-md border border-ardoise-100 p-2 text-xs leading-relaxed dark:border-ardoise-800"
+                        >
+                          <p className="font-medium text-ardoise-800 dark:text-ardoise-200">
+                            {voie.voie}
+                          </p>
+                          <p className="mt-0.5 text-ardoise-600 dark:text-ardoise-400">
+                            <span className="text-ardoise-500">robots.txt :</span>{" "}
+                            {voie.robots_txt} —{" "}
+                            {voie.requete_effectuee
+                              ? `requête émise (HTTP ${voie.http_status ?? "sans réponse"})`
+                              : "aucune requête émise"}
+                          </p>
+                          <p className="mt-0.5 text-ardoise-600 dark:text-ardoise-400">
+                            {voie.resultat}
+                          </p>
+                        </div>
+                      ))}
+                    </dd>
+                  </div>
+                ) : null}
+                <div>
+                  <dt className="text-ardoise-500 dark:text-ardoise-400">
+                    Données réellement récupérées :
+                  </dt>
+                  <dd className="mt-0.5 text-xs leading-relaxed text-ardoise-700 dark:text-ardoise-300">
+                    {source.donnees_recuperees.length
+                      ? source.donnees_recuperees.join(", ")
+                      : "aucune"}
+                  </dd>
+                </div>
+                {source.donnees_manquantes.length ? (
+                  <div>
+                    <dt className="text-ardoise-500 dark:text-ardoise-400">
+                      Données manquantes :
+                    </dt>
                     <dd className="mt-0.5 text-xs leading-relaxed text-ardoise-700 dark:text-ardoise-300">
-                      {source.robots_txt}
+                      {source.donnees_manquantes.join(", ")}
                     </dd>
                   </div>
                 ) : null}

@@ -14,11 +14,11 @@ suivantes, sans exception :
 
 | Règle | Mise en œuvre |
 |-------|---------------|
-| Respect du protocole d'exclusion | Le fichier `robots.txt` de chaque plateforme est lu **avant** toute requête de contenu. S'il interdit l'accès, ou s'il ne peut pas être lu, aucune requête de contenu n'est effectuée. |
+| Respect du protocole d'exclusion | Le fichier `robots.txt` de **chaque domaine sollicité** est lu **avant** toute requête de contenu. S'il interdit l'accès, ou s'il ne peut pas être lu, aucune requête n'est émise. |
 | Aucune authentification | Aucun identifiant, aucun mot de passe, aucun jeton d'API privé. |
 | Aucun cookie personnel | Aucune session utilisateur n'est réutilisée. |
 | Aucun contournement | Ni CAPTCHA, ni protection anti-bot, ni limitation d'API ne sont contournés. Un mur d'authentification détecté est documenté, jamais franchi. |
-| Aucun scraping agressif | Une seule requête par URL, avec un délai de deux secondes entre les requêtes, et un agent utilisateur explicite. |
+| Aucun scraping agressif | Une seule requête par voie autorisée, avec délai entre les sources, et un agent utilisateur explicite. |
 | Aucune donnée privée | Seules les métadonnées publiques (`og:title`, `og:description`, `og:type`, `og:url`, `<title>`) sont extraites. Aucune donnée personnelle n'est recherchée ni conservée. |
 
 Agent utilisateur déclaré :
@@ -26,6 +26,14 @@ Agent utilisateur déclaré :
 ```
 social-polarization-MVP/0.1 (recherche academique ; collecte de metadonnees publiques)
 ```
+
+Pour chaque source, **deux voies d'accès** sont évaluées :
+
+1. la **page publique** de la publication (lecture des balises Open Graph) ;
+2. le **point d'accès oEmbed officiel** de la plateforme, lorsqu'il existe.
+
+Chaque voie est confrontée au `robots.txt` de son propre domaine. Le refus est enregistré comme
+un **résultat de l'étude**, jamais contourné.
 
 Le rapport complet, horodaté, est écrit dans `data/collection_report.json` et lu ensuite par le
 pipeline pour déterminer le statut de chaque source.
@@ -48,73 +56,112 @@ contenu réellement importé (`analysis/load_sources.py`).
 
 ## 3. Résultat de la tentative de collecte
 
-Exécution du 19 août 2026 (rapport : `data/collection_report.json`).
+Exécution du **24 août 2026**, depuis une machine disposant d'un **accès réseau sortant complet
+et vérifié** (aucun mandataire bloquant, `robots.txt` des trois plateformes lus avec succès).
+Rapport : `data/collection_report.json`.
 
-| Source | Plateforme | URL | Réponse HTTP | Métadonnées publiques | Interactions récupérées |
-|--------|-----------|-----|--------------|----------------------|------------------------|
-| `facebook_001` | Facebook | https://www.facebook.com/share/v/18hGjKiFVK/ | aucune réponse obtenue | aucune | **0** |
-| `facebook_002` | Facebook | https://www.facebook.com/share/p/1HYJ6PKM2Q/ | aucune réponse obtenue | aucune | **0** |
-| `facebook_003` | Facebook | https://www.facebook.com/share/v/1GCZzavgcV/ | aucune réponse obtenue | aucune | **0** |
-| `facebook_004` | Facebook | https://www.facebook.com/share/p/1F5HSSqfkM/ | aucune réponse obtenue | aucune | **0** |
-| `facebook_005` | Facebook | https://www.facebook.com/share/p/18GdU39RoV/ | aucune réponse obtenue | aucune | **0** |
-| `x_001` | X | https://x.com/i/status/2087872720012796385 | aucune réponse obtenue | aucune | **0** |
-| `instagram_001` | Instagram | https://www.instagram.com/reel/DbtVlHYABVK/ | aucune réponse obtenue | aucune | **0** |
+**Bilan : 14 voies d'accès évaluées, 14 refusées par `robots.txt`, 0 interaction récupérée sur
+7 sources.**
 
-**Bilan : 0 interaction récupérée automatiquement sur 7 sources.**
+| Source | Plateforme | URL | Voies évaluées | Requêtes émises | Interactions récupérées | Import manuel |
+|--------|-----------|-----|----------------|-----------------|------------------------|---------------|
+| `facebook_001` | Facebook | https://www.facebook.com/share/v/18hGjKiFVK/ | 2 | 0 | **0** | **oui** |
+| `facebook_002` | Facebook | https://www.facebook.com/share/p/1HYJ6PKM2Q/ | 2 | 0 | **0** | **oui** |
+| `facebook_003` | Facebook | https://www.facebook.com/share/v/1GCZzavgcV/ | 2 | 0 | **0** | **oui** |
+| `facebook_004` | Facebook | https://www.facebook.com/share/p/1F5HSSqfkM/ | 2 | 0 | **0** | **oui** |
+| `facebook_005` | Facebook | https://www.facebook.com/share/p/18GdU39RoV/ | 2 | 0 | **0** | **oui** |
+| `x_001` | X | https://x.com/i/status/2087872720012796385 | 2 | 0 | **0** | **oui** |
+| `instagram_001` | Instagram | https://www.instagram.com/reel/DbtVlHYABVK/ | 2 | 0 | **0** | **oui** |
 
-### 3.1 Cause immédiate constatée
+### 3.1 Cause constatée : refus explicite du protocole d'exclusion
 
-Pour les sept URLs, la lecture préalable de `robots.txt` a échoué avec l'erreur réseau
-suivante :
+Contrairement à une indisponibilité réseau, le refus constaté est **une décision explicite des
+plateformes**, vérifiable et reproductible. Directives applicables à un agent générique, lues
+le 24 août 2026 :
 
-```
-URLError : <urlopen error Tunnel connection failed: 403 Forbidden>
-```
+| Domaine sollicité | Voie concernée | Directive `robots.txt` |
+|-------------------|----------------|------------------------|
+| `www.facebook.com` | page publique des 5 publications Facebook | `User-agent: *` → `Disallow: /` |
+| `graph.facebook.com` | oEmbed officiel Facebook et Instagram | `User-agent: *` → `Disallow: /` |
+| `www.instagram.com` | page publique du reel | `User-agent: *` → `Disallow: /` |
+| `x.com` | page publique de la publication X | `User-agent: *` → `Disallow: /` |
+| `publish.x.com` | oEmbed officiel X | `User-agent: *` → `Disallow: /oembed` |
 
-L'environnement d'exécution utilisé pour cette exécution refuse l'accès sortant vers
-`facebook.com`, `x.com` et `instagram.com` (politique réseau du mandataire). Conformément au
-cadre retenu, **cette restriction n'a pas été contournée** : aucune requête de contenu n'a été
-émise, et la source a été marquée comme nécessitant un import manuel.
+L'en-tête du `robots.txt` de Meta est explicite :
 
-Ce comportement est volontairement conservateur : lorsque le protocole d'exclusion ne peut pas
-être vérifié, la collecte n'est pas tentée.
+> « Collection of data on Facebook through automated means is prohibited unless you have express
+> written permission from Facebook. »
 
-### 3.2 Cause structurelle, indépendante de l'environnement
+Conformément au cadre retenu, **aucune requête de contenu n'a été émise** vers ces voies. Les
+sept sources ont donc été marquées comme nécessitant un import manuel.
 
-Même avec un accès réseau complet, la collecte automatisée des **interactions** resterait
-impossible dans le cadre éthique retenu :
+### 3.2 Vérification manuelle de faisabilité (hors pipeline)
+
+Afin de documenter précisément ce qui *serait* accessible en cas d'autorisation, une
+vérification manuelle ponctuelle a été effectuée pendant l'étude de faisabilité, **avant** que le
+verdict `robots.txt` de chaque point d'accès oEmbed ne soit établi. Elle n'a pas été reconduite
+et n'alimente aucun résultat.
+
+| Point d'accès | Réponse | Champs réellement exposés |
+|---------------|---------|---------------------------|
+| oEmbed X (`publish.x.com/oembed`) | HTTP 200 | auteur, texte intégral de la publication, date, hashtags, présence d'un média. **Aucun** commentaire, réponse ou repost. |
+| oEmbed Instagram (`graph.facebook.com/instagram_oembed`) | HTTP 200 | conteneur d'intégration générique uniquement — **ni légende, ni auteur, ni commentaire**. |
+| oEmbed Facebook (`graph.facebook.com/oembed_post`) | HTTP 400 | aucun : un jeton d'application Meta approuvé est exigé. |
+
+Trois conclusions en découlent :
+
+1. **Aucun point d'accès officiel n'expose les interactions entre utilisateurs**, qui
+   constituent la matière première de cette étude. Au mieux, X expose le texte d'une
+   publication isolée.
+2. Ces voies étant **interdites par `robots.txt`**, elles sont exclues du pipeline. Aucune
+   donnée issue de cette vérification n'est intégrée au corpus, ni republiée dans ce dépôt.
+3. Le contenu de `x_001` est **transcriptible manuellement** par un chercheur consultant
+   normalement la page : c'est la voie d'acquisition légitime retenue (section 5).
+
+### 3.3 Cause structurelle, indépendante de l'environnement
+
+Même avec une autorisation d'accès, la collecte automatisée des **interactions** resterait hors
+de portée d'un MVP :
 
 * **Facebook** — les publications partagées via `facebook.com/share/…` redirigent vers une page
-  qui exige une session authentifiée pour afficher les commentaires et les réponses. Les
-  commentaires ne sont pas exposés dans le HTML public. Leur récupération légitime suppose
-  l'API Graph avec une application approuvée et les autorisations correspondantes.
-* **X** — l'accès programmatique aux publications, réponses, reposts et citations passe
-  exclusivement par l'API X, soumise à souscription. Les pages `x.com/i/status/…` servies sans
-  authentification ne contiennent pas le fil de discussion.
-* **Instagram** — les pages `instagram.com/reel/…` exposent au mieux quelques métadonnées Open
-  Graph ; la légende complète et les commentaires nécessitent une session ou l'API Instagram
-  Graph, réservée aux comptes professionnels et à des applications approuvées.
+  qui exige une session authentifiée pour afficher les commentaires et les réponses. Leur
+  récupération légitime suppose l'API Graph avec une application approuvée.
+* **X** — l'accès programmatique aux réponses, reposts et citations passe exclusivement par
+  l'API X, soumise à souscription. Le point d'accès oEmbed ne renvoie qu'une publication isolée.
+* **Instagram** — la légende complète et les commentaires nécessitent une session ou l'API
+  Instagram Graph, réservée aux comptes professionnels et aux applications approuvées.
 
-En résumé : **les métadonnées d'une publication peuvent parfois être lues publiquement, mais les
-interactions entre utilisateurs — qui constituent la matière première de cette étude — ne le
-sont sur aucune des trois plateformes.**
+En résumé : **le texte d'une publication peut parfois être lu publiquement, mais les interactions
+entre utilisateurs ne le sont sur aucune des trois plateformes.**
 
 ---
 
 ## 4. Données réellement accessibles et données manquantes
 
+Synthèse par source. « Accessible » signifie : exposé publiquement par la plateforme.
+« Récupéré » signifie : **effectivement obtenu par le pipeline**, dans le respect du cadre.
+
+| Source | Données accessibles publiquement | Données récupérées | Données manquantes | Import manuel |
+|--------|----------------------------------|--------------------|--------------------|---------------|
+| `facebook_001` … `facebook_005` | aucune sans session authentifiée | **aucune** | texte, commentaires, réponses, mentions, partages, relations, horodatages | **oui** |
+| `x_001` | texte, auteur, date, hashtags (via oEmbed, voie interdite par `robots.txt`) | **aucune** | commentaires, réponses, mentions, reposts, relations, horodatages | **oui** |
+| `instagram_001` | aucune donnée de contenu (conteneur d'intégration seul) | **aucune** | texte, commentaires, réponses, mentions, partages, relations, horodatages | **oui** |
+
+Détail par type de donnée :
+
 | Donnée souhaitée | Facebook | X | Instagram | Commentaire |
 |------------------|----------|---|-----------|-------------|
-| Texte de la publication | métadonnées seulement, avec session | API | métadonnées seulement | Souvent tronqué dans `og:description`. |
-| Légende | non | API | non | |
-| Date | non | API | non | Rarement exposée publiquement. |
+| Texte de la publication | non | oEmbed (voie interdite) | non | Seul X l'expose hors session. |
+| Légende | non | — | non | |
+| Date | non | oEmbed (voie interdite) | non | |
 | Commentaires | non | non | non | Jamais exposés sans authentification. |
 | Réponses | non | non | non | |
 | Mentions | non | non | non | |
-| Reposts / retweets | non | API | — | |
-| Citations | — | API | — | |
+| Reposts / citations | — | API souscrite | — | |
 | Partages | non | — | non | |
 | Interactions entre utilisateurs | **non** | **non** | **non** | Cœur de l'étude, non accessible. |
+
+**Les 7 sources nécessitent donc un import manuel.**
 
 ---
 
@@ -159,7 +206,8 @@ publié.
 
 ### 6.1 Limites techniques
 
-* Aucune des trois plateformes n'expose publiquement les interactions entre utilisateurs.
+* Les trois plateformes interdisent explicitement la collecte automatisée par `robots.txt`.
+* Aucune d'entre elles n'expose publiquement les interactions entre utilisateurs.
 * L'accès aux API officielles suppose une souscription, une application approuvée et, pour
   Facebook et Instagram, une revue de la plateforme — hors du périmètre d'un MVP.
 * Les URLs de partage (`/share/…`, `?igsh=…`) sont des redirections opaques : elles ne
@@ -184,7 +232,8 @@ publié.
 Aucune donnée réelle n'ayant pu être récupérée à ce jour, les résultats publiés dans le tableau
 de bord proviennent du **jeu de démonstration synthétique**. Ils valident le fonctionnement du
 dispositif et **ne constituent pas des résultats empiriques**. Cette nature est signalée sur
-chaque page du tableau de bord et dans chacun des neuf fichiers JSON produits.
+chaque page du tableau de bord et dans chacun des neuf fichiers JSON produits. L'indicateur
+« Sources analysées » affiche en conséquence **0 / 7**.
 
 ---
 
@@ -195,12 +244,13 @@ python analysis/collect.py
 ```
 
 Le rapport écrit dans `data/collection_report.json` contient, pour chaque source : l'horodatage
-de la tentative, la méthode, le résultat de la vérification `robots.txt`, le code HTTP obtenu,
-les métadonnées publiques éventuellement lues, la détection d'un mur d'authentification, le
-nombre d'interactions récupérées et la liste des limites constatées.
+de la tentative, la liste des voies évaluées avec le verdict `robots.txt` de chacune, le fait
+qu'une requête ait été émise ou non, le code HTTP obtenu le cas échéant, les métadonnées
+publiques éventuellement lues, la détection d'un mur d'authentification, les données récupérées,
+les données manquantes, la nécessité d'un import manuel et la liste des limites constatées.
 
 Ce rapport est ensuite lu par `analysis/run_analysis.py`, qui en déduit le statut affiché pour
-chaque source.
+chaque source dans le tableau de bord.
 
 ---
 

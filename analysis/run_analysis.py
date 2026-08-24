@@ -564,8 +564,14 @@ def _generer_json(**contexte) -> list[str]:
         if plateforme
     ]
 
-    sources_avec_donnees = sum(
-        1 for source in etat_sources if source["interactions"] > 0
+    # Une source n'est comptée comme « analysée » que si des interactions RÉELLES
+    # lui sont rattachées. Un corpus synthétique couvre des identifiants de source
+    # mais ne constitue jamais une donnée collectée : les deux comptes sont donc
+    # exposés séparément, et jamais confondus.
+    sources_couvertes = sum(1 for source in etat_sources if source["interactions"] > 0)
+    sources_avec_donnees_reelles = 0 if meta_donnees["synthetique"] else sources_couvertes
+    sources_import_manuel = sum(
+        1 for source in etat_sources if source.get("import_manuel_requis", True)
     )
     contenus_haineux = int(
         (
@@ -580,7 +586,9 @@ def _generer_json(**contexte) -> list[str]:
         **entete,
         "kpi": {
             "sources_declarees": len(etat_sources),
-            "sources_avec_donnees": sources_avec_donnees,
+            "sources_avec_donnees_reelles": sources_avec_donnees_reelles,
+            "sources_couvertes_par_le_corpus": sources_couvertes,
+            "sources_import_manuel_requis": sources_import_manuel,
             "publications": int(len(publications)),
             "utilisateurs": len(etiquettes),
             "interactions": total_interactions,

@@ -57,7 +57,9 @@ export interface MetriquesReseau {
 export interface Overview extends Entete {
   kpi: {
     sources_declarees: number;
-    sources_avec_donnees: number;
+    sources_avec_donnees_reelles: number;
+    sources_couvertes_par_le_corpus: number;
+    sources_import_manuel_requis: number;
     publications: number;
     utilisateurs: number;
     interactions: number;
@@ -117,7 +119,23 @@ export interface SourceEtudiee {
   robots_txt: string;
   mur_authentification_detecte: boolean;
   metadonnees_publiques: Record<string, string>;
+  voies_evaluees: VoieCollecte[];
+  donnees_recuperees: string[];
+  donnees_manquantes: string[];
+  import_manuel_requis: boolean;
   limites: string[];
+}
+
+export interface VoieCollecte {
+  voie: string;
+  url: string;
+  robots_txt: string;
+  robots_detail: string;
+  requete_effectuee: boolean;
+  http_status: number | null;
+  contenu_obtenu: boolean;
+  remarque: string;
+  resultat: string;
 }
 
 export interface Sources extends Entete {

@@ -175,3 +175,23 @@ def test_contenu_expose_les_filtres_attendus(sortie):
     for communaute in contenu["communautes"]:
         for plateforme in contenu["plateformes"]:
             assert f"{communaute['id']}|{plateforme['id']}" in contenu["profils"]
+
+
+def test_aucune_source_reelle_declaree_sur_corpus_synthetique(sortie):
+    """Un corpus synthétique ne doit jamais être présenté comme une collecte réelle."""
+    _, _, donnees = sortie
+    kpi = donnees["overview.json"]["kpi"]
+    if donnees["overview.json"]["jeu_de_donnees"]["synthetique"]:
+        assert kpi["sources_avec_donnees_reelles"] == 0
+        assert kpi["sources_couvertes_par_le_corpus"] >= 0
+        for source in donnees["sources.json"]["sources"]:
+            assert source["statut"] != load_sources.STATUT_DISPONIBLE
+
+
+def test_sources_en_import_manuel_sont_comptabilisees(sortie):
+    """Le nombre de sources en attente d'import est cohérent avec sources.json."""
+    _, _, donnees = sortie
+    attendu = sum(
+        1 for source in donnees["sources.json"]["sources"] if source["import_manuel_requis"]
+    )
+    assert donnees["overview.json"]["kpi"]["sources_import_manuel_requis"] == attendu

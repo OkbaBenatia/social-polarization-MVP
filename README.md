@@ -90,6 +90,12 @@ Le statut de collecte réel de chaque source est documenté dans
 « Sources étudiées ». **Aucune source n'est présentée comme analysée tant que ses données
 n'ont pas été réellement récupérées ou importées.**
 
+> **État de la collecte au 24 août 2026.** Les 14 voies d'accès évaluées (7 pages publiques et
+> 7 points d'accès oEmbed officiels) ont **toutes** été refusées par le `robots.txt` des
+> plateformes. **0 interaction récupérée automatiquement ; les 7 sources nécessitent un import
+> manuel.** Les résultats actuellement publiés proviennent donc d'un **jeu de démonstration
+> synthétique**, explicitement signalé sur chaque page du tableau de bord.
+
 ---
 
 ## Format normalisé des données
@@ -176,10 +182,10 @@ correspondance reste locale (`data/private/`, exclue du dépôt) et n'est **jama
 
 La tentative de collecte publique (`analysis/collect.py`) respecte strictement :
 
-* le fichier `robots.txt` de chaque plateforme ;
+* le fichier `robots.txt` de **chaque domaine sollicité**, lu avant toute requête ;
 * l'absence totale d'authentification, de cookie personnel ou de session privée ;
 * l'absence de tout contournement de CAPTCHA, de protection anti-bot ou de limitation d'API ;
-* une seule requête par URL, avec délai entre les requêtes ;
+* une seule requête par voie autorisée, avec délai entre les sources ;
 * l'absence de recherche ou de conservation de données privées.
 
 Lorsqu'une plateforme empêche la récupération, la limite est **documentée**, jamais contournée.

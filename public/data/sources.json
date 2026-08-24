@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-08-19T21:42:57+00:00",
+  "genere_le": "2026-08-24T19:36:51+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
@@ -24,12 +24,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — oembed_post)",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F18hGjKiFVK%2F",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -43,12 +80,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — oembed_post)",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1HYJ6PKM2Q%2F",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -62,12 +136,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — oembed_post)",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1GCZzavgcV%2F",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -81,12 +192,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — oembed_post)",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1F5HSSqfkM%2F",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -100,12 +248,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.facebook.com/share/p/18GdU39RoV/",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — oembed_post)",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F18GdU39RoV%2F",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -119,12 +304,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://x.com/i/status/2087872720012796385",
+          "robots_txt": "interdit",
+          "robots_detail": "https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (publish.x.com)",
+          "url": "https://publish.x.com/oembed?url=https%3A%2F%2Fx.com%2Fi%2Fstatus%2F2087872720012796385&omit_script=1",
+          "robots_txt": "interdit",
+          "robots_detail": "https://publish.x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Point d'accès public d'intégration, destiné à l'affichage d'une publication.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (publish.x.com) — https://publish.x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     },
     {
@@ -138,12 +360,49 @@
       "publications": 2,
       "collecte_tentee": true,
       "http_status": null,
-      "robots_txt": "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
+      "robots_txt": "https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
       "mur_authentification_detecte": false,
       "metadonnees_publiques": {},
+      "voies_evaluees": [
+        {
+          "voie": "Page publique de la publication",
+          "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
+          "robots_txt": "interdit",
+          "robots_detail": "https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Lecture des balises Open Graph servies sans authentification.",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        },
+        {
+          "voie": "API oEmbed officielle (Graph API — instagram_oembed)",
+          "url": "https://graph.facebook.com/v18.0/instagram_oembed?url=https%3A%2F%2Fwww.instagram.com%2Freel%2FDbtVlHYABVK%2F%3Figsh%3DMTBneGEwbGhndHBtNw%3D%3D&omitscript=true",
+          "robots_txt": "interdit",
+          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+        }
+      ],
+      "donnees_recuperees": [],
+      "donnees_manquantes": [
+        "texte de la publication",
+        "commentaires",
+        "réponses aux commentaires",
+        "mentions",
+        "partages / reposts",
+        "relations entre utilisateurs",
+        "horodatages"
+      ],
+      "import_manuel_requis": true,
       "limites": [
-        "robots.txt illisible (URLError : <urlopen error Tunnel connection failed: 403 Forbidden>) — collecte non tentée. Cause possible : accès sortant vers cette plateforme refusé par l'environnement d'exécution, ou plateforme refusant les agents automatisés.",
-        "Aucune requête de contenu n'a été effectuée : le protocole d'exclusion est respecté."
+        "Page publique de la publication — https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "API oEmbed officielle (Graph API — instagram_oembed) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
+        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
       ]
     }
   ],

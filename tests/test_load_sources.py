@@ -99,3 +99,36 @@ def test_rapport_de_collecte_du_projet_est_lisible():
         for resultat in rapport.values():
             assert "limites" in resultat
             assert isinstance(resultat["interactions_recuperees"], int)
+
+
+def test_etat_source_expose_le_detail_de_collecte():
+    """L'état d'une source transporte ce qui a réellement été récupéré ou non."""
+    sources = [{"source_id": "s1", "platform": "x", "url": "https://exemple.org/1",
+                "type_contenu": "publication", "thematique_declaree": ""}]
+    rapport = {
+        "s1": {
+            "source_id": "s1",
+            "accessible": False,
+            "limites": ["refus robots.txt"],
+            "voies_evaluees": [{"voie": "Page publique", "robots_txt": "interdit"}],
+            "donnees_recuperees": [],
+            "donnees_manquantes": ["commentaires"],
+            "import_manuel_requis": True,
+        }
+    }
+    etat = load_sources.construire_etat_sources(sources, rapport, {}, {}, jeu_synthetique=False)
+    assert len(etat) == 1
+    assert etat[0]["voies_evaluees"][0]["robots_txt"] == "interdit"
+    assert etat[0]["donnees_recuperees"] == []
+    assert etat[0]["donnees_manquantes"] == ["commentaires"]
+    assert etat[0]["import_manuel_requis"] is True
+    assert etat[0]["statut"] == load_sources.STATUT_IMPORT_MANUEL
+
+
+def test_etat_source_sans_rapport_exige_import_manuel():
+    """Sans rapport de collecte, l'import manuel est présumé nécessaire."""
+    sources = [{"source_id": "s1", "platform": "x", "url": "https://exemple.org/1",
+                "type_contenu": "", "thematique_declaree": ""}]
+    etat = load_sources.construire_etat_sources(sources, {}, {}, {}, jeu_synthetique=False)
+    assert etat[0]["import_manuel_requis"] is True
+    assert etat[0]["donnees_recuperees"] == []

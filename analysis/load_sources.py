@@ -151,6 +151,16 @@ def construire_etat_sources(
                 "metadonnees_publiques": collecte.get("metadonnees_publiques", {})
                 if collecte
                 else {},
+                "voies_evaluees": list(collecte.get("voies_evaluees", [])) if collecte else [],
+                "donnees_recuperees": list(collecte.get("donnees_recuperees", []))
+                if collecte
+                else [],
+                "donnees_manquantes": list(collecte.get("donnees_manquantes", []))
+                if collecte
+                else [],
+                "import_manuel_requis": bool(collecte.get("import_manuel_requis", True))
+                if collecte
+                else True,
                 "limites": limites,
             }
         )

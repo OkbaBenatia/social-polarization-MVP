@@ -166,11 +166,14 @@ dispositif n'infère pas automatiquement le sujet d'une publication.
 
 ### 7.1 Cadre
 
-La tentative de collecte (`analysis/collect.py`) est limitée aux métadonnées publiques exposées
-sans authentification. Elle respecte sans exception : le fichier `robots.txt` de chaque
-plateforme, l'absence totale d'authentification et de cookie personnel, l'absence de tout
-contournement de CAPTCHA, de protection anti-bot ou de limitation d'API, une seule requête par
-URL avec délai, et l'absence de recherche ou de conservation de données privées.
+La tentative de collecte (`analysis/collect.py`) est limitée aux données publiques exposées sans
+authentification. Pour chaque source, deux voies d'accès sont évaluées : la page publique de la
+publication et le point d'accès oEmbed officiel de la plateforme. Chaque voie est confrontée au
+`robots.txt` de son propre domaine **avant** toute requête. Le dispositif respecte sans
+exception : le protocole d'exclusion de chaque domaine sollicité, l'absence totale
+d'authentification et de cookie personnel, l'absence de tout contournement de CAPTCHA, de
+protection anti-bot ou de limitation d'API, une seule requête par voie autorisée avec délai, et
+l'absence de recherche ou de conservation de données privées.
 
 ### 7.2 Résultat
 
@@ -178,22 +181,32 @@ URL avec délai, et l'absence de recherche ou de conservation de données privé
 
 Deux causes se cumulent.
 
-**Cause immédiate.** Pour les sept URLs, la lecture préalable de `robots.txt` a échoué :
-`Tunnel connection failed: 403 Forbidden`. L'environnement d'exécution refuse l'accès sortant
-vers `facebook.com`, `x.com` et `instagram.com`. Conformément au cadre retenu, cette restriction
-n'a pas été contournée : aucune requête de contenu n'a été émise. Le dispositif est délibérément
-conservateur — lorsque le protocole d'exclusion ne peut pas être vérifié, la collecte n'est pas
-tentée.
+L'exécution du 24 août 2026 a été menée depuis une machine disposant d'un **accès réseau sortant
+complet et vérifié** : les `robots.txt` des trois plateformes ont été lus avec succès. Le refus
+constaté n'est donc pas une indisponibilité technique, mais **une décision explicite des
+plateformes**, vérifiable et reproductible.
 
-**Cause structurelle.** Même avec un accès réseau complet, la collecte des interactions resterait
-impossible dans ce cadre. Les publications Facebook partagées via `/share/…` exigent une session
-authentifiée pour afficher les commentaires. L'accès programmatique aux publications, réponses,
+**Cause immédiate.** Sur les 14 voies d'accès évaluées (7 pages publiques et 7 points d'accès
+oEmbed officiels), **les 14 ont été refusées par le protocole d'exclusion**. `www.facebook.com`,
+`www.instagram.com`, `x.com` et `graph.facebook.com` déclarent `User-agent: * → Disallow: /` ;
+`publish.x.com` déclare `Disallow: /oembed`. L'en-tête du `robots.txt` de Meta est sans
+ambiguïté : « Collection of data on Facebook through automated means is prohibited unless you
+have express written permission from Facebook. » Conformément au cadre retenu, aucune requête de
+contenu n'a été émise.
+
+**Cause structurelle.** Même avec une autorisation d'accès, la collecte des interactions
+resterait impossible dans ce cadre. Les publications Facebook partagées via `/share/…` exigent
+une session authentifiée pour afficher les commentaires. L'accès programmatique aux réponses,
 reposts et citations sur X passe exclusivement par une API soumise à souscription. Les pages
-Instagram `/reel/…` n'exposent au mieux que quelques métadonnées Open Graph.
+Instagram `/reel/…` n'exposent pas la légende hors session. Une vérification manuelle de
+faisabilité, menée hors pipeline et non reconduite, a confirmé que le point d'accès oEmbed de X
+expose une publication isolée — auteur, texte, date, hashtags — mais **aucune réponse ni
+repost**, et que celui d'Instagram ne renvoie qu'un conteneur d'intégration dépourvu de légende
+et d'auteur.
 
-En résumé : les métadonnées d'une publication peuvent parfois être lues publiquement, mais **les
-interactions entre utilisateurs — matière première de cette étude — ne le sont sur aucune des
-trois plateformes**.
+En résumé : le texte d'une publication peut parfois être lu publiquement, mais **les interactions
+entre utilisateurs — matière première de cette étude — ne le sont sur aucune des trois
+plateformes**.
 
 ### 7.3 Conséquence
 

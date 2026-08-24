@@ -44,17 +44,22 @@ Voir [`docs/COLLECTE_DES_DONNEES.md`](COLLECTE_DES_DONNEES.md).
 
 ## 3. Collecte
 
-`analysis/collect.py` tente une lecture publique des URLs déclarées, limitée aux métadonnées
-Open Graph exposées sans authentification.
+`analysis/collect.py` évalue, pour chaque source, **deux voies d'accès publiques** : la page de
+la publication (métadonnées Open Graph) et le point d'accès oEmbed officiel de la plateforme.
 
 Règles appliquées sans exception :
 
-* lecture préalable de `robots.txt` ; si l'accès est interdit ou si le fichier ne peut pas être
-  lu, **aucune requête de contenu n'est émise** ;
+* lecture préalable du `robots.txt` de **chaque domaine sollicité** ; si l'accès est interdit ou
+  si le fichier ne peut pas être lu, **aucune requête de contenu n'est émise** ;
 * aucune authentification, aucun cookie personnel, aucune session privée ;
 * aucun contournement de CAPTCHA, de protection anti-bot ou de limitation d'API ;
-* une seule requête par URL, avec un délai de deux secondes entre les requêtes ;
+* une seule requête par voie autorisée, avec un délai entre les sources ;
 * aucune donnée privée n'est recherchée ni conservée.
+
+Le rapport `data/collection_report.json` consigne, pour chaque voie, le verdict `robots.txt`, le
+fait qu'une requête ait été émise ou non, les données récupérées, les données manquantes et la
+nécessité d'un import manuel. **Exécution du 24 août 2026 : 14 voies évaluées, 14 refusées,
+0 interaction récupérée.**
 
 Lorsque la plateforme empêche la récupération, la limite est **documentée**, jamais contournée.
 Le projet bascule alors sur un import manuel au format normalisé

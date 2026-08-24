@@ -45,8 +45,12 @@ export default function PageVueDEnsemble() {
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 xl:grid-cols-7">
           <KpiCarte
             libelle="Sources analysées"
-            valeur={`${nombre(kpi.sources_avec_donnees)} / ${nombre(kpi.sources_declarees)}`}
-            precision="sources avec données importées"
+            valeur={`${nombre(kpi.sources_avec_donnees_reelles)} / ${nombre(kpi.sources_declarees)}`}
+            precision={
+              donnees.jeu_de_donnees.synthetique
+                ? `aucune donnée réelle importée — ${nombre(kpi.sources_import_manuel_requis)} source(s) en attente d'import manuel`
+                : "sources avec interactions réelles importées"
+            }
           />
           <KpiCarte libelle="Publications" valeur={nombre(kpi.publications)} />
           <KpiCarte libelle="Utilisateurs" valeur={nombre(kpi.utilisateurs)} precision="pseudonymisés" />
