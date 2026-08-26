@@ -28,6 +28,8 @@ from pathlib import Path
 GRAINE = 20260119
 RACINE = Path(__file__).resolve().parent
 FICHIER_SORTIE = RACINE / "sample_interactions.csv"
+# Horodatage fixe : la génération doit rester reproductible d'une exécution à l'autre.
+HORODATAGE_GENERATION = "2026-01-19T00:00:00"
 
 COLONNES = [
     "platform",
@@ -41,7 +43,15 @@ COLONNES = [
     "timestamp",
     "parent_id",
     "url",
+    # Traçabilité : ce corpus est explicitement synthétique et ne doit jamais
+    # alimenter un résultat empirique (voir analysis/provenance.py).
+    "provenance",
+    "collection_method",
+    "collected_at",
 ]
+
+PROVENANCE_DEMO = "synthetic_demo"
+METHODE_DEMO = "generation synthetique (data/generer_donnees_demo.py)"
 
 # --- Sources de démonstration (alignées sur data/sources.json) ---------------
 SOURCES = [
@@ -423,6 +433,10 @@ def main() -> None:
     with FICHIER_SORTIE.open("w", encoding="utf-8", newline="") as flux:
         writer = csv.DictWriter(flux, fieldnames=COLONNES, quoting=csv.QUOTE_MINIMAL)
         writer.writeheader()
+        for ligne in lignes:
+            ligne.setdefault("provenance", PROVENANCE_DEMO)
+            ligne.setdefault("collection_method", METHODE_DEMO)
+            ligne.setdefault("collected_at", HORODATAGE_GENERATION)
         writer.writerows(lignes)
     utilisateurs = {ligne["source_user"] for ligne in lignes} | {
         ligne["target_user"] for ligne in lignes if ligne["target_user"]

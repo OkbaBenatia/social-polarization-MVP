@@ -1,0 +1,133 @@
+{
+  "genere_le": "2026-08-25T19:47:01+00:00",
+  "api": "ScrapeCreators",
+  "mode": "reconstruction depuis le cache local — aucun appel API, 0 crédit",
+  "fichiers_raw_analyses": 36,
+  "endpoints_utilises": {
+    "facebook": [
+      "/v1/facebook/post",
+      "/v1/facebook/post/comments",
+      "/v1/facebook/post/comment/replies"
+    ]
+  },
+  "regles": [
+    "Aucun appel réseau : seules les réponses déjà en cache sont relues.",
+    "Aucune donnée fabriquée : seules les interactions présentes sont écrites.",
+    "Seuls les doublons exacts d'identifiant d'interaction sont supprimés.",
+    "Texte, horodatages et relations parent/enfant conservés tels quels."
+  ],
+  "synthese": {
+    "sources": 1,
+    "comments_total": 340,
+    "replies_total": 5,
+    "rows_total": 346,
+    "pages_total": 36,
+    "credits_total": 0,
+    "utilisateurs_pseudonymises": 374
+  },
+  "sources": [
+    {
+      "source_id": "facebook_001",
+      "platform": "facebook",
+      "source_url": "https://www.facebook.com/share/v/18hGjKiFVK/",
+      "post_retrieved": true,
+      "comments_count": 340,
+      "replies_count": 5,
+      "pages_fetched": 36,
+      "comments_truncated": true,
+      "replies_attendues": 286,
+      "replies_manquantes": 281,
+      "replies_parent_inconnu": 5,
+      "duplicates_removed": 0,
+      "total_rows": 346,
+      "credits_used": 0,
+      "collection_status": "partial",
+      "source_of_truth": "cache local data/raw/scrapecreators (aucun appel API)",
+      "error_if_any": "Pagination des commentaires interrompue : la dernière page en cache annonçait une page suivante. 5 réponses rattachées à la publication : le commentaire parent exact n'est pas récupérable depuis le cache. 281 réponses annoncées par les commentaires ne figurent pas dans le cache."
+    },
+    {
+      "source_id": "facebook_002",
+      "platform": "facebook",
+      "source_url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/facebook/post : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    },
+    {
+      "source_id": "facebook_003",
+      "platform": "facebook",
+      "source_url": "https://www.facebook.com/share/v/1GCZzavgcV/",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/facebook/post : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    },
+    {
+      "source_id": "facebook_004",
+      "platform": "facebook",
+      "source_url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/facebook/post : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    },
+    {
+      "source_id": "facebook_005",
+      "platform": "facebook",
+      "source_url": "https://www.facebook.com/share/p/18GdU39RoV/",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/facebook/post : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    },
+    {
+      "source_id": "x_001",
+      "platform": "x",
+      "source_url": "https://x.com/i/status/2087872720012796385",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/twitter/tweet : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    },
+    {
+      "source_id": "instagram_001",
+      "platform": "instagram",
+      "source_url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
+      "post_retrieved": false,
+      "comments_count": 0,
+      "replies_count": 0,
+      "total_rows": 0,
+      "pages_fetched": 0,
+      "credits_used": 0,
+      "collection_status": "failed",
+      "error_if_any": "URLError sur /v1/instagram/post : <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "duplicates_removed": 0
+    }
+  ]
+}

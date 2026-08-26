@@ -1,16 +1,20 @@
 {
-  "genere_le": "2026-08-24T20:51:58+00:00",
+  "genere_le": "2026-08-26T08:50:48+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
   "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
   "jeu_de_donnees": {
-    "type": "synthetique",
-    "synthetique": true,
+    "type": "reel",
+    "synthetique": false,
     "fichiers": [
-      "sample_interactions.csv"
+      "real_interactions.csv"
     ],
-    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+    "avertissement": "",
+    "mode": "empirique",
+    "provenances": {
+      "scrapecreators_public": 346
+    }
   },
   "categories": [
     "Positif",
@@ -36,103 +40,59 @@
     ],
     "remplacable": "La fonction classer_texte() constitue le point d'extension unique : elle peut être remplacée par un classifieur entraîné sans modifier le reste du pipeline."
   },
-  "messages_analyses": 511,
+  "messages_analyses": 346,
   "global": [
     {
       "categorie": "Positif",
-      "nombre": 131,
-      "part": 0.2564
+      "nombre": 6,
+      "part": 0.0173
     },
     {
       "categorie": "Neutre",
-      "nombre": 186,
-      "part": 0.364
+      "nombre": 339,
+      "part": 0.9798
     },
     {
       "categorie": "Négatif",
-      "nombre": 194,
-      "part": 0.3796
+      "nombre": 1,
+      "part": 0.0029
     }
   ],
   "par_communaute": [
     {
       "cle": "Communauté 1",
       "libelle": "Communauté 1",
-      "messages": 123,
-      "Positif": 39,
-      "part_Positif": 0.3171,
-      "Neutre": 41,
-      "part_Neutre": 0.3333,
-      "Négatif": 43,
-      "part_Négatif": 0.3496
+      "messages": 343,
+      "Positif": 6,
+      "part_Positif": 0.0175,
+      "Neutre": 336,
+      "part_Neutre": 0.9796,
+      "Négatif": 1,
+      "part_Négatif": 0.0029
     },
     {
       "cle": "Communauté 2",
       "libelle": "Communauté 2",
-      "messages": 123,
-      "Positif": 27,
-      "part_Positif": 0.2195,
-      "Neutre": 46,
-      "part_Neutre": 0.374,
-      "Négatif": 50,
-      "part_Négatif": 0.4065
-    },
-    {
-      "cle": "Communauté 3",
-      "libelle": "Communauté 3",
-      "messages": 129,
-      "Positif": 39,
-      "part_Positif": 0.3023,
-      "Neutre": 50,
-      "part_Neutre": 0.3876,
-      "Négatif": 40,
-      "part_Négatif": 0.3101
-    },
-    {
-      "cle": "Communauté 4",
-      "libelle": "Communauté 4",
-      "messages": 136,
-      "Positif": 26,
-      "part_Positif": 0.1912,
-      "Neutre": 49,
-      "part_Neutre": 0.3603,
-      "Négatif": 61,
-      "part_Négatif": 0.4485
+      "messages": 3,
+      "Positif": 0,
+      "part_Positif": 0.0,
+      "Neutre": 3,
+      "part_Neutre": 1.0,
+      "Négatif": 0,
+      "part_Négatif": 0.0
     }
   ],
   "par_plateforme": [
     {
       "cle": "facebook",
       "libelle": "Facebook",
-      "messages": 389,
-      "Positif": 99,
-      "part_Positif": 0.2545,
-      "Neutre": 136,
-      "part_Neutre": 0.3496,
-      "Négatif": 154,
-      "part_Négatif": 0.3959
-    },
-    {
-      "cle": "instagram",
-      "libelle": "Instagram",
-      "messages": 49,
-      "Positif": 10,
-      "part_Positif": 0.2041,
-      "Neutre": 20,
-      "part_Neutre": 0.4082,
-      "Négatif": 19,
-      "part_Négatif": 0.3878
-    },
-    {
-      "cle": "x",
-      "libelle": "X",
-      "messages": 73,
-      "Positif": 22,
-      "part_Positif": 0.3014,
-      "Neutre": 30,
-      "part_Neutre": 0.411,
-      "Négatif": 21,
-      "part_Négatif": 0.2877
+      "messages": 346,
+      "Positif": 6,
+      "part_Positif": 0.0173,
+      "Neutre": 339,
+      "part_Neutre": 0.9798,
+      "Négatif": 1,
+      "part_Négatif": 0.0029
     }
   ],
   "avertissement": "Ces résultats correspondent à des classifications automatiques indicatives et doivent être interprétés avec prudence.",

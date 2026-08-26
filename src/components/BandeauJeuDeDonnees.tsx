@@ -19,15 +19,18 @@ export function BandeauJeuDeDonnees({
   const compteurs =
     typeof sourcesReelles === "number" && typeof sourcesImportManuel === "number";
 
+  let etiquette: string;
   let texte: string;
   if (jeu.synthetique) {
+    etiquette = "Données de démonstration";
     texte = compteurs
       ? `Aucune donnée réelle importée — ${sourcesImportManuel} source(s) en attente d'import manuel`
       : `Aucune donnée réelle importée — corpus de démonstration (${jeu.fichiers.join(", ")})`;
   } else {
+    etiquette = "Données réelles";
     texte = compteurs
-      ? `Données réelles importées — ${sourcesReelles} source(s) analysée(s)`
-      : `Données réelles importées (${jeu.fichiers.join(", ")})`;
+      ? `${sourcesReelles} source(s) avec données réelles — ${sourcesImportManuel} source(s) en attente d'import manuel`
+      : `Interactions réellement collectées (${jeu.fichiers.join(", ")})`;
   }
 
   return (
@@ -38,10 +41,22 @@ export function BandeauJeuDeDonnees({
       <span
         aria-hidden="true"
         className={`h-1.5 w-1.5 shrink-0 rounded-full ${
-          jeu.synthetique ? "bg-teal-500" : "bg-ardoise-400"
+          jeu.synthetique ? "bg-teal-500" : "bg-emerald-600"
         }`}
       />
-      <span>{texte}</span>
+      <span>
+        <span
+          className={
+            jeu.synthetique
+              ? "font-medium text-ardoise-600 dark:text-ardoise-300"
+              : "font-medium text-emerald-700 dark:text-emerald-400"
+          }
+        >
+          {etiquette}
+        </span>
+        {" — "}
+        {texte}
+      </span>
     </p>
   );
 }

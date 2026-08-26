@@ -44,6 +44,7 @@ import load_sources  # noqa: E402
 import network_analysis  # noqa: E402
 import preprocess  # noqa: E402
 import propagation_analysis  # noqa: E402
+import quality_checks  # noqa: E402
 import sentiment_analysis  # noqa: E402
 import text_analysis  # noqa: E402
 
@@ -110,8 +111,15 @@ def _fichiers_importes() -> list[Path]:
     )
 
 
-def executer(repertoire_sortie: Path = REPERTOIRE_SORTIE) -> dict:
-    """Exécute le pipeline complet et écrit les fichiers JSON. Retourne un résumé."""
+def executer(
+    repertoire_sortie: Path = REPERTOIRE_SORTIE, entree: Path | None = None
+) -> dict:
+    """Exécute le pipeline complet et écrit les fichiers JSON. Retourne un résumé.
+
+    ``entree`` désigne un jeu de données empirique explicite (option ``--input``).
+    Dans ce mode, chaque interaction doit déclarer une provenance réelle ; le
+    corpus de démonstration n'est jamais utilisé en repli.
+    """
     horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     # --- 1. Sources -------------------------------------------------------
@@ -123,9 +131,18 @@ def executer(repertoire_sortie: Path = REPERTOIRE_SORTIE) -> dict:
 
     # --- 2. Jeu de données ------------------------------------------------
     print("2/13  Chargement et validation du jeu de données…")
-    cadre, meta_donnees = load_data.charger_jeu_de_donnees(
-        _fichiers_importes(), FICHIER_DEMONSTRATION
-    )
+    if entree is not None:
+        print(f"       mode empirique — jeu de données imposé : {_chemin_affichable(entree)}")
+        cadre, meta_donnees = load_data.charger_fichier_empirique(entree)
+        quality_checks.controler_ou_echouer(
+            cadre, {source["source_id"] for source in sources}
+        )
+        print(f"       contrôles de provenance : {len(cadre)} interactions validées "
+              f"({', '.join(f'{k} : {v}' for k, v in meta_donnees['provenances'].items())})")
+    else:
+        cadre, meta_donnees = load_data.charger_jeu_de_donnees(
+            _fichiers_importes(), FICHIER_DEMONSTRATION
+        )
     print(f"       {len(cadre)} interactions ({meta_donnees['type']}) — "
           f"fichiers : {', '.join(meta_donnees['fichiers'])}")
     if meta_donnees["types_inconnus"]:
@@ -246,6 +263,8 @@ def _generer_json(**contexte) -> list[str]:
             "synthetique": meta_donnees["synthetique"],
             "fichiers": meta_donnees["fichiers"],
             "avertissement": meta_donnees["avertissement"],
+            "mode": meta_donnees.get("mode", "demonstration"),
+            "provenances": meta_donnees.get("provenances", {}),
         },
     }
 
@@ -570,8 +589,14 @@ def _generer_json(**contexte) -> list[str]:
     # exposés séparément, et jamais confondus.
     sources_couvertes = sum(1 for source in etat_sources if source["interactions"] > 0)
     sources_avec_donnees_reelles = 0 if meta_donnees["synthetique"] else sources_couvertes
+    # Une source déjà pourvue en interactions réelles n'est plus « en attente » :
+    # le compte des sources réelles et celui des sources en attente doivent
+    # rester complémentaires et ne jamais dépasser le nombre de sources déclarées.
     sources_import_manuel = sum(
-        1 for source in etat_sources if source.get("import_manuel_requis", True)
+        1
+        for source in etat_sources
+        if source.get("import_manuel_requis", True)
+        and not (source["interactions"] > 0 and not meta_donnees["synthetique"])
     )
     contenus_haineux = int(
         (
@@ -673,6 +698,14 @@ def main() -> int:
         default=REPERTOIRE_SORTIE,
         help="Répertoire de sortie des fichiers JSON (défaut : public/data).",
     )
+    analyseur.add_argument(
+        "--input",
+        dest="entree",
+        type=Path,
+        default=None,
+        help="Jeu de données empirique explicite (ex. data/real_interactions.csv). "
+        "Chaque interaction doit déclarer une provenance réelle.",
+    )
     arguments = analyseur.parse_args()
 
     print("=" * 78)
@@ -681,8 +714,13 @@ def main() -> int:
     print("=" * 78)
 
     try:
-        resume = executer(arguments.sortie)
-    except (load_sources.ErreurSources, load_data.ErreurDonnees, ErreurPipeline) as erreur:
+        resume = executer(arguments.sortie, arguments.entree)
+    except (
+        load_sources.ErreurSources,
+        load_data.ErreurDonnees,
+        quality_checks.ErreurQualite,
+        ErreurPipeline,
+    ) as erreur:
         print(f"\nERREUR : {erreur}", file=sys.stderr)
         return 1
 

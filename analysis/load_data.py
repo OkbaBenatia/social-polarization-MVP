@@ -14,9 +14,14 @@ Préparation, conception et programmation : Dr. Okba Ben Atia
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import provenance as prov  # noqa: E402
 
 COLONNES_REQUISES = [
     "platform",
@@ -31,6 +36,10 @@ COLONNES_REQUISES = [
     "parent_id",
     "url",
 ]
+
+# Colonnes de traçabilité : facultatives pour rester compatible avec les jeux
+# existants, obligatoires en mode empirique (voir charger_fichier_empirique).
+COLONNES_PROVENANCE = list(prov.COLONNES_PROVENANCE)
 
 TYPES_INTERACTION = {
     "post",
@@ -96,9 +105,14 @@ def normaliser(cadre: pd.DataFrame, nom_fichier: str = "jeu de données") -> pd.
     if cadre.empty:
         raise ErreurDonnees(f"{nom_fichier} : aucune interaction (jeu de données vide).")
 
-    cadre = cadre.loc[:, COLONNES_REQUISES].copy()
-    for colonne in COLONNES_REQUISES:
+    presentes = COLONNES_REQUISES + [c for c in COLONNES_PROVENANCE if c in cadre.columns]
+    cadre = cadre.loc[:, presentes].copy()
+    for colonne in COLONNES_PROVENANCE:
+        if colonne not in cadre.columns:
+            cadre[colonne] = ""
+    for colonne in COLONNES_REQUISES + COLONNES_PROVENANCE:
         cadre[colonne] = cadre[colonne].fillna("").astype(str).str.strip()
+    cadre["provenance"] = cadre["provenance"].str.lower()
 
     cadre["platform"] = cadre["platform"].str.lower()
     cadre["interaction_type"] = cadre["interaction_type"].str.lower()
@@ -127,6 +141,11 @@ def normaliser(cadre: pd.DataFrame, nom_fichier: str = "jeu de données") -> pd.
     cadre.attrs["doublons_supprimes"] = int(doublons.sum())
     cadre.attrs["types_inconnus"] = types_inconnus
     cadre.attrs["horodatages_invalides"] = int(cadre["horodatage"].isna().sum())
+    cadre.attrs["provenances"] = {
+        str(cle): int(valeur)
+        for cle, valeur in cadre["provenance"].value_counts().items()
+        if cle
+    }
     return cadre.reset_index(drop=True)
 
 
@@ -178,6 +197,79 @@ def charger_jeu_de_donnees(
             "doublons_supprimes": cadre.attrs.get("doublons_supprimes", 0),
             "types_inconnus": cadre.attrs.get("types_inconnus", []),
             "horodatages_invalides": cadre.attrs.get("horodatages_invalides", 0),
+            "provenances": cadre.attrs.get("provenances", {}),
+            "mode": "demonstration" if meta["synthetique"] else "import",
         }
     )
     return cadre, meta
+
+
+def charger_fichier_empirique(chemin: Path) -> tuple[pd.DataFrame, dict]:
+    """Charge un jeu de données **empirique** explicite (option ``--input``).
+
+    Contrairement au chargement par défaut, ce mode exige que chaque ligne
+    déclare une provenance réelle. Un fichier vide, ou contenant des lignes
+    synthétiques, est refusé : mieux vaut aucune analyse qu'une analyse dont la
+    provenance est incertaine.
+    """
+    if not chemin.exists():
+        raise ErreurDonnees(
+            f"Jeu de données introuvable : {chemin}. "
+            "Construisez-le avec : python analysis/build_real_dataset.py"
+        )
+
+    brut = _lire_fichier(chemin)
+    valider_colonnes(brut, chemin.name)
+    manquantes = [c for c in COLONNES_PROVENANCE if c not in brut.columns]
+    if manquantes:
+        raise ErreurDonnees(
+            f"{chemin.name} : colonnes de traçabilité manquantes — "
+            f"{', '.join(manquantes)}. Un jeu empirique doit déclarer la provenance "
+            "de chaque interaction."
+        )
+    if brut.empty:
+        raise ErreurDonnees(
+            f"{chemin.name} : aucune interaction. Aucun résultat empirique ne peut être "
+            "produit à partir d'un jeu vide.\n"
+            "Saisissez les interactions réellement observées dans "
+            "data/manual_verified_interactions.csv (voir data/README_IMPORT_MANUEL.md), "
+            "puis relancez : python analysis/build_real_dataset.py"
+        )
+
+    cadre = normaliser(brut, chemin.name)
+
+    provenances = set(cadre["provenance"]) - {""}
+    synthetiques = provenances & {prov.SYNTHETIC_DEMO}
+    if synthetiques:
+        raise ErreurDonnees(
+            f"{chemin.name} : le fichier contient des lignes de provenance "
+            f"« {prov.SYNTHETIC_DEMO} ». Les données synthétiques ne doivent jamais "
+            "alimenter un résultat empirique."
+        )
+    sans_provenance = int((cadre["provenance"] == "").sum())
+    if sans_provenance:
+        raise ErreurDonnees(
+            f"{chemin.name} : {sans_provenance} interaction(s) sans provenance renseignée. "
+            f"Valeurs admises : {', '.join(prov.PROVENANCES_REELLES)}."
+        )
+    inconnues = sorted(provenances - set(prov.PROVENANCES))
+    if inconnues:
+        raise ErreurDonnees(
+            f"{chemin.name} : provenance(s) inconnue(s) — {', '.join(inconnues)}."
+        )
+
+    meta = {
+        "type": "reel",
+        "synthetique": False,
+        "fichiers": [chemin.name],
+        "avertissement": "",
+        "mode": "empirique",
+        "interactions": int(len(cadre)),
+        "lignes_ignorees": cadre.attrs.get("lignes_ignorees", 0),
+        "doublons_supprimes": cadre.attrs.get("doublons_supprimes", 0),
+        "types_inconnus": cadre.attrs.get("types_inconnus", []),
+        "horodatages_invalides": cadre.attrs.get("horodatages_invalides", 0),
+        "provenances": cadre.attrs.get("provenances", {}),
+    }
+    return cadre, meta
+

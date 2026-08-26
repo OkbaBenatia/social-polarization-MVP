@@ -1,16 +1,20 @@
 {
-  "genere_le": "2026-08-24T20:51:58+00:00",
+  "genere_le": "2026-08-26T08:50:48+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
   "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
   "jeu_de_donnees": {
-    "type": "synthetique",
-    "synthetique": true,
+    "type": "reel",
+    "synthetique": false,
     "fichiers": [
-      "sample_interactions.csv"
+      "real_interactions.csv"
     ],
-    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+    "avertissement": "",
+    "mode": "empirique",
+    "provenances": {
+      "scrapecreators_public": 346
+    }
   },
   "sources": [
     {
@@ -18,10 +22,10 @@
       "plateforme": "facebook",
       "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
       "type_contenu": "video",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 47,
-      "publications": 2,
+      "statut": "Données disponibles",
+      "methode_acquisition": "Import manuel / export au format normalisé",
+      "interactions": 346,
+      "publications": 1,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -29,44 +33,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F18hGjKiFVK%2F",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — oembed_post",
+          "resultat": "Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.facebook.com/share/v/18hGjKiFVK/",
           "robots_txt": "interdit",
           "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — oembed_post)",
-          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F18hGjKiFVK%2F",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -74,10 +89,10 @@
       "plateforme": "facebook",
       "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
       "type_contenu": "publication",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 100,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -85,44 +100,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1HYJ6PKM2Q%2F",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — oembed_post",
+          "resultat": "Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.facebook.com/share/p/1HYJ6PKM2Q/",
           "robots_txt": "interdit",
           "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — oembed_post)",
-          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1HYJ6PKM2Q%2F",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -130,10 +156,10 @@
       "plateforme": "facebook",
       "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
       "type_contenu": "video",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 120,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -141,44 +167,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1GCZzavgcV%2F",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — oembed_post",
+          "resultat": "Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.facebook.com/share/v/1GCZzavgcV/",
           "robots_txt": "interdit",
           "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — oembed_post)",
-          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1GCZzavgcV%2F",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -186,10 +223,10 @@
       "plateforme": "facebook",
       "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
       "type_contenu": "publication",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 74,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -197,44 +234,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1F5HSSqfkM%2F",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — oembed_post",
+          "resultat": "Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.facebook.com/share/p/1F5HSSqfkM/",
           "robots_txt": "interdit",
           "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — oembed_post)",
-          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1F5HSSqfkM%2F",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -242,10 +290,10 @@
       "plateforme": "facebook",
       "url": "https://www.facebook.com/share/p/18GdU39RoV/",
       "type_contenu": "publication",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 56,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -253,44 +301,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F18GdU39RoV%2F",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — oembed_post",
+          "resultat": "Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.facebook.com/share/p/18GdU39RoV/",
           "robots_txt": "interdit",
           "robots_detail": "https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — oembed_post)",
-          "url": "https://graph.facebook.com/v18.0/oembed_post?url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F18GdU39RoV%2F",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — oembed_post) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — oembed_post exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -298,10 +357,10 @@
       "plateforme": "x",
       "url": "https://x.com/i/status/2087872720012796385",
       "type_contenu": "publication",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 74,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -309,44 +368,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://api.twitter.com/2/tweets/2087872720012796385?tweet.fields=text,created_at,public_metrics,conversation_id",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "X API v2 — /2/tweets",
+          "resultat": "X API v2 — /2/tweets exige un jeton approuvé. La variable d'environnement X_BEARER_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://x.com/i/status/2087872720012796385",
           "robots_txt": "interdit",
           "robots_detail": "https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (publish.x.com)",
-          "url": "https://publish.x.com/oembed?url=https%3A%2F%2Fx.com%2Fi%2Fstatus%2F2087872720012796385&omit_script=1",
-          "robots_txt": "interdit",
-          "robots_detail": "https://publish.x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Point d'accès public d'intégration, destiné à l'affichage d'une publication.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (publish.x.com) — https://publish.x.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — X API v2 — /2/tweets exige un jeton approuvé. La variable d'environnement X_BEARER_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     },
     {
@@ -354,10 +424,10 @@
       "plateforme": "instagram",
       "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
       "type_contenu": "reel",
-      "statut": "Données de démonstration",
-      "methode_acquisition": "Jeu de données synthétique de démonstration (aucune donnée réelle collectée)",
-      "interactions": 50,
-      "publications": 2,
+      "statut": "Import manuel requis",
+      "methode_acquisition": "Collecte automatique impossible — import manuel nécessaire",
+      "interactions": 0,
+      "publications": 0,
       "collecte_tentee": true,
       "http_status": null,
       "robots_txt": "https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
@@ -365,44 +435,55 @@
       "metadonnees_publiques": {},
       "voies_evaluees": [
         {
-          "voie": "Page publique de la publication",
+          "voie": "A. API officielle",
+          "url": "https://graph.facebook.com/v18.0/instagram_oembed?url=https%3A%2F%2Fwww.instagram.com%2Freel%2FDbtVlHYABVK%2F%3Figsh%3DMTBneGEwbGhndHBtNw%3D%3D",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
+          "requete_effectuee": false,
+          "http_status": null,
+          "contenu_obtenu": false,
+          "remarque": "Meta Graph API — instagram_oembed",
+          "resultat": "Meta Graph API — instagram_oembed exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée."
+        },
+        {
+          "voie": "B. Page publique",
           "url": "https://www.instagram.com/reel/DbtVlHYABVK/?igsh=MTBneGEwbGhndHBtNw==",
           "robots_txt": "interdit",
           "robots_detail": "https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Lecture des balises Open Graph servies sans authentification.",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "lecture HTTP directe (équivalent Scrapy/Playwright)",
+          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite."
         },
         {
-          "voie": "API oEmbed officielle (Graph API — instagram_oembed)",
-          "url": "https://graph.facebook.com/v18.0/instagram_oembed?url=https%3A%2F%2Fwww.instagram.com%2Freel%2FDbtVlHYABVK%2F%3Figsh%3DMTBneGEwbGhndHBtNw%3D%3D&omitscript=true",
-          "robots_txt": "interdit",
-          "robots_detail": "https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
+          "voie": "C. Import manuel vérifié",
+          "url": "data/manual_verified_interactions.csv",
+          "robots_txt": "sans objet",
+          "robots_detail": "",
           "requete_effectuee": false,
           "http_status": null,
           "contenu_obtenu": false,
-          "remarque": "Nécessite un jeton d'application Meta approuvé (non utilisé ici).",
-          "resultat": "Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas."
+          "remarque": "",
+          "resultat": "Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
         }
       ],
       "donnees_recuperees": [],
       "donnees_manquantes": [
         "texte de la publication",
+        "date de publication",
         "commentaires",
         "réponses aux commentaires",
         "mentions",
+        "citations",
         "partages / reposts",
-        "relations entre utilisateurs",
-        "horodatages"
+        "relations entre utilisateurs"
       ],
       "import_manuel_requis": true,
       "limites": [
-        "Page publique de la publication — https://www.instagram.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "API oEmbed officielle (Graph API — instagram_oembed) — https://graph.facebook.com/robots.txt interdit cet accès aux agents automatisés — refus respecté.",
-        "Aucune donnée publique exploitable n'a pu être récupérée par voie automatisée.",
-        "Les commentaires, réponses, mentions et partages ne sont pas exposés publiquement par cette plateforme sans API autorisée : ils doivent être importés manuellement (voir data/import_template.csv)."
+        "A. API officielle — Meta Graph API — instagram_oembed exige un jeton approuvé. La variable d'environnement META_GRAPH_TOKEN n'est pas définie : la voie est déclarée indisponible et n'est pas contournée.",
+        "B. Page publique — Aucune requête émise : le protocole d'exclusion du domaine ne l'autorise pas. Un moteur de collecte (Scrapy, Playwright) serait soumis à la même règle ; la contourner reviendrait à ignorer une restriction d'accès explicite.",
+        "C. Import manuel vérifié — Aucune interaction saisie à ce jour pour cette source dans manual_verified_interactions.csv."
       ]
     }
   ],

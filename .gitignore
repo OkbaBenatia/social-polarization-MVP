@@ -12,6 +12,9 @@ next-env.d.ts
 
 # Données privées — ne jamais versionner
 data/private/
+
+# Réponses API brutes : volumineuses, conservées localement pour reproductibilité
+data/raw/
 data/imported/*
 !data/imported/.gitkeep
 

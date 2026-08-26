@@ -208,7 +208,37 @@ En résumé : le texte d'une publication peut parfois être lu publiquement, mai
 entre utilisateurs — matière première de cette étude — ne le sont sur aucune des trois
 plateformes**.
 
-### 7.3 Conséquence
+### 7.3 Seconde campagne de collecte (25 août 2026)
+
+Une seconde campagne a appliqué l'ordre de collecte **A → B → C** et introduit une traçabilité
+obligatoire : chaque interaction analysée déclare désormais `provenance`, `collection_method` et
+`collected_at`. Quatre provenances sont reconnues — `official_api`, `public_page`,
+`manual_verified` et `synthetic_demo` — et seules les trois premières peuvent alimenter un
+résultat empirique.
+
+**Voie A — API officielles.** Meta Graph API répond HTTP 400 (jeton d'application approuvé
+exigé) et l'API X v2 répond HTTP 401. Aucun identifiant n'étant disponible, la voie est
+enregistrée comme indisponible ; elle n'est pas contournée.
+
+**Voie B — pages publiques.** Les sept URLs restent interdites par le `robots.txt` des
+plateformes. Le recours à Scrapy ou Playwright ne changerait rien : ces outils sont soumis à la
+même directive, et l'ignorer reviendrait à contourner une restriction d'accès explicite.
+
+**Voie C — import manuel vérifié.** C'est la seule voie ouverte. Le fichier
+`data/manual_verified_interactions.csv` et son mode d'emploi `data/README_IMPORT_MANUEL.md`
+permettent de saisir les interactions réellement observées ; `analysis/build_real_dataset.py`
+assemble ensuite `data/real_interactions.csv`, dont sont exclues par construction toutes les
+lignes de provenance `synthetic_demo`.
+
+**Résultat : 0 interaction réelle collectée, les 7 sources restant en statut
+`manual_import_required`.** Le pipeline refuse explicitement de produire des résultats
+empiriques à partir d'un jeu vide : `python analysis/run_analysis.py --input
+data/real_interactions.csv` s'interrompt avec un code d'erreur et un message indiquant la marche
+à suivre. Six invariants de qualité (provenance renseignée et reconnue, absence de synthétique,
+absence de doublon, rattachement à une source déclarée, filiation valide, complémentarité des
+compteurs de sources) sont vérifiés par la suite de tests.
+
+### 7.4 Conséquence
 
 Les sept sources sont donc en statut « Import manuel requis » du point de vue de la collecte
 automatique. La voie d'acquisition retenue est l'**import manuel** au format normalisé, décrite

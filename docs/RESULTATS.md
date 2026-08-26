@@ -9,6 +9,26 @@ Corpus analysé : `data/sample_interactions.csv` — 521 interactions, 84 utilis
 14 publications, réparties sur les sept sources déclarées.
 Exécution du 24 août 2026. Tous les chiffres ci-dessous proviennent de `public/data/*.json`.
 
+## Statut empirique au 25 août 2026
+
+La collecte a été relancée selon l'ordre imposé — **A. API officielle → B. page publique →
+C. import manuel vérifié** — depuis une machine disposant d'un accès réseau sortant complet.
+
+| Voie | Résultat |
+|------|----------|
+| A. API officielle | Meta Graph API : **HTTP 400** (jeton d'application approuvé exigé). X API v2 : **HTTP 401**. Aucun identifiant n'est disponible ; la voie est déclarée indisponible, jamais forcée. |
+| B. Page publique | Les 7 URLs sont **interdites** par le `robots.txt` des plateformes (`User-agent: * → Disallow: /`). Un moteur Scrapy ou Playwright serait soumis à la même règle : aucune requête n'a été émise. |
+| C. Import manuel vérifié | Seule voie ouverte. `data/manual_verified_interactions.csv` est prêt à recevoir les interactions réellement observées. |
+
+**Bilan : 0 interaction réelle collectée ; 7 sources en statut `manual_import_required`.**
+`data/real_interactions.csv` existe et est vide — il ne contient, par construction, aucune ligne
+de provenance `synthetic_demo`.
+
+Les résultats ci-dessous proviennent donc du corpus de démonstration, désormais explicitement
+étiqueté `provenance = synthetic_demo` sur ses 521 lignes.
+
+---
+
 Pour régénérer ces résultats :
 
 ```bash

@@ -10,6 +10,10 @@ export interface JeuDeDonnees {
   synthetique: boolean;
   fichiers: string[];
   avertissement: string;
+  /** « empirique » lorsque le pipeline a été lancé avec --input. */
+  mode?: "empirique" | "demonstration";
+  /** Effectifs par provenance : official_api, public_page, manual_verified. */
+  provenances?: Record<string, number>;
 }
 
 export interface Entete {

@@ -1,16 +1,20 @@
 {
-  "genere_le": "2026-08-24T20:51:58+00:00",
+  "genere_le": "2026-08-26T08:50:48+00:00",
   "titre": "Étude de la polarisation et de la propagation du discours de haine sur les réseaux sociaux",
   "sous_titre": "Analyse de réseaux, détection de communautés et analyse automatique du contenu",
   "auteur": "Dr. Okba Ben Atia",
   "attribution": "Préparation, conception et programmation : Dr. Okba Ben Atia",
   "jeu_de_donnees": {
-    "type": "synthetique",
-    "synthetique": true,
+    "type": "reel",
+    "synthetique": false,
     "fichiers": [
-      "sample_interactions.csv"
+      "real_interactions.csv"
     ],
-    "avertissement": "Données de démonstration synthétiques — les résultats ne constituent pas des résultats empiriques."
+    "avertissement": "",
+    "mode": "empirique",
+    "provenances": {
+      "scrapecreators_public": 346
+    }
   },
   "categories": [
     "Colère",
@@ -34,103 +38,59 @@
       "Les marqueurs typographiques (majuscules, points d'exclamation) sont des indices faibles et culturellement variables."
     ]
   },
-  "messages_analyses": 511,
+  "messages_analyses": 346,
   "global": [
     {
       "categorie": "Colère",
-      "nombre": 107,
-      "part": 0.2094
+      "nombre": 1,
+      "part": 0.0029
     },
     {
       "categorie": "Soutien / approbation",
-      "nombre": 136,
-      "part": 0.2661
+      "nombre": 2,
+      "part": 0.0058
     },
     {
       "categorie": "Autre / neutre",
-      "nombre": 268,
-      "part": 0.5245
+      "nombre": 343,
+      "part": 0.9913
     }
   ],
   "par_communaute": [
     {
       "cle": "Communauté 1",
       "libelle": "Communauté 1",
-      "messages": 123,
-      "Colère": 23,
-      "part_Colère": 0.187,
-      "Soutien / approbation": 40,
-      "part_Soutien / approbation": 0.3252,
-      "Autre / neutre": 60,
-      "part_Autre / neutre": 0.4878
+      "messages": 343,
+      "Colère": 1,
+      "part_Colère": 0.0029,
+      "Soutien / approbation": 2,
+      "part_Soutien / approbation": 0.0058,
+      "Autre / neutre": 340,
+      "part_Autre / neutre": 0.9913
     },
     {
       "cle": "Communauté 2",
       "libelle": "Communauté 2",
-      "messages": 123,
-      "Colère": 21,
-      "part_Colère": 0.1707,
-      "Soutien / approbation": 34,
-      "part_Soutien / approbation": 0.2764,
-      "Autre / neutre": 68,
-      "part_Autre / neutre": 0.5528
-    },
-    {
-      "cle": "Communauté 3",
-      "libelle": "Communauté 3",
-      "messages": 129,
-      "Colère": 21,
-      "part_Colère": 0.1628,
-      "Soutien / approbation": 37,
-      "part_Soutien / approbation": 0.2868,
-      "Autre / neutre": 71,
-      "part_Autre / neutre": 0.5504
-    },
-    {
-      "cle": "Communauté 4",
-      "libelle": "Communauté 4",
-      "messages": 136,
-      "Colère": 42,
-      "part_Colère": 0.3088,
-      "Soutien / approbation": 25,
-      "part_Soutien / approbation": 0.1838,
-      "Autre / neutre": 69,
-      "part_Autre / neutre": 0.5074
+      "messages": 3,
+      "Colère": 0,
+      "part_Colère": 0.0,
+      "Soutien / approbation": 0,
+      "part_Soutien / approbation": 0.0,
+      "Autre / neutre": 3,
+      "part_Autre / neutre": 1.0
     }
   ],
   "par_plateforme": [
     {
       "cle": "facebook",
       "libelle": "Facebook",
-      "messages": 389,
-      "Colère": 86,
-      "part_Colère": 0.2211,
-      "Soutien / approbation": 103,
-      "part_Soutien / approbation": 0.2648,
-      "Autre / neutre": 200,
-      "part_Autre / neutre": 0.5141
-    },
-    {
-      "cle": "instagram",
-      "libelle": "Instagram",
-      "messages": 49,
-      "Colère": 11,
-      "part_Colère": 0.2245,
-      "Soutien / approbation": 10,
-      "part_Soutien / approbation": 0.2041,
-      "Autre / neutre": 28,
-      "part_Autre / neutre": 0.5714
-    },
-    {
-      "cle": "x",
-      "libelle": "X",
-      "messages": 73,
-      "Colère": 10,
-      "part_Colère": 0.137,
-      "Soutien / approbation": 23,
-      "part_Soutien / approbation": 0.3151,
-      "Autre / neutre": 40,
-      "part_Autre / neutre": 0.5479
+      "messages": 346,
+      "Colère": 1,
+      "part_Colère": 0.0029,
+      "Soutien / approbation": 2,
+      "part_Soutien / approbation": 0.0058,
+      "Autre / neutre": 343,
+      "part_Autre / neutre": 0.9913
     }
   ],
   "avertissement": "Classification automatique indicative du contenu. Elle ne décrit pas l'état psychologique d'un utilisateur.",
