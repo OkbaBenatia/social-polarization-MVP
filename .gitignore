@@ -9,6 +9,7 @@ __pycache__/
 .next/
 out/
 next-env.d.ts
+tsconfig.tsbuildinfo
 
 # Données privées — ne jamais versionner
 data/private/
